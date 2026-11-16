@@ -1,0 +1,73 @@
+{
+  "created_at_utc": "2026-11-16T08:42:41.806170+00:00",
+  "scope": "Basic 85-point task; optional advanced challenge not attempted",
+  "day6_strategy": "C",
+  "collection": "day06_C",
+  "chunk_count": 204,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dimensions": 384,
+  "query_policy": "Original question on first search; no gold or expected_answer enters agent or retrievers. No rewrite in retrieval comparison.",
+  "configs": [
+    {
+      "name": "dense",
+      "method": "dense",
+      "top_k": 3,
+      "budget": 3200,
+      "max_searches": 1,
+      "hypothesis": "Baseline: reuse Day 6 dense C and explicit chapter filters."
+    },
+    {
+      "name": "bm25",
+      "method": "bm25",
+      "top_k": 3,
+      "budget": 3200,
+      "max_searches": 1,
+      "hypothesis": "Improvement 1: lexical matching recovers rare names and exact phrases missed by dense."
+    },
+    {
+      "name": "hybrid",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 3200,
+      "max_searches": 1,
+      "hypothesis": "Improvement 2: RRF of dense and BM25 combines semantic and lexical evidence."
+    },
+    {
+      "name": "hybrid_context",
+      "method": "hybrid",
+      "top_k": 6,
+      "budget": 6200,
+      "max_searches": 1,
+      "hypothesis": "Improvement 3: a larger deduplicated context may retain evidence below rank 3, with increased model cost."
+    },
+    {
+      "name": "hybrid_plain",
+      "method": "hybrid",
+      "top_k": 3,
+      "budget": 3200,
+      "max_searches": 1,
+      "answer_mode": "plain_attributed",
+      "hypothesis": "Dev JSON refusals and copied placeholders suggest format burden on a 0.5B model. Test natural-language generation, then BM25 attribution from question + generated draft over actual context. Citation semantic support still reviewed manually; no gold used."
+    }
+  ],
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75,
+    "tokenization": "Unicode alphanumeric lower-case; no stemming; English corpus"
+  },
+  "rrf": {
+    "k": 60,
+    "candidates_per_retriever": 20,
+    "weights": [
+      1,
+      1
+    ]
+  },
+  "selection": "On dev only: maximize AI-reviewed grounded answer mean, then Context Evidence Rate, then Evidence Hit@3, then lower total measured agent seconds, then config name. Human review pending is disclosed.",
+  "test_policy": "Run baseline and frozen selected config only. No test tuning. New Day 7 questions, same public-domain corpus; not an external independent benchmark.",
+  "hit_definition": "A single chunk at correct source_id/page contains a full gold evidence quote. Alternative gold entries are OR; no multi-hop cases here.",
+  "context_definition": "At least one valid gold evidence is wholly present in the final source-labelled context; denominator answerable cases only.",
+  "model_cost": "Local API USD 0 excludes hardware/electricity/downloads; remote cost unknown unless provider prices are supplied, never assumed zero.",
+  "agent_model": "Qwen2.5-0.5B-Instruct Q4_K_M via llama.cpp b12430",
+  "query_embedding_policy": "Real original-query embeddings precomputed per split in a separate process to avoid ONNX/LLM RAM overlap; test query preprocessing only after selection."
+}

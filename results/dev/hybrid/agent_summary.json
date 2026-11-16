@@ -1,0 +1,54 @@
+{
+  "cases": 17,
+  "errors": 0,
+  "tool_use": {
+    "n": 17,
+    "N": 17,
+    "rate": 1.0
+  },
+  "search_count_distribution": {
+    "1": 17
+  },
+  "grounded_answer": {
+    "0": 12,
+    "1": 0,
+    "2": 3,
+    "N": 15,
+    "mean_out_of_2": 0.4
+  },
+  "context_evidence_rate": {
+    "n": 12,
+    "N": 15,
+    "rate": 0.8
+  },
+  "context_grades": {
+    "2": 12,
+    "0": 2,
+    "1": 1
+  },
+  "citation_validity": {
+    "n": 3,
+    "N": 9,
+    "rate": 0.3333333333333333
+  },
+  "answer_citation_coverage": {
+    "n": 8,
+    "N": 8,
+    "rate": 1.0
+  },
+  "abstention": {
+    "n": 1,
+    "N": 2,
+    "rate": 0.5
+  },
+  "false_abstention": {
+    "n": 8,
+    "N": 15,
+    "rate": 0.5333333333333333
+  },
+  "total_seconds": 111.94444010016741,
+  "prompt_tokens": 13908,
+  "completion_tokens": 932,
+  "service_cost_usd": 0,
+  "reviewer": "Codex AI source reading; student/independent human confirmation pending"
+}

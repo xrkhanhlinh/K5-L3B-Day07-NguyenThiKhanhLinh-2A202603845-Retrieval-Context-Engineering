@@ -1,0 +1,35 @@
+{
+  "run_at_utc": "2026-11-15T05:11:55.519117+00:00",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dimensions": 384,
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "threads": 4,
+  "preprocessing": "NFC + paragraph whitespace normalization; identical document/query encoder; no instruction prefix; FastEmbed ONNX mean pooling + L2 normalization",
+  "model_load_seconds": 0.6087726000114344,
+  "query_embed_seconds": 0.17627269998774864,
+  "total_seconds": 107.87672430000384,
+  "cost_usd": 0,
+  "search": "Qdrant local persistent exact cosine",
+  "selected_on_dev": "C",
+  "packages": {
+    "fastembed": "0.9.1",
+    "qdrant-client": "1.20.0",
+    "onnxruntime": "1.32.0",
+    "numpy": "2.4.6",
+    "pypdf": "7.1.0",
+    "tokenizers": "0.23.3"
+  },
+  "model_files": {
+    "models--Qdrant--all-MiniLM-L6-v2-onnx\\files_metadata.json": "c4bed14dd7e4fadd7a8145467f57bb65e0619ace25f27577257fb506cfebae99",
+    "models--Qdrant--all-MiniLM-L6-v2-onnx\\snapshots\\d13954661f83248295ba75c1ed411eef3b7b936e\\config.json": "1b4d8e2a3988377ed8b519a31d8d31025a25f1c5f8606998e8014111438efcd7",
+    "models--Qdrant--all-MiniLM-L6-v2-onnx\\snapshots\\d13954661f83248295ba75c1ed411eef3b7b936e\\model.onnx": "bbd7b466f6d58e646fdc2bd5fd67b2f5e93c0b687011bd4548c420f7bd46f0c5",
+    "models--Qdrant--all-MiniLM-L6-v2-onnx\\snapshots\\d13954661f83248295ba75c1ed411eef3b7b936e\\special_tokens_map.json": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+    "models--Qdrant--all-MiniLM-L6-v2-onnx\\snapshots\\d13954661f83248295ba75c1ed411eef3b7b936e\\tokenizer.json": "851ca67100d372ca3ae031a6abd168f53489eebfd7d89523f35c5c9b4d372c3c",
+    "models--Qdrant--all-MiniLM-L6-v2-onnx\\snapshots\\d13954661f83248295ba75c1ed411eef3b7b936e\\tokenizer_config.json": "abda01c8c14c5151ae498aceb30db406d6b91242c394fd88d3b6fd5a63a101e6",
+    "models--Qdrant--all-MiniLM-L6-v2-onnx\\trees\\d13954661f83248295ba75c1ed411eef3b7b936e.json": "f0b22b29b7787927dfc24d4d0c9e5788930e3253ec4234c4ae559b8cda1e6e9b"
+  }
+}

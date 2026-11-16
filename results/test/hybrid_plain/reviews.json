@@ -1,0 +1,152 @@
+[
+  {
+    "query_id": "t01",
+    "reviewed_at_utc": "2026-11-16T10:07:33.247348+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "dba8992e04ca1f6b9997dd659dd368588b5ea3fd15f11bfbd8888e6a2aff2a7d",
+        "alias": "C1",
+        "page": 38,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Trả lời Queen sai Mock Turtle dẫn Alice tới chính mình, sai người nhận mệnh lệnh. C1 ghi người đó là Gryphon, nên citation không hỗ trợ đáp án."
+      }
+    ],
+    "reason": "Trả lời Queen sai Mock Turtle dẫn Alice tới chính mình, sai người nhận mệnh lệnh. C1 ghi người đó là Gryphon, nên citation không hỗ trợ đáp án.",
+    "context_grade": 2,
+    "context_reason": "Trả lời Queen sai Mock Turtle dẫn Alice tới chính mình, sai người nhận mệnh lệnh. C1 ghi người đó là Gryphon, nên citation không hỗ trợ đáp án.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "t02",
+    "reviewed_at_utc": "2026-11-16T10:07:33.247348+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "a6e6bd0e8d3a9cad351ec279232f2d269b9feed3ae6aca1b02b5c0d96eed9828",
+        "alias": "C1",
+        "page": 41,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nội dung two lines đúng, C2 trong context chứng minh. Citation tự động lại chọn C1 chỉ có a line và chưa có lời sửa Two lines; grounded answer theo toàn context là 2 nhưng citation sai về điều kiện số lượng."
+      }
+    ],
+    "reason": "Nội dung two lines đúng, C2 trong context chứng minh. Citation tự động lại chọn C1 chỉ có a line và chưa có lời sửa Two lines; grounded answer theo toàn context là 2 nhưng citation sai về điều kiện số lượng.",
+    "context_grade": 2,
+    "context_reason": "Nội dung two lines đúng, C2 trong context chứng minh. Citation tự động lại chọn C1 chỉ có a line và chưa có lời sửa Two lines; grounded answer theo toàn context là 2 nhưng citation sai về điều kiện số lượng.",
+    "human_confirmed": false,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t03",
+    "reviewed_at_utc": "2026-11-16T10:07:33.247348+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "3010f4c365a0e88c3a019c65289bf06f9a598da4efd9e48873bd82c725e56f20",
+        "alias": "C1",
+        "page": 45,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nhầm câu hỏi/nhận xét của Alice với lý do Gryphon nêu. Đáp án không nói fear they should forget their names mà ghép can't have anything to put down với before end of trial. C1 chứa đáp án chuẩn nhưng không hỗ trợ quan hệ nguyên nhân sai này."
+      }
+    ],
+    "reason": "Nhầm câu hỏi/nhận xét của Alice với lý do Gryphon nêu. Đáp án không nói fear they should forget their names mà ghép can't have anything to put down với before end of trial. C1 chứa đáp án chuẩn nhưng không hỗ trợ quan hệ nguyên nhân sai này.",
+    "context_grade": 2,
+    "context_reason": "Nhầm câu hỏi/nhận xét của Alice với lý do Gryphon nêu. Đáp án không nói fear they should forget their names mà ghép can't have anything to put down với before end of trial. C1 chứa đáp án chuẩn nhưng không hỗ trợ quan hệ nguyên nhân sai này.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "t04",
+    "reviewed_at_utc": "2026-11-16T10:07:33.247348+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "62e643d5e498c56ff08714229ae986300c4507c7e697f96b7a09661fea807aa3",
+        "alias": "C2",
+        "page": 49,
+        "support": true,
+        "evidence_quote": "Rule Forty-two. _All persons more than a mile high to leave the court_",
+        "reason": "Đúng điều kiện more than a mile high và hành vi leave the court; citation C2 đơn vị 49 xác định đúng Rule Forty-two."
+      }
+    ],
+    "reason": "Đúng điều kiện more than a mile high và hành vi leave the court; citation C2 đơn vị 49 xác định đúng Rule Forty-two.",
+    "context_grade": 2,
+    "context_reason": "Đúng điều kiện more than a mile high và hành vi leave the court; citation C2 đơn vị 49 xác định đúng Rule Forty-two.",
+    "human_confirmed": false,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t05",
+    "reviewed_at_utc": "2026-11-16T10:07:33.247348+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "f7a5f27319ad559a3745c80fc2a82f1ecc8eaece3f87d20c51bf281eaa88e324",
+        "alias": "C3",
+        "page": 19,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nói head is free sai sự kiện tỉnh giấc. C3 đơn vị 19 là cảnh Alice dài cổ sau mushroom, không phải đầu trong lòng chị khi tỉnh. C1/C2 kết truyện cũng thiếu vị trí đầu Alice ở thời điểm hỏi."
+      }
+    ],
+    "reason": "Nói head is free sai sự kiện tỉnh giấc. C3 đơn vị 19 là cảnh Alice dài cổ sau mushroom, không phải đầu trong lòng chị khi tỉnh. C1/C2 kết truyện cũng thiếu vị trí đầu Alice ở thời điểm hỏi.",
+    "context_grade": 0,
+    "context_reason": "Nói head is free sai sự kiện tỉnh giấc. C3 đơn vị 19 là cảnh Alice dài cổ sau mushroom, không phải đầu trong lòng chị khi tỉnh. C1/C2 kết truyện cũng thiếu vị trí đầu Alice ở thời điểm hỏi.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "t06",
+    "reviewed_at_utc": "2026-11-16T10:07:33.247348+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Đầu ra cuối từ chối số điện thoại Queen, không thêm khẳng định vô căn cứ.",
+    "context_grade": null,
+    "context_reason": "Đầu ra cuối từ chối số điện thoại Queen, không thêm khẳng định vô căn cứ.",
+    "human_confirmed": false,
+    "abstention_correct": true
+  },
+  {
+    "query_id": "t07",
+    "reviewed_at_utc": "2026-11-16T10:07:33.247348+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "8f5f2f526509327fc71ac00d5681559c6cbd535e32c3f703e283ca49392770cf",
+        "alias": "C2",
+        "page": 44,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Bịa địa chỉ 11, unit 42 bằng metadata nguồn/đơn vị. C2 đơn vị 44 chỉ nói về hát Turtle Soup, không có địa chỉ hay số nhà. Không được suy địa chỉ từ catalog eBook #11 hoặc unit ID."
+      }
+    ],
+    "reason": "Bịa địa chỉ 11, unit 42 bằng metadata nguồn/đơn vị. C2 đơn vị 44 chỉ nói về hát Turtle Soup, không có địa chỉ hay số nhà. Không được suy địa chỉ từ catalog eBook #11 hoặc unit ID.",
+    "context_grade": null,
+    "context_reason": "Bịa địa chỉ 11, unit 42 bằng metadata nguồn/đơn vị. C2 đơn vị 44 chỉ nói về hát Turtle Soup, không có địa chỉ hay số nhà. Không được suy địa chỉ từ catalog eBook #11 hoặc unit ID.",
+    "human_confirmed": false,
+    "abstention_correct": false
+  }
+]

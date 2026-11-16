@@ -1,0 +1,382 @@
+[
+  {
+    "query_id": "d01",
+    "reviewed_at_utc": "2026-11-16T10:03:22.459919+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "1e6450ea12de170c41b9bd329ee5eeb41b0dc71bbc2c275f5433e41fb4b86c73",
+        "alias": "C1",
+        "page": 1,
+        "support": true,
+        "evidence_quote": "it was labelled “ORANGE MARMALADE”",
+        "reason": "Nêu đúng nhãn lọ nhưng không trả lời lọ chứa gì/rỗng, nên answer 0. Citation C1 vẫn hỗ trợ chính khẳng định về nhãn mà câu trả lời đã nêu; tách độ đúng citation khỏi độ đáp ứng câu hỏi."
+      }
+    ],
+    "reason": "Nêu đúng nhãn lọ nhưng không trả lời lọ chứa gì/rỗng, nên answer 0. Citation C1 vẫn hỗ trợ chính khẳng định về nhãn mà câu trả lời đã nêu; tách độ đúng citation khỏi độ đáp ứng câu hỏi.",
+    "context_grade": 2,
+    "context_reason": "Nêu đúng nhãn lọ nhưng không trả lời lọ chứa gì/rỗng, nên answer 0. Citation C1 vẫn hỗ trợ chính khẳng định về nhãn mà câu trả lời đã nêu; tách độ đúng citation khỏi độ đáp ứng câu hỏi.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d02",
+    "reviewed_at_utc": "2026-11-16T10:03:22.459919+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "25e095b545892d8af911cfd0951da2751472cd76ba8c1e3da0b9d9917c690360",
+        "alias": "C1",
+        "page": 3,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nói đúng hành vi kiểm tra nhãn trước khi uống nhưng bỏ chi tiết poison nên chỉ đúng một phần. Citation C1 chỉ mô tả nhãn DRINK ME; bước kiểm tra poison nằm ở đoạn khác trong context."
+      }
+    ],
+    "reason": "Nói đúng hành vi kiểm tra nhãn trước khi uống nhưng bỏ chi tiết poison nên chỉ đúng một phần. Citation C1 chỉ mô tả nhãn DRINK ME; bước kiểm tra poison nằm ở đoạn khác trong context.",
+    "context_grade": 2,
+    "context_reason": "Nói đúng hành vi kiểm tra nhãn trước khi uống nhưng bỏ chi tiết poison nên chỉ đúng một phần. Citation C1 chỉ mô tả nhãn DRINK ME; bước kiểm tra poison nằm ở đoạn khác trong context.",
+    "human_confirmed": false,
+    "answer_grade": 1
+  },
+  {
+    "query_id": "d03",
+    "reviewed_at_utc": "2026-11-16T10:03:22.459919+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "0046262c53fdaf0110013aa77ee8096af1ae82d48d48299fe62d3da9637ac0cd",
+        "alias": "C2",
+        "page": 2,
+        "support": true,
+        "evidence_quote": "(Dinah was the cat.)",
+        "reason": "Đúng Dinah là cat; C2 đơn vị 2 có câu trực tiếp và lời Alice nói về Dinah."
+      }
+    ],
+    "reason": "Đúng Dinah là cat; C2 đơn vị 2 có câu trực tiếp và lời Alice nói về Dinah.",
+    "context_grade": 2,
+    "context_reason": "Đúng Dinah là cat; C2 đơn vị 2 có câu trực tiếp và lời Alice nói về Dinah.",
+    "human_confirmed": false,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d04",
+    "reviewed_at_utc": "2026-11-16T10:03:22.459919+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "3fd061e983a5ab2059d907bb54e753bf4ecda958ae346ea56da7c54012879cfd",
+        "alias": "C2",
+        "page": 7,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Bịa Alice dùng foot để thu nhỏ. C2 chỉ nói foot slipped vào nước, không có nguyên nhân fan và không hỗ trợ đáp án."
+      }
+    ],
+    "reason": "Bịa Alice dùng foot để thu nhỏ. C2 chỉ nói foot slipped vào nước, không có nguyên nhân fan và không hỗ trợ đáp án.",
+    "context_grade": 0,
+    "context_reason": "Bịa Alice dùng foot để thu nhỏ. C2 chỉ nói foot slipped vào nước, không có nguyên nhân fan và không hỗ trợ đáp án.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d05",
+    "reviewed_at_utc": "2026-11-16T10:03:22.460920+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "e3b162fc7cce63aefe04e72243b210a32101f77f479f38aa55a283aa56e9f453",
+        "alias": "C3",
+        "page": 10,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nhầm thimble riêng của Alice với cách phát comfits mỗi người một phần; C3 phân biệt hai tình tiết, không hỗ trợ đáp án này."
+      }
+    ],
+    "reason": "Nhầm thimble riêng của Alice với cách phát comfits mỗi người một phần; C3 phân biệt hai tình tiết, không hỗ trợ đáp án này.",
+    "context_grade": 2,
+    "context_reason": "Nhầm thimble riêng của Alice với cách phát comfits mỗi người một phần; C3 phân biệt hai tình tiết, không hỗ trợ đáp án này.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d06",
+    "reviewed_at_utc": "2026-11-16T10:03:22.460920+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "e3b162fc7cce63aefe04e72243b210a32101f77f479f38aa55a283aa56e9f453",
+        "alias": "C1",
+        "page": 10,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Dodo trao box of comfits là sai; C1 nói Alice phát comfits và Dodo lấy thimble, chưa có đoạn trao lại thimble."
+      }
+    ],
+    "reason": "Dodo trao box of comfits là sai; C1 nói Alice phát comfits và Dodo lấy thimble, chưa có đoạn trao lại thimble.",
+    "context_grade": 1,
+    "context_reason": "Dodo trao box of comfits là sai; C1 nói Alice phát comfits và Dodo lấy thimble, chưa có đoạn trao lại thimble.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d07",
+    "reviewed_at_utc": "2026-11-16T10:03:22.460920+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "e362fca31a8c7c3061ea5de68b9db35f735b5c5db06c90062aadd835a8de3482",
+        "alias": "C1",
+        "page": 12,
+        "support": true,
+        "evidence_quote": "fetch me a pair of gloves and a fan!",
+        "reason": "Đủ hai món pair of gloves và fan; C1 đơn vị 12 là lời Rabbit yêu cầu."
+      }
+    ],
+    "reason": "Đủ hai món pair of gloves và fan; C1 đơn vị 12 là lời Rabbit yêu cầu.",
+    "context_grade": 2,
+    "context_reason": "Đủ hai món pair of gloves và fan; C1 đơn vị 12 là lời Rabbit yêu cầu.",
+    "human_confirmed": false,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d08",
+    "reviewed_at_utc": "2026-11-16T10:03:22.460920+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "0e0e07258bd1200485311cea28e143148c88ddccbbc2a8b0ead4fe57550747a4",
+        "alias": "C2",
+        "page": 33,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Bịa soldiers lấy pebbles. Citation C2 đơn vị 33 là cảnh croquet, không phải pebbles biến thành cakes ở nhà Rabbit."
+      }
+    ],
+    "reason": "Bịa soldiers lấy pebbles. Citation C2 đơn vị 33 là cảnh croquet, không phải pebbles biến thành cakes ở nhà Rabbit.",
+    "context_grade": 0,
+    "context_reason": "Bịa soldiers lấy pebbles. Citation C2 đơn vị 33 là cảnh croquet, không phải pebbles biến thành cakes ở nhà Rabbit.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d09",
+    "reviewed_at_utc": "2026-11-16T10:03:22.460920+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "600375e28f2039258e12eadc66c16f9bbe371bf9cbce8e8a0a6e9c9b4339a79e",
+        "alias": "C3",
+        "page": 4,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nhầm mushroom thành cake EAT ME có currants; C3 đơn vị 4 là bánh khác cảnh, không hỗ trợ right-hand mushroom hay tác động thu nhỏ."
+      }
+    ],
+    "reason": "Nhầm mushroom thành cake EAT ME có currants; C3 đơn vị 4 là bánh khác cảnh, không hỗ trợ right-hand mushroom hay tác động thu nhỏ.",
+    "context_grade": 2,
+    "context_reason": "Nhầm mushroom thành cake EAT ME có currants; C3 đơn vị 4 là bánh khác cảnh, không hỗ trợ right-hand mushroom hay tác động thu nhỏ.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d10",
+    "reviewed_at_utc": "2026-11-16T10:03:22.460920+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "dba8992e04ca1f6b9997dd659dd368588b5ea3fd15f11bfbd8888e6a2aff2a7d",
+        "alias": "C3",
+        "page": 38,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Gryphon không phải người cáo buộc serpent; C1/C2 là Pigeon. Citation C3 đơn vị 38 chỉ Gryphon dẫn Alice."
+      }
+    ],
+    "reason": "Gryphon không phải người cáo buộc serpent; C1/C2 là Pigeon. Citation C3 đơn vị 38 chỉ Gryphon dẫn Alice.",
+    "context_grade": 2,
+    "context_reason": "Gryphon không phải người cáo buộc serpent; C1/C2 là Pigeon. Citation C3 đơn vị 38 chỉ Gryphon dẫn Alice.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d11",
+    "reviewed_at_utc": "2026-11-16T10:03:22.460920+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "34707f20e8084a9c43f78fb0279ce5e583ae406e5ef9978be882a37bf36335ac",
+        "alias": "C1",
+        "page": 25,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nói baby thành starfish sai, nhầm phép so sánh với biến đổi. Citation C1 đơn vị 25 thực tế xác nhận pig, trái đáp án."
+      }
+    ],
+    "reason": "Nói baby thành starfish sai, nhầm phép so sánh với biến đổi. Citation C1 đơn vị 25 thực tế xác nhận pig, trái đáp án.",
+    "context_grade": 2,
+    "context_reason": "Nói baby thành starfish sai, nhầm phép so sánh với biến đổi. Citation C1 đơn vị 25 thực tế xác nhận pig, trái đáp án.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d12",
+    "reviewed_at_utc": "2026-11-16T10:03:22.460920+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "8abd1f0f785c1a8f0d6d95e51788ee1dfd41ffb3c06815eba7d5875d0f2595bb",
+        "alias": "C1",
+        "page": 22,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Giải thích tautology ability to grin không nêu lý do Cheshire cat. C1 có They all can nhưng không hỗ trợ lời giải thích nhân quả mà đáp án gán cho Duchess."
+      }
+    ],
+    "reason": "Giải thích tautology ability to grin không nêu lý do Cheshire cat. C1 có They all can nhưng không hỗ trợ lời giải thích nhân quả mà đáp án gán cho Duchess.",
+    "context_grade": 2,
+    "context_reason": "Giải thích tautology ability to grin không nêu lý do Cheshire cat. C1 có They all can nhưng không hỗ trợ lời giải thích nhân quả mà đáp án gán cho Duchess.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d13",
+    "reviewed_at_utc": "2026-11-16T10:03:22.460920+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "3fa7a7519b456ffeb44c4bf3a8c96fb4cc0958a2c244498b28b077ab52c1e60a",
+        "alias": "C1",
+        "page": 27,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Đáp án always 6 o'clock đúng và C2 context có always six. Citation tự động lại chọn C1 đơn vị 27 về watch/year, không có always six. Vì vậy grounded answer theo toàn context là 2 nhưng citation này không hợp lệ về ngữ nghĩa."
+      }
+    ],
+    "reason": "Đáp án always 6 o'clock đúng và C2 context có always six. Citation tự động lại chọn C1 đơn vị 27 về watch/year, không có always six. Vì vậy grounded answer theo toàn context là 2 nhưng citation này không hợp lệ về ngữ nghĩa.",
+    "context_grade": 2,
+    "context_reason": "Đáp án always 6 o'clock đúng và C2 context có always six. Citation tự động lại chọn C1 đơn vị 27 về watch/year, không có always six. Vì vậy grounded answer theo toàn context là 2 nhưng citation này không hợp lệ về ngữ nghĩa.",
+    "human_confirmed": false,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d14",
+    "reviewed_at_utc": "2026-11-16T10:03:22.460920+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "0705a9c6615ed7e7182d6b95ff2fab8ab59a0a5f98b95a559dccc88f69293695",
+        "alias": "C2",
+        "page": 29,
+        "support": true,
+        "evidence_quote": "It was a treacle-well.",
+        "reason": "Đúng treacle-well; C2 đơn vị 29 là lời Dormouse trả lời về giếng ba chị em."
+      }
+    ],
+    "reason": "Đúng treacle-well; C2 đơn vị 29 là lời Dormouse trả lời về giếng ba chị em.",
+    "context_grade": 2,
+    "context_reason": "Đúng treacle-well; C2 đơn vị 29 là lời Dormouse trả lời về giếng ba chị em.",
+    "human_confirmed": false,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d15",
+    "reviewed_at_utc": "2026-11-16T10:03:22.460920+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "51a909c47401c0ee859658a1782f3b4a0b6cfd847c1c9fab1b72e513915e9936",
+        "alias": "C1",
+        "page": 33,
+        "support": true,
+        "evidence_quote": "the balls were live hedgehogs, the mallets live flamingoes",
+        "reason": "Đúng cả hai ánh xạ balls/hedgehogs và mallets/flamingoes; C1 đơn vị 33 nêu trực tiếp."
+      }
+    ],
+    "reason": "Đúng cả hai ánh xạ balls/hedgehogs và mallets/flamingoes; C1 đơn vị 33 nêu trực tiếp.",
+    "context_grade": 2,
+    "context_reason": "Đúng cả hai ánh xạ balls/hedgehogs và mallets/flamingoes; C1 đơn vị 33 nêu trực tiếp.",
+    "human_confirmed": false,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d16",
+    "reviewed_at_utc": "2026-11-16T10:03:22.460920+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Đầu ra cuối từ chối thông tin lương Rabbit và không thêm số tiền; đúng với audit corpus.",
+    "context_grade": null,
+    "context_reason": "Đầu ra cuối từ chối thông tin lương Rabbit và không thêm số tiền; đúng với audit corpus.",
+    "human_confirmed": false,
+    "abstention_correct": true
+  },
+  {
+    "query_id": "d17",
+    "reviewed_at_utc": "2026-11-16T10:03:22.460920+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "8abd1f0f785c1a8f0d6d95e51788ee1dfd41ffb3c06815eba7d5875d0f2595bb",
+        "alias": "C1",
+        "page": 22,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Bịa ngày sinh 22 June 1914. C1 đơn vị 22 chỉ nói Cheshire cat và grin, không có dữ kiện ngày sinh."
+      }
+    ],
+    "reason": "Bịa ngày sinh 22 June 1914. C1 đơn vị 22 chỉ nói Cheshire cat và grin, không có dữ kiện ngày sinh.",
+    "context_grade": null,
+    "context_reason": "Bịa ngày sinh 22 June 1914. C1 đơn vị 22 chỉ nói Cheshire cat và grin, không có dữ kiện ngày sinh.",
+    "human_confirmed": false,
+    "abstention_correct": false
+  }
+]

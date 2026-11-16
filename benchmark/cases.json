@@ -1,0 +1,411 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "answerable": true,
+    "question": "What was in the jar labelled ORANGE MARMALADE?",
+    "expected_answer": "It was empty.",
+    "filter": {},
+    "filter_origin": "User-supplied chapter scope in original Day 6 question",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 1,
+        "evidence": "it was labelled “ORANGE MARMALADE”, but to her great disappointment it was empty"
+      }
+    ],
+    "provenance": "Day 6 dev retained; Day 6 test excluded"
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "answerable": true,
+    "question": "What safety label did Alice check before drinking from the little bottle?",
+    "expected_answer": "She checked whether it was marked poison.",
+    "filter": {},
+    "filter_origin": "User-supplied chapter scope in original Day 6 question",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 3,
+        "evidence": "“No, I’ll look first,” she said, “and see whether it’s marked ‘_poison_’ or not”"
+      }
+    ],
+    "provenance": "Day 6 dev retained; Day 6 test excluded"
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "answerable": true,
+    "question": "In Down the Rabbit-Hole, who is Dinah?",
+    "expected_answer": "Alice's cat.",
+    "filter": {
+      "chapter": "I"
+    },
+    "filter_origin": "User-supplied chapter scope in original Day 6 question",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 2,
+        "evidence": "(Dinah was the cat.)"
+      }
+    ],
+    "provenance": "Day 6 dev retained; Day 6 test excluded"
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "answerable": true,
+    "question": "What did Alice use that caused her to shrink again in the pool-of-tears episode?",
+    "expected_answer": "The Rabbit's fan.",
+    "filter": {},
+    "filter_origin": "User-supplied chapter scope in original Day 6 question",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 6,
+        "evidence": "the cause of this was the fan she was holding"
+      }
+    ],
+    "provenance": "Day 6 dev retained; Day 6 test excluded"
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "answerable": true,
+    "question": "How were prizes distributed after the Caucus-Race?",
+    "expected_answer": "Alice handed out comfits, exactly one each.",
+    "filter": {},
+    "filter_origin": "User-supplied chapter scope in original Day 6 question",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 10,
+        "evidence": "pulled out a box of comfits, (luckily the salt water had not got into it), and handed them round as prizes. There was exactly one a-piece, all round."
+      }
+    ],
+    "provenance": "Day 6 dev retained; Day 6 test excluded"
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "answerable": true,
+    "question": "What prize did the Dodo present to Alice?",
+    "expected_answer": "Her own thimble.",
+    "filter": {},
+    "filter_origin": "User-supplied chapter scope in original Day 6 question",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 10,
+        "evidence": "presented the thimble, saying “We beg your acceptance of this elegant thimble;”"
+      }
+    ],
+    "provenance": "Day 6 dev retained; Day 6 test excluded"
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "answerable": true,
+    "question": "In The Rabbit Sends in a Little Bill, what did the Rabbit order Mary Ann to fetch?",
+    "expected_answer": "A pair of gloves and a fan.",
+    "filter": {
+      "chapter": "IV"
+    },
+    "filter_origin": "User-supplied chapter scope in original Day 6 question",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 12,
+        "evidence": "Run home this moment, and fetch me a pair of gloves and a fan!"
+      }
+    ],
+    "provenance": "Day 6 dev retained; Day 6 test excluded"
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "answerable": true,
+    "question": "What happened to the pebbles thrown into the Rabbit's house?",
+    "expected_answer": "They turned into little cakes.",
+    "filter": {},
+    "filter_origin": "User-supplied chapter scope in original Day 6 question",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 15,
+        "evidence": "the pebbles were all turning into little cakes as they lay on the floor"
+      }
+    ],
+    "provenance": "Day 6 dev retained; Day 6 test excluded"
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "answerable": true,
+    "question": "What happens when Alice nibbles the right-hand piece of mushroom?",
+    "expected_answer": "She shrinks so suddenly her chin hits her foot.",
+    "filter": {},
+    "filter_origin": "User-supplied chapter scope in original Day 6 question",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 19,
+        "evidence": "nibbled a little of the right-hand bit to try the effect: the next moment she felt a violent blow underneath her chin: it had struck her foot!"
+      }
+    ],
+    "provenance": "Day 6 dev retained; Day 6 test excluded"
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "answerable": true,
+    "question": "What creature accuses Alice of being a serpent?",
+    "expected_answer": "A pigeon.",
+    "filter": {},
+    "filter_origin": "User-supplied chapter scope in original Day 6 question",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 19,
+        "evidence": "a large pigeon had flown into her face, and was beating her violently with its wings."
+      },
+      {
+        "source_id": "alice-1865",
+        "page": 20,
+        "evidence": "“Serpent!” screamed the Pigeon."
+      },
+      {
+        "source_id": "alice-1865",
+        "page": 20,
+        "evidence": "“A likely story indeed!” said the Pigeon in a tone of the deepest contempt."
+      }
+    ],
+    "provenance": "Day 6 dev retained; Day 6 test excluded"
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "answerable": true,
+    "question": "What animal does the baby become while Alice carries it?",
+    "expected_answer": "A pig.",
+    "filter": {},
+    "filter_origin": "User-supplied chapter scope in original Day 6 question",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 24,
+        "evidence": "it was neither more nor less than a pig"
+      },
+      {
+        "source_id": "alice-1865",
+        "page": 25,
+        "evidence": "“It turned into a pig,” Alice quietly said"
+      }
+    ],
+    "provenance": "Day 6 dev retained; Day 6 test excluded"
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "answerable": true,
+    "question": "In Pig and Pepper, how does the Duchess explain her cat's grin?",
+    "expected_answer": "It is a Cheshire cat.",
+    "filter": {
+      "chapter": "VI"
+    },
+    "filter_origin": "User-supplied chapter scope in original Day 6 question",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 22,
+        "evidence": "“It’s a Cheshire cat,” said the Duchess, “and that’s why."
+      }
+    ],
+    "provenance": "Day 6 dev retained; Day 6 test excluded"
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "answerable": true,
+    "question": "According to the Hatter, what time is it always now?",
+    "expected_answer": "Six o'clock.",
+    "filter": {},
+    "filter_origin": "User-supplied chapter scope in original Day 6 question",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 28,
+        "evidence": "It’s always six o’clock now."
+      }
+    ],
+    "provenance": "Day 6 dev retained; Day 6 test excluded"
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "answerable": true,
+    "question": "What kind of well housed the three sisters in the Dormouse's story?",
+    "expected_answer": "A treacle-well.",
+    "filter": {},
+    "filter_origin": "User-supplied chapter scope in original Day 6 question",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 29,
+        "evidence": "It was a treacle-well."
+      }
+    ],
+    "provenance": "Day 6 dev retained; Day 6 test excluded"
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "answerable": true,
+    "question": "What served as croquet balls and mallets in the Queen's game?",
+    "expected_answer": "Live hedgehogs were balls and live flamingoes were mallets.",
+    "filter": {},
+    "filter_origin": "User-supplied chapter scope in original Day 6 question",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 33,
+        "evidence": "the balls were live hedgehogs, the mallets live flamingoes"
+      }
+    ],
+    "provenance": "Day 6 dev retained; Day 6 test excluded"
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "answerable": true,
+    "question": "Who does the Queen order to take Alice to see the Mock Turtle?",
+    "expected_answer": "The Gryphon.",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 38,
+        "evidence": "“Up, lazy thing!” said the Queen, “and take this young lady to see the Mock Turtle, and to hear his history."
+      }
+    ],
+    "filter": {},
+    "filter_origin": "No filter",
+    "provenance": "New Day 7 fact; not a paraphrase of any Day 6 benchmark answer"
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "answerable": true,
+    "question": "In The Lobster Quadrille, how many lines do the dancers form at the start?",
+    "expected_answer": "Two lines.",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 41,
+        "evidence": "“Two lines!” cried the Mock Turtle."
+      }
+    ],
+    "filter": {
+      "chapter": "X"
+    },
+    "filter_origin": "Explicit chapter title in question",
+    "provenance": "New Day 7 fact; not a paraphrase of any Day 6 benchmark answer"
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "answerable": true,
+    "question": "Why do the jurors write down their names before the trial begins?",
+    "expected_answer": "For fear they will forget them before the trial ends.",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 45,
+        "evidence": "“They’re putting down their names,” the Gryphon whispered in reply, “for fear they should forget them before the end of the trial.”"
+      }
+    ],
+    "filter": {},
+    "filter_origin": "No filter",
+    "provenance": "New Day 7 fact; not a paraphrase of any Day 6 benchmark answer"
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "answerable": true,
+    "question": "In Alice’s Evidence, what height does Rule Forty-two say requires a person to leave the court?",
+    "expected_answer": "More than a mile high.",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 49,
+        "evidence": "Rule Forty-two. _All persons more than a mile high to leave the court_"
+      }
+    ],
+    "filter": {
+      "chapter": "XII"
+    },
+    "filter_origin": "Explicit chapter title in question",
+    "provenance": "New Day 7 fact; not a paraphrase of any Day 6 benchmark answer"
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "answerable": true,
+    "question": "Where is Alice's head resting when she wakes from the dream?",
+    "expected_answer": "In her sister's lap.",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 52,
+        "evidence": "found herself lying on the bank, with her head in the lap of her sister"
+      }
+    ],
+    "filter": {},
+    "filter_origin": "No filter",
+    "provenance": "New Day 7 fact; not a paraphrase of any Day 6 benchmark answer"
+  },
+  {
+    "id": "d16",
+    "split": "dev",
+    "answerable": false,
+    "question": "What is the White Rabbit's exact annual salary in pounds?",
+    "expected_behavior": "search_and_abstain",
+    "filter": {},
+    "gold": [],
+    "absence_reason": "Corpus-wide concept scan and review of matching excerpts and character scenes found no requested exact datum. See benchmark/absence_audit.json; independent human confirmation pending.",
+    "absence_check": "Rabbit salary / annual pay / pounds; all-unit scan and character-context inspection, not top-k absence alone"
+  },
+  {
+    "id": "d17",
+    "split": "dev",
+    "answerable": false,
+    "question": "What is the Cheshire Cat's exact date of birth, including day, month and year?",
+    "expected_behavior": "search_and_abstain",
+    "filter": {},
+    "gold": [],
+    "absence_reason": "Corpus-wide concept scan and review of matching excerpts and character scenes found no requested exact datum. See benchmark/absence_audit.json; independent human confirmation pending.",
+    "absence_check": "Cheshire Cat birthday / date of birth; all-unit scan and character-context inspection, not top-k absence alone"
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "answerable": false,
+    "question": "What is the Queen of Hearts' personal telephone number?",
+    "expected_behavior": "search_and_abstain",
+    "filter": {},
+    "gold": [],
+    "absence_reason": "Corpus-wide concept scan and review of matching excerpts and character scenes found no requested exact datum. See benchmark/absence_audit.json; independent human confirmation pending.",
+    "absence_check": "Queen phone / telephone number; all-unit scan and character-context inspection, not top-k absence alone"
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "answerable": false,
+    "question": "What is the Mock Turtle's exact home street address and house number?",
+    "expected_behavior": "search_and_abstain",
+    "filter": {},
+    "gold": [],
+    "absence_reason": "Corpus-wide concept scan and review of matching excerpts and character scenes found no requested exact datum. See benchmark/absence_audit.json; independent human confirmation pending.",
+    "absence_check": "Mock Turtle address / street / house number; all-unit scan and character-context inspection, not top-k absence alone"
+  }
+]

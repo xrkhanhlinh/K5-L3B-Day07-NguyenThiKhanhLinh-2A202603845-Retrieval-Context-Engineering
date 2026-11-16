@@ -1,0 +1,22 @@
+[
+  {
+    "stage": "environment_inspection",
+    "error": "Get-CimInstance Win32_ComputerSystem/Win32_VideoController: Access denied",
+    "resolution": "Did not claim hardware details that could not be queried. os.cpu_count reports 8 logical processors; runtime explicitly configured for 4 CPU threads."
+  },
+  {
+    "stage": "initial_starter_unit_tests",
+    "error": "Windows cp1252 UnicodeDecodeError reading UTF-8 output in test_baseline.py",
+    "resolution": "Explicit encoding='utf-8' for the two test JSON reads. 22 tests then passed. This was a code portability issue, not benchmark quality."
+  },
+  {
+    "stage": "runtime_model_download",
+    "error": "Sandbox urllib GitHub request failed with WinError 10061",
+    "resolution": "User selected a local model; approved network execution downloaded official llama.cpp and Qwen artifacts, verified against source SHA-256. No fake model fallback."
+  },
+  {
+    "stage": "local_model_resource_pilot",
+    "error": "1.5B local model under 93 percent system memory load; one diagnostic took 979.56 seconds",
+    "resolution": "Stopped only project model server. Kept pilot metadata/traces; final benchmark uses 0.5B with separate ONNX query preprocessing to reduce peak RAM."
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "verified_at_utc": "2026-11-16T16:10:19.752531+00:00",
+  "checks": "Frozen input/source hashes; dev/test counts; source offsets; real Day6 vector IDs/dimensions; recomputed retrieval and reviewed-agent metrics; citations; budgets; query/filter isolation; selection before test; local links",
+  "chunks": 204,
+  "cases": 24,
+  "retrieval_traces": 99,
+  "agent_traces": 99,
+  "model_calls": 198,
+  "errors": 0,
+  "reviews": 99,
+  "human_review": "Pending student/independent human confirmation; reviews are explicitly attributed to Codex AI",
+  "advanced_challenge": "Not attempted; no bonus claimed",
+  "missing_local_links": []
+}

@@ -1,0 +1,22 @@
+{
+  "frozen_at_utc": "2026-11-16T08:53:35.229469+00:00",
+  "sha256": {
+    "data/day6/chunks.json": "a650932289c724856ed1aa5e12bc52acf983fb69d967a9a0895dcda9b9b62957",
+    "data/day6/pages.jsonl": "af4ad40583b89b2e40f8b11d5589eef688c1f215ef097a62ac8668c8ef1201a2",
+    "benchmark/cases.json": "94c9d7c60a297f26626de777330e2aceabe56d519e345b530cee2a0042b72212",
+    "benchmark/protocol.json": "0ca43949e915cf94b4e4bf77ac881cb12e732fb4237a06d9d3b3fa05bd7c4e79",
+    "benchmark/absence_audit.json": "b8405368c2bda706724a71c143438f96f14f14343d646fc20eef4f134ec822bd",
+    "data/day6/vectors.json": "8f298964b6ce48746956357c0230b9ace2c2c0f778cc54d96299d51858efaeb9",
+    "artifacts/local_model.json": "68b936fde1f883bc218719dd4821a43af05c37b49de6272652132a0d4fdd20bc"
+  },
+  "day6_chunk_export_sha256": "ef962958d6581023f6c70fdf96e411902781e9aac0899d0655a3140104bc580b",
+  "day6_run_info_sha256": "4c125ae899feacc2cf346b0cc276d20c02a9b5fb2d156d86589b1ea478722be8",
+  "amendment": "After preliminary dev retrieval and source inspection, add valid alternative evidence for dev d10 (Pigeon page20) and d11 (pig page25), and replace overbroad full-reading absence wording with actual all-unit scan/scene review. No questions, expected answers, splits or test gold changed. All final dev methods rerun on identical amended labels before model runs, selection or test.",
+  "amendments": [
+    {
+      "at_utc": "2026-11-16T09:56:29.157193+00:00",
+      "reason": "Dev-only model/RAM/format investigation; declare hybrid_plain before its evaluation. Existing four configurations keep the same JSON controller. No test question, gold or result changed. Final model 0.5B; real query embeddings cached separately.",
+      "previous_protocol_sha256": "1195e54c8c1fc2ef485bd52e698b0782b2e898575db6cd4742dea1cfded52bb5"
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+[
+  {
+    "query_id": "d01",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm dù context có lọ ORANGE MARMALADE rỗng.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm dù context có lọ ORANGE MARMALADE rỗng.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d02",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "56ac138b8243e59adc0769e0c2a340cf33484615445da7fe145bf36a310be11c",
+        "alias": "C3",
+        "page": 3,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Đáp án bị cụt a little bottle on it, không nêu poison. C3 có bằng chứng đúng nhưng không hỗ trợ câu trả lời cụt này."
+      }
+    ],
+    "reason": "Đáp án bị cụt a little bottle on it, không nêu poison. C3 có bằng chứng đúng nhưng không hỗ trợ câu trả lời cụt này.",
+    "context_grade": 2,
+    "context_reason": "Đáp án bị cụt a little bottle on it, không nêu poison. C3 có bằng chứng đúng nhưng không hỗ trợ câu trả lời cụt này.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d03",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm dù nguồn nêu Dinah là cat.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm dù nguồn nêu Dinah là cat.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d04",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Context lớn vẫn không có fan gây thu nhỏ, chỉ các đoạn liên quan nước mắt và kích thước khác.",
+    "context_grade": 0,
+    "context_reason": "Context lớn vẫn không có fan gây thu nhỏ, chỉ các đoạn liên quan nước mắt và kích thước khác.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d05",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "e3b162fc7cce63aefe04e72243b210a32101f77f479f38aa55a283aa56e9f453",
+        "alias": "C3",
+        "page": 10,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Gán việc phát giải cho Dodo và kể cách tổ chức race, không trả lời comfits one each. C3 thực tế nêu Alice phát, trái với đáp án."
+      }
+    ],
+    "reason": "Gán việc phát giải cho Dodo và kể cách tổ chức race, không trả lời comfits one each. C3 thực tế nêu Alice phát, trái với đáp án.",
+    "context_grade": 2,
+    "context_reason": "Gán việc phát giải cho Dodo và kể cách tổ chức race, không trả lời comfits one each. C3 thực tế nêu Alice phát, trái với đáp án.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d06",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "e3b162fc7cce63aefe04e72243b210a32101f77f479f38aa55a283aa56e9f453",
+        "alias": "C1",
+        "page": 10,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Đúng vật thimble nhưng thiếu her own và chứng cứ Dodo trao lại; C1 kết thúc ở Hand it over here nên chỉ hỗ trợ một phần tình tiết."
+      }
+    ],
+    "reason": "Đúng vật thimble nhưng thiếu her own và chứng cứ Dodo trao lại; C1 kết thúc ở Hand it over here nên chỉ hỗ trợ một phần tình tiết.",
+    "context_grade": 1,
+    "context_reason": "Đúng vật thimble nhưng thiếu her own và chứng cứ Dodo trao lại; C1 kết thúc ở Hand it over here nên chỉ hỗ trợ một phần tình tiết.",
+    "human_confirmed": false,
+    "answer_grade": 1
+  },
+  {
+    "query_id": "d07",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      true
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "e362fca31a8c7c3061ea5de68b9db35f735b5c5db06c90062aadd835a8de3482",
+        "alias": "C1",
+        "page": 12,
+        "support": true,
+        "evidence_quote": "fetch me a pair of gloves and a fan!",
+        "reason": "Đúng gloves và fan Rabbit yêu cầu; C1 đơn vị 12 hỗ trợ trực tiếp."
+      }
+    ],
+    "reason": "Đúng gloves và fan Rabbit yêu cầu; C1 đơn vị 12 hỗ trợ trực tiếp.",
+    "context_grade": 2,
+    "context_reason": "Đúng gloves và fan Rabbit yêu cầu; C1 đơn vị 12 hỗ trợ trực tiếp.",
+    "human_confirmed": false,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d08",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "e362fca31a8c7c3061ea5de68b9db35f735b5c5db06c90062aadd835a8de3482",
+        "alias": "C1",
+        "page": 12,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Ghép sai cảnh soldiers, đổi Dinah thành Duchess và bịa số phận pebbles. C1/C2/C4/C5/C6 không có biến đổi pebbles; C3 có đe dọa đốt nhà nhưng người nói và Dinah khác đáp án. Không citation nào hỗ trợ đầy đủ khẳng định."
+      },
+      {
+        "citation_id": "0e0e07258bd1200485311cea28e143148c88ddccbbc2a8b0ead4fe57550747a4",
+        "alias": "C2",
+        "page": 33,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Ghép sai cảnh soldiers, đổi Dinah thành Duchess và bịa số phận pebbles. C1/C2/C4/C5/C6 không có biến đổi pebbles; C3 có đe dọa đốt nhà nhưng người nói và Dinah khác đáp án. Không citation nào hỗ trợ đầy đủ khẳng định."
+      },
+      {
+        "citation_id": "04221d7336518a815882d4fe23630cb462b5267ec0419bba154c0ccaf1479bea",
+        "alias": "C3",
+        "page": 15,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Ghép sai cảnh soldiers, đổi Dinah thành Duchess và bịa số phận pebbles. C1/C2/C4/C5/C6 không có biến đổi pebbles; C3 có đe dọa đốt nhà nhưng người nói và Dinah khác đáp án. Không citation nào hỗ trợ đầy đủ khẳng định."
+      },
+      {
+        "citation_id": "4eac5cc87b2e36b08c804ebfe5e4431852ce09c2d0b703de61f32297142ff24a",
+        "alias": "C4",
+        "page": 14,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Ghép sai cảnh soldiers, đổi Dinah thành Duchess và bịa số phận pebbles. C1/C2/C4/C5/C6 không có biến đổi pebbles; C3 có đe dọa đốt nhà nhưng người nói và Dinah khác đáp án. Không citation nào hỗ trợ đầy đủ khẳng định."
+      },
+      {
+        "citation_id": "47c7b916e127f0342a5a3efa520f74d1a4cbd7cf590f55a1b2f659a16dc476d9",
+        "alias": "C5",
+        "page": 5,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Ghép sai cảnh soldiers, đổi Dinah thành Duchess và bịa số phận pebbles. C1/C2/C4/C5/C6 không có biến đổi pebbles; C3 có đe dọa đốt nhà nhưng người nói và Dinah khác đáp án. Không citation nào hỗ trợ đầy đủ khẳng định."
+      },
+      {
+        "citation_id": "a260da0b8f0562bbc1b7b7f725528bbf23cafe39f67151c71777aa4e845fbaac",
+        "alias": "C6",
+        "page": 4,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Ghép sai cảnh soldiers, đổi Dinah thành Duchess và bịa số phận pebbles. C1/C2/C4/C5/C6 không có biến đổi pebbles; C3 có đe dọa đốt nhà nhưng người nói và Dinah khác đáp án. Không citation nào hỗ trợ đầy đủ khẳng định."
+      }
+    ],
+    "reason": "Ghép sai cảnh soldiers, đổi Dinah thành Duchess và bịa số phận pebbles. C1/C2/C4/C5/C6 không có biến đổi pebbles; C3 có đe dọa đốt nhà nhưng người nói và Dinah khác đáp án. Không citation nào hỗ trợ đầy đủ khẳng định.",
+    "context_grade": 0,
+    "context_reason": "Ghép sai cảnh soldiers, đổi Dinah thành Duchess và bịa số phận pebbles. C1/C2/C4/C5/C6 không có biến đổi pebbles; C3 có đe dọa đốt nhà nhưng người nói và Dinah khác đáp án. Không citation nào hỗ trợ đầy đủ khẳng định.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d09",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "32d3dc21beb9b2228f0ee859d7a8f50f72ea01b2ef2fad75890eb293402a3d46",
+        "alias": "C1",
+        "page": 16,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nói right-hand mushroom làm cao lên, trái C2 ghi shrinking rapidly và cằm chạm chân. C4 nói hai bên chung chung, không gắn right-hand với taller; C1/C3/C5/C6 cũng không hỗ trợ điều kiện sai này."
+      },
+      {
+        "citation_id": "b4ae3fe4c43860c393af91d019edf3f49ba7de3942a68f1f382c52ea99be841d",
+        "alias": "C2",
+        "page": 19,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nói right-hand mushroom làm cao lên, trái C2 ghi shrinking rapidly và cằm chạm chân. C4 nói hai bên chung chung, không gắn right-hand với taller; C1/C3/C5/C6 cũng không hỗ trợ điều kiện sai này."
+      },
+      {
+        "citation_id": "600375e28f2039258e12eadc66c16f9bbe371bf9cbce8e8a0a6e9c9b4339a79e",
+        "alias": "C3",
+        "page": 4,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nói right-hand mushroom làm cao lên, trái C2 ghi shrinking rapidly và cằm chạm chân. C4 nói hai bên chung chung, không gắn right-hand với taller; C1/C3/C5/C6 cũng không hỗ trợ điều kiện sai này."
+      },
+      {
+        "citation_id": "63df3b84f69104ad8ffa24247f8f815f72872c5009e03a767eb18d22d39ec001",
+        "alias": "C4",
+        "page": 19,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nói right-hand mushroom làm cao lên, trái C2 ghi shrinking rapidly và cằm chạm chân. C4 nói hai bên chung chung, không gắn right-hand với taller; C1/C3/C5/C6 cũng không hỗ trợ điều kiện sai này."
+      },
+      {
+        "citation_id": "14776d1f2640658b91372d000cade49ad7919249b346a670269b9d78efc3694b",
+        "alias": "C5",
+        "page": 20,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nói right-hand mushroom làm cao lên, trái C2 ghi shrinking rapidly và cằm chạm chân. C4 nói hai bên chung chung, không gắn right-hand với taller; C1/C3/C5/C6 cũng không hỗ trợ điều kiện sai này."
+      },
+      {
+        "citation_id": "bcb1441ba1b5f648700da0c32ad59dcf353e309514be9b5ca1073670154b44fb",
+        "alias": "C6",
+        "page": 25,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nói right-hand mushroom làm cao lên, trái C2 ghi shrinking rapidly và cằm chạm chân. C4 nói hai bên chung chung, không gắn right-hand với taller; C1/C3/C5/C6 cũng không hỗ trợ điều kiện sai này."
+      }
+    ],
+    "reason": "Nói right-hand mushroom làm cao lên, trái C2 ghi shrinking rapidly và cằm chạm chân. C4 nói hai bên chung chung, không gắn right-hand với taller; C1/C3/C5/C6 cũng không hỗ trợ điều kiện sai này.",
+    "context_grade": 2,
+    "context_reason": "Nói right-hand mushroom làm cao lên, trái C2 ghi shrinking rapidly và cằm chạm chân. C4 nói hai bên chung chung, không gắn right-hand với taller; C1/C3/C5/C6 cũng không hỗ trợ điều kiện sai này.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d10",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "dba8992e04ca1f6b9997dd659dd368588b5ea3fd15f11bfbd8888e6a2aff2a7d",
+        "alias": "C3",
+        "page": 38,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Trả lời Gryphon sai dù có Pigeon cáo buộc serpent. Citation C3 chỉ cảnh Gryphon dẫn Alice."
+      }
+    ],
+    "reason": "Trả lời Gryphon sai dù có Pigeon cáo buộc serpent. Citation C3 chỉ cảnh Gryphon dẫn Alice.",
+    "context_grade": 2,
+    "context_reason": "Trả lời Gryphon sai dù có Pigeon cáo buộc serpent. Citation C3 chỉ cảnh Gryphon dẫn Alice.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d11",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "3a6eb8ac9f083c50c57e38fef836356915db0ba538a1286015e10607af877755",
+        "alias": "C2",
+        "page": 24,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Đúng pig, C6 xác nhận biến đổi. C2 chỉ là điều kiện if going to turn into a pig, C3/C5 còn là em bé và C4 là Pigeon/eggs, chưa hỗ trợ kết luận biến đổi đã xảy ra."
+      },
+      {
+        "citation_id": "38edc686722508597d674e53b415bf0c9be8075a01dee885d7bfdfe76cda6984",
+        "alias": "C3",
+        "page": 23,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Đúng pig, C6 xác nhận biến đổi. C2 chỉ là điều kiện if going to turn into a pig, C3/C5 còn là em bé và C4 là Pigeon/eggs, chưa hỗ trợ kết luận biến đổi đã xảy ra."
+      },
+      {
+        "citation_id": "0c3a0012b3cfc066661d48a5c6804dfae82305c6c101a88871691fca7748ad6c",
+        "alias": "C4",
+        "page": 20,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Đúng pig, C6 xác nhận biến đổi. C2 chỉ là điều kiện if going to turn into a pig, C3/C5 còn là em bé và C4 là Pigeon/eggs, chưa hỗ trợ kết luận biến đổi đã xảy ra."
+      },
+      {
+        "citation_id": "3a670b106ab7dbac987dee0cb6fb0712736502e163ea593a7747412f99ce06c4",
+        "alias": "C5",
+        "page": 23,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Đúng pig, C6 xác nhận biến đổi. C2 chỉ là điều kiện if going to turn into a pig, C3/C5 còn là em bé và C4 là Pigeon/eggs, chưa hỗ trợ kết luận biến đổi đã xảy ra."
+      },
+      {
+        "citation_id": "440c1c1580b25703e9cfdd8c7974740ab7402f461e77dbdfabdd9dca9af75a9c",
+        "alias": "C6",
+        "page": 24,
+        "support": true,
+        "evidence_quote": "it was neither more nor less than a pig",
+        "reason": "Đúng pig, C6 xác nhận biến đổi. C2 chỉ là điều kiện if going to turn into a pig, C3/C5 còn là em bé và C4 là Pigeon/eggs, chưa hỗ trợ kết luận biến đổi đã xảy ra."
+      }
+    ],
+    "reason": "Đúng pig, C6 xác nhận biến đổi. C2 chỉ là điều kiện if going to turn into a pig, C3/C5 còn là em bé và C4 là Pigeon/eggs, chưa hỗ trợ kết luận biến đổi đã xảy ra.",
+    "context_grade": 2,
+    "context_reason": "Đúng pig, C6 xác nhận biến đổi. C2 chỉ là điều kiện if going to turn into a pig, C3/C5 còn là em bé và C4 là Pigeon/eggs, chưa hỗ trợ kết luận biến đổi đã xảy ra.",
+    "human_confirmed": false,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "d12",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm dù context có lời giải thích Cheshire cat của Duchess.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm dù context có lời giải thích Cheshire cat của Duchess.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d13",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm dù context có always six o'clock now.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm dù context có always six o'clock now.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d14",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm dù có treacle-well.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm dù có treacle-well.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d15",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm dù context đủ hai loại vật làm balls/mallets.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm dù context đủ hai loại vật làm balls/mallets.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d16",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "85b72e8cdc66222b9a809a42bf93f94b51f167e1e0173ef2f0c2587e2c23e606",
+        "alias": "C1",
+        "page": 48,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Bịa lương 40 pounds, citation cảnh gọi nhân chứng đơn vị 48 không có tiền lương."
+      }
+    ],
+    "reason": "Bịa lương 40 pounds, citation cảnh gọi nhân chứng đơn vị 48 không có tiền lương.",
+    "context_grade": null,
+    "context_reason": "Bịa lương 40 pounds, citation cảnh gọi nhân chứng đơn vị 48 không có tiền lương.",
+    "human_confirmed": false,
+    "abstention_correct": false
+  },
+  {
+    "query_id": "d17",
+    "reviewed_at_utc": "2026-11-16T10:01:21.383775+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối ngày sinh Cheshire Cat đúng theo tình trạng thiếu dữ kiện của corpus.",
+    "context_grade": null,
+    "context_reason": "Từ chối ngày sinh Cheshire Cat đúng theo tình trạng thiếu dữ kiện của corpus.",
+    "human_confirmed": false,
+    "abstention_correct": true
+  }
+]

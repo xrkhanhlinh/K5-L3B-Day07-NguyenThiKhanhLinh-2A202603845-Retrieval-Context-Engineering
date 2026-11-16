@@ -1,0 +1,266 @@
+[
+  {
+    "query_id": "d01",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm: context có lọ ORANGE MARMALADE rỗng.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm: context có lọ ORANGE MARMALADE rỗng.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d02",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Context chỉ có nhãn DRINK ME và một lần uống khác, không có kiểm tra poison. Câu có đáp án bị từ chối nên answer 0.",
+    "context_grade": 1,
+    "context_reason": "Context chỉ có nhãn DRINK ME và một lần uống khác, không có kiểm tra poison. Câu có đáp án bị từ chối nên answer 0.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d03",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm dù có Dinah was the cat trong nguồn chương I.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm dù có Dinah was the cat trong nguồn chương I.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d04",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Không truy ra đoạn fan gây thu nhỏ; context về khóc và em bé không đủ trả lời.",
+    "context_grade": 0,
+    "context_reason": "Không truy ra đoạn fan gây thu nhỏ; context về khóc và em bé không đủ trả lời.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d05",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm dù context nêu comfits làm giải thưởng và one a-piece.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm dù context nêu comfits làm giải thưởng và one a-piece.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d06",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false,
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "e3b162fc7cce63aefe04e72243b210a32101f77f479f38aa55a283aa56e9f453",
+        "alias": "C1",
+        "page": 10,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Có thimble của Alice nhưng chưa có hành động Dodo trao nó làm giải, thiếu điều kiện hỏi."
+      },
+      {
+        "citation_id": "7982b36802aef5e0aeaf0569ad30f69991cbc5614524701991ccabb84f545a69",
+        "alias": "C2",
+        "page": 37,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Đoạn Duchess nói về quà/lời khuyên không liên quan giải của Alice."
+      }
+    ],
+    "reason": "Đúng tên vật thimble nhưng context dừng ở Dodo yêu cầu Alice đưa thimble, thiếu đoạn Dodo trao lại và điều kiện her own. Chấm đúng một phần, không nhận citation là hỗ trợ đầy đủ.",
+    "context_grade": 1,
+    "context_reason": "Đúng tên vật thimble nhưng context dừng ở Dodo yêu cầu Alice đưa thimble, thiếu đoạn Dodo trao lại và điều kiện her own. Chấm đúng một phần, không nhận citation là hỗ trợ đầy đủ.",
+    "human_confirmed": false,
+    "answer_grade": 1
+  },
+  {
+    "query_id": "d07",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "e362fca31a8c7c3061ea5de68b9db35f735b5c5db06c90062aadd835a8de3482",
+        "alias": "C1",
+        "page": 12,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Đúng hai món gloves và fan nhưng viết fetch her, sai người nhận so với Rabbit nói fetch me. Citation C1 hỗ trợ đồ vật nhưng không hỗ trợ toàn bộ câu có sai người nhận."
+      }
+    ],
+    "reason": "Đúng hai món gloves và fan nhưng viết fetch her, sai người nhận so với Rabbit nói fetch me. Citation C1 hỗ trợ đồ vật nhưng không hỗ trợ toàn bộ câu có sai người nhận.",
+    "context_grade": 2,
+    "context_reason": "Đúng hai món gloves và fan nhưng viết fetch her, sai người nhận so với Rabbit nói fetch me. Citation C1 hỗ trợ đồ vật nhưng không hỗ trợ toàn bộ câu có sai người nhận.",
+    "human_confirmed": false,
+    "answer_grade": 1
+  },
+  {
+    "query_id": "d08",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm dù BM25 tìm được đoạn pebbles turning into little cakes ở đơn vị 15.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm dù BM25 tìm được đoạn pebbles turning into little cakes ở đơn vị 15.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d09",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false,
+      false,
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "32d3dc21beb9b2228f0ee859d7a8f50f72ea01b2ef2fad75890eb293402a3d46",
+        "alias": "C1",
+        "page": 16,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nhầm right-hand mushroom thành bánh EAT ME và nói không đổi kích thước. C1 chỉ gặp mushroom, C2 là cake khác cảnh, C3 giải thưởng comfits; không citation nào hỗ trợ biến đổi được hỏi."
+      },
+      {
+        "citation_id": "600375e28f2039258e12eadc66c16f9bbe371bf9cbce8e8a0a6e9c9b4339a79e",
+        "alias": "C2",
+        "page": 4,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nhầm right-hand mushroom thành bánh EAT ME và nói không đổi kích thước. C1 chỉ gặp mushroom, C2 là cake khác cảnh, C3 giải thưởng comfits; không citation nào hỗ trợ biến đổi được hỏi."
+      },
+      {
+        "citation_id": "e3b162fc7cce63aefe04e72243b210a32101f77f479f38aa55a283aa56e9f453",
+        "alias": "C3",
+        "page": 10,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nhầm right-hand mushroom thành bánh EAT ME và nói không đổi kích thước. C1 chỉ gặp mushroom, C2 là cake khác cảnh, C3 giải thưởng comfits; không citation nào hỗ trợ biến đổi được hỏi."
+      }
+    ],
+    "reason": "Nhầm right-hand mushroom thành bánh EAT ME và nói không đổi kích thước. C1 chỉ gặp mushroom, C2 là cake khác cảnh, C3 giải thưởng comfits; không citation nào hỗ trợ biến đổi được hỏi.",
+    "context_grade": 0,
+    "context_reason": "Nhầm right-hand mushroom thành bánh EAT ME và nói không đổi kích thước. C1 chỉ gặp mushroom, C2 là cake khác cảnh, C3 giải thưởng comfits; không citation nào hỗ trợ biến đổi được hỏi.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d10",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm: context có Pigeon nói Serpent trực tiếp.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm: context có Pigeon nói Serpent trực tiếp.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d11",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm dù C3 đơn vị 25 có Alice nói It turned into a pig.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm dù C3 đơn vị 25 có Alice nói It turned into a pig.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d12",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm dù context có Duchess nói It's a Cheshire cat, and that's why.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm dù context có Duchess nói It's a Cheshire cat, and that's why.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d13",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm dù context có lời Hatter It's always six o'clock now.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm dù context có lời Hatter It's always six o'clock now.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d14",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm dù nguồn ghi treacle-well.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm dù nguồn ghi treacle-well.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d15",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm dù nguồn nêu live hedgehogs và live flamingoes cho balls/mallets.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm dù nguồn nêu live hedgehogs và live flamingoes cho balls/mallets.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "d16",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Đầu ra cuối từ chối yêu cầu lương Rabbit, không thêm số tiền thiếu căn cứ.",
+    "context_grade": null,
+    "context_reason": "Đầu ra cuối từ chối yêu cầu lương Rabbit, không thêm số tiền thiếu căn cứ.",
+    "human_confirmed": false,
+    "abstention_correct": true
+  },
+  {
+    "query_id": "d17",
+    "reviewed_at_utc": "2026-11-16T10:01:21.364157+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Đầu ra cuối từ chối ngày sinh Cheshire Cat, không suy đoán ngày tháng.",
+    "context_grade": null,
+    "context_reason": "Đầu ra cuối từ chối ngày sinh Cheshire Cat, không suy đoán ngày tháng.",
+    "human_confirmed": false,
+    "abstention_correct": true
+  }
+]

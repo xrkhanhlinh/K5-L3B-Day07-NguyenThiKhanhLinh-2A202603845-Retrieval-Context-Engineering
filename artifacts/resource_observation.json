@@ -1,0 +1,15 @@
+{
+  "model": "Qwen2.5-1.5B Q4_K_M pilot",
+  "physical_ram_gib": 7.771476745605469,
+  "available_ram_gib": 0.4954872131347656,
+  "memory_load_percent": 93,
+  "source": "Read-only GlobalMemoryStatusEx and llama.cpp server timing observed before stopping the project server",
+  "slow_diagnostic_request": {
+    "prompt_tokens": 584,
+    "prompt_ms": 943705.64,
+    "completion_tokens": 5,
+    "completion_ms": 35854.2,
+    "total_ms": 979559.84
+  },
+  "resolution": "Switched to Qwen2.5-0.5B and precomputed real query embeddings in a separate process. No other user applications were closed."
+}

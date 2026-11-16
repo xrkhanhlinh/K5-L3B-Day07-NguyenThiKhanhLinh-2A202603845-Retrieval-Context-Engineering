@@ -1,0 +1,8 @@
+config,split,method,top_k,budget_chars,hit1_n,hit3_n,answerable_N,context_evidence_n,grounded_0,grounded_1,grounded_2,grounded_mean_out_of_2,citation_supported_n,citations_N,abstention_n,unanswerable_N,agent_seconds,service_cost_usd
+dense,dev,dense,3,3200,7,11,15,11,12,0,3,0.4,4,13,2,2,76.40078459988581,0
+bm25,dev,bm25,3,3200,7,11,15,11,13,2,0,0.13333333333333333,0,6,2,2,138.16056409996236,0
+hybrid,dev,hybrid,3,3200,6,12,15,12,12,0,3,0.4,3,9,1,2,111.94444010016741,0
+hybrid_context,dev,hybrid,6,6200,6,12,15,12,12,1,2,0.3333333333333333,2,23,1,2,149.04821989999618,0
+hybrid_plain,dev,hybrid,3,3200,6,12,15,12,9,1,5,0.7333333333333333,5,16,1,2,113.91842880001059,0
+dense,test,dense,3,3200,2,4,5,4,4,0,1,0.4,1,7,2,2,42.89656459999969,0
+hybrid_plain,test,hybrid,3,3200,2,4,5,4,3,0,2,0.8,1,6,1,2,37.72294999996666,0

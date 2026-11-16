@@ -1,0 +1,19 @@
+{
+  "downloaded_at_utc": "2026-11-16T09:05:57.260889+00:00",
+  "model_repo": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+  "model_revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+  "model_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/91cad51170dc346986eccefdc2dd33a9da36ead9/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "model_sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+  "model_bytes": 1117320736,
+  "model_path": ".local-model\\qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "license": "Apache-2.0 per official Qwen model card",
+  "runtime_release": "b12430",
+  "runtime_url": "https://github.com/ggml-org/llama.cpp/releases/download/b12430/llama-b12430-bin-win-cpu-x64.zip",
+  "runtime_archive_sha256": "663f2b08d8710db3f7ac8b8d5055cccbf3e0cbcb60d33d9d5d427387935f85b7",
+  "server_path": ".runtime\\llama\\llama-server.exe",
+  "server_sha256": "4e2e8892d0d9f6017d777eefe0666acdd7ff2e5d792680bb61653f0a78342416",
+  "docs": [
+    "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "https://github.com/ggml-org/llama.cpp/tree/master/tools/server"
+  ]
+}

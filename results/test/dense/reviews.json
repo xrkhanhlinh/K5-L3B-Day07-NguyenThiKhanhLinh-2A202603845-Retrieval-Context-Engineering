@@ -1,0 +1,155 @@
+[
+  {
+    "query_id": "t01",
+    "reviewed_at_utc": "2026-11-16T10:07:33.239320+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "dba8992e04ca1f6b9997dd659dd368588b5ea3fd15f11bfbd8888e6a2aff2a7d",
+        "alias": "C1",
+        "page": 38,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Không trả lời người được Queen sai dẫn Alice là Gryphon, mà nói Queen orders Alice. C1 đơn vị 38 ghi Queen nói với Gryphon take this young lady; không hỗ trợ sai người nhận mệnh lệnh."
+      }
+    ],
+    "reason": "Không trả lời người được Queen sai dẫn Alice là Gryphon, mà nói Queen orders Alice. C1 đơn vị 38 ghi Queen nói với Gryphon take this young lady; không hỗ trợ sai người nhận mệnh lệnh.",
+    "context_grade": 2,
+    "context_reason": "Không trả lời người được Queen sai dẫn Alice là Gryphon, mà nói Queen orders Alice. C1 đơn vị 38 ghi Queen nói với Gryphon take this young lady; không hỗ trợ sai người nhận mệnh lệnh.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "t02",
+    "reviewed_at_utc": "2026-11-16T10:07:33.240323+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false,
+      true,
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "4d62dbbcce4353fc58aded11fcfd06bbadbc86a17d424c2fe8aecff32f578c9a",
+        "alias": "C1",
+        "page": 41,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Bài hát whiting/snail không có số hàng bắt đầu dance."
+      },
+      {
+        "citation_id": "7b69fb57735d77e71595a6cde52ae22886047f23eff7ca76616f285e36fff9c7",
+        "alias": "C2",
+        "page": 41,
+        "support": true,
+        "evidence_quote": "“Two lines!” cried the Mock Turtle.",
+        "reason": "Mock Turtle nói trực tiếp Two lines."
+      },
+      {
+        "citation_id": "a6e6bd0e8d3a9cad351ec279232f2d269b9feed3ae6aca1b02b5c0d96eed9828",
+        "alias": "C3",
+        "page": 41,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Chỉ có Gryphon nói a line, chưa có lời sửa thành two lines."
+      }
+    ],
+    "reason": "Đáp án 2 đúng; C2 ghi Two lines. C1 chỉ lời bài hát, C3 mới nói a line trước khi được sửa thành two, nên hai citation đó chưa hỗ trợ số lượng 2.",
+    "context_grade": 2,
+    "context_reason": "Đáp án 2 đúng; C2 ghi Two lines. C1 chỉ lời bài hát, C3 mới nói a line trước khi được sửa thành two, nên hai citation đó chưa hỗ trợ số lượng 2.",
+    "human_confirmed": false,
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t03",
+    "reviewed_at_utc": "2026-11-16T10:07:33.240323+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm: C1 đơn vị 45 nói ghi tên vì sợ quên trước khi hết phiên tòa.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm: C1 đơn vị 45 nói ghi tên vì sợ quên trước khi hết phiên tòa.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "t04",
+    "reviewed_at_utc": "2026-11-16T10:07:33.240323+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối nhầm: C2 đơn vị 49 ghi Rule Forty-two và more than a mile high rõ ràng.",
+    "context_grade": 2,
+    "context_reason": "Từ chối nhầm: C2 đơn vị 49 ghi Rule Forty-two và more than a mile high rõ ràng.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "t05",
+    "reviewed_at_utc": "2026-11-16T10:07:33.240323+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [
+      false,
+      false,
+      false
+    ],
+    "citation_reviews": [
+      {
+        "citation_id": "afa5f8d535b39312e8afaf9ddf7e049e2186093f24455fef201b00a4a8772b9b",
+        "alias": "C1",
+        "page": 52,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nhầm Alice với người chị leaning her head on her hand sau khi Alice rời đi. C1 chỉ là chị tưởng tượng bàn tay Alice trên đầu gối; C2 là đầu người chị; C3 là Alice lớn lên tại tòa. Không đoạn nào nêu đầu Alice trong lòng chị lúc tỉnh giấc."
+      },
+      {
+        "citation_id": "1eff9f55b536da8de999383be838bce06bcd301326a1601fe3a978e26708c0ef",
+        "alias": "C2",
+        "page": 52,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nhầm Alice với người chị leaning her head on her hand sau khi Alice rời đi. C1 chỉ là chị tưởng tượng bàn tay Alice trên đầu gối; C2 là đầu người chị; C3 là Alice lớn lên tại tòa. Không đoạn nào nêu đầu Alice trong lòng chị lúc tỉnh giấc."
+      },
+      {
+        "citation_id": "981aea30bb4dd21b33a9572d89d7b8c16c2e72305a42de7b9fe040ea28791928",
+        "alias": "C3",
+        "page": 46,
+        "support": false,
+        "evidence_quote": null,
+        "reason": "Nhầm Alice với người chị leaning her head on her hand sau khi Alice rời đi. C1 chỉ là chị tưởng tượng bàn tay Alice trên đầu gối; C2 là đầu người chị; C3 là Alice lớn lên tại tòa. Không đoạn nào nêu đầu Alice trong lòng chị lúc tỉnh giấc."
+      }
+    ],
+    "reason": "Nhầm Alice với người chị leaning her head on her hand sau khi Alice rời đi. C1 chỉ là chị tưởng tượng bàn tay Alice trên đầu gối; C2 là đầu người chị; C3 là Alice lớn lên tại tòa. Không đoạn nào nêu đầu Alice trong lòng chị lúc tỉnh giấc.",
+    "context_grade": 0,
+    "context_reason": "Nhầm Alice với người chị leaning her head on her hand sau khi Alice rời đi. C1 chỉ là chị tưởng tượng bàn tay Alice trên đầu gối; C2 là đầu người chị; C3 là Alice lớn lên tại tòa. Không đoạn nào nêu đầu Alice trong lòng chị lúc tỉnh giấc.",
+    "human_confirmed": false,
+    "answer_grade": 0
+  },
+  {
+    "query_id": "t06",
+    "reviewed_at_utc": "2026-11-16T10:07:33.240323+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Đầu ra cuối chỉ nêu thiếu bằng chứng, không bịa số điện thoại Queen; audit corpus không có dữ kiện điện thoại.",
+    "context_grade": null,
+    "context_reason": "Đầu ra cuối chỉ nêu thiếu bằng chứng, không bịa số điện thoại Queen; audit corpus không có dữ kiện điện thoại.",
+    "human_confirmed": false,
+    "abstention_correct": true
+  },
+  {
+    "query_id": "t07",
+    "reviewed_at_utc": "2026-11-16T10:07:33.240323+00:00",
+    "reviewer": "Codex AI read answer and source excerpts; independent human confirmation pending",
+    "citation_support": [],
+    "citation_reviews": [],
+    "reason": "Từ chối đúng, không suy địa chỉ từ nguồn/trang; các đoạn Mock Turtle về lịch sử và dance không có địa chỉ nhà.",
+    "context_grade": null,
+    "context_reason": "Từ chối đúng, không suy địa chỉ từ nguồn/trang; các đoạn Mock Turtle về lịch sử và dance không có địa chỉ nhà.",
+    "human_confirmed": false,
+    "abstention_correct": true
+  }
+]

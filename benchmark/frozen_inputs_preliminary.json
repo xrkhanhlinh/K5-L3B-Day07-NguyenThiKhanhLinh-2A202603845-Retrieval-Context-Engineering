@@ -1,0 +1,11 @@
+{
+  "frozen_at_utc": "2026-11-16T08:42:41.807279+00:00",
+  "sha256": {
+    "data\\day6\\chunks.json": "a650932289c724856ed1aa5e12bc52acf983fb69d967a9a0895dcda9b9b62957",
+    "data\\day6\\pages.jsonl": "af4ad40583b89b2e40f8b11d5589eef688c1f215ef097a62ac8668c8ef1201a2",
+    "benchmark\\cases.json": "f33bea62b9211ea6784831930c9f16f0b0253fd8870413f193bfcf28318bbb36",
+    "benchmark\\protocol.json": "1195e54c8c1fc2ef485bd52e698b0782b2e898575db6cd4742dea1cfded52bb5"
+  },
+  "day6_chunk_export_sha256": "ef962958d6581023f6c70fdf96e411902781e9aac0899d0655a3140104bc580b",
+  "day6_run_info_sha256": "4c125ae899feacc2cf346b0cc276d20c02a9b5fb2d156d86589b1ea478722be8"
+}

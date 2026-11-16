@@ -1,0 +1,74 @@
+[
+  {
+    "query_id": "d16",
+    "scanned_units": 52,
+    "pattern": "\\b(salary|annual|wages|pounds|pay|paid)\\b",
+    "matches": [
+      {
+        "page": 8,
+        "term": "pounds",
+        "excerpt": "d it’ll sit up and beg for its dinner, and all sorts of things—I can’t remember half of them—and it belongs to a farmer, you know, and he says it’s so useful, it’s worth a hundred pounds! He says it kills all the rats and—oh dear!” cried Alice in a sorrowful tone, “I’m afraid I’ve offended it again!” For the Mouse was swimming away from her as hard as it could go,"
+      }
+    ],
+    "character_scene_units_for_review": [
+      1,
+      5,
+      12,
+      45
+    ],
+    "conclusion": "No requested exact datum found; read matching excerpts and character scenes as well as lexical scan. Not inferred from retrieval top-k.",
+    "reviewer": "Codex AI source review; independent human confirmation pending"
+  },
+  {
+    "query_id": "d17",
+    "scanned_units": 52,
+    "pattern": "\\b(birthday|birth|born|date)\\b",
+    "matches": [
+      {
+        "page": 37,
+        "term": "birthday",
+        "excerpt": "ice.\n\n“Oh, don’t talk about trouble!” said the Duchess. “I make you a present of everything I’ve said as yet.”\n\n“A cheap sort of present!” thought Alice. “I’m glad they don’t give birthday presents like that!” But she did not venture to say it out loud.\n\n“Thinking again?” the Duchess asked, with another dig of her sharp little chin.\n\n“I’ve a right to think,” said Al"
+      }
+    ],
+    "character_scene_units_for_review": [
+      22,
+      25,
+      34
+    ],
+    "conclusion": "No requested exact datum found; read matching excerpts and character scenes as well as lexical scan. Not inferred from retrieval top-k.",
+    "reviewer": "Codex AI source review; independent human confirmation pending"
+  },
+  {
+    "query_id": "t06",
+    "scanned_units": 52,
+    "pattern": "\\b(telephone|phone|dial|contact)\\b",
+    "matches": [],
+    "character_scene_units_for_review": [
+      31,
+      32,
+      38,
+      45,
+      51,
+      52
+    ],
+    "conclusion": "No requested exact datum found; read matching excerpts and character scenes as well as lexical scan. Not inferred from retrieval top-k.",
+    "reviewer": "Codex AI source review; independent human confirmation pending"
+  },
+  {
+    "query_id": "t07",
+    "scanned_units": 52,
+    "pattern": "\\b(address|street|avenue|road|house number)\\b",
+    "matches": [],
+    "character_scene_units_for_review": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "conclusion": "No requested exact datum found; read matching excerpts and character scenes as well as lexical scan. Not inferred from retrieval top-k.",
+    "reviewer": "Codex AI source review; independent human confirmation pending"
+  }
+]

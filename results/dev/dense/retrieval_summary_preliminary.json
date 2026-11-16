@@ -1,0 +1,22 @@
+{
+  "cases": 17,
+  "hit1": {
+    "n": 6,
+    "N": 15,
+    "rate": 0.4
+  },
+  "hit3": {
+    "n": 10,
+    "N": 15,
+    "rate": 0.6666666666666666
+  },
+  "context_evidence_rate": {
+    "n": 10,
+    "N": 15,
+    "rate": 0.6666666666666666
+  },
+  "total_seconds": 0.15975140006048605,
+  "median_ms": 7.417600019834936,
+  "mean_context_chars": 2317.8823529411766,
+  "service_cost_usd": 0
+}

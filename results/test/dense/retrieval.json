@@ -1,0 +1,615 @@
+[
+  {
+    "query_id": "t01",
+    "question": "Who does the Queen order to take Alice to see the Mock Turtle?",
+    "split": "test",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "dba8992e04ca1f6b9997dd659dd368588b5ea3fd15f11bfbd8888e6a2aff2a7d",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 38,
+        "text": "They very soon came upon a Gryphon, lying fast asleep in the sun. (If you don’t know what a Gryphon is, look at the picture.) “Up, lazy thing!” said the Queen, “and take this young lady to see the Mock Turtle, and to hear his history. I must go back and see after some executions I have ordered;” and she walked off, leaving Alice alone with the Gryphon. Alice did not quite like the look of the creature, but on the whole she thought it would be quite as safe to stay with it as to go after that savage Queen: so she waited.\n\nThe Gryphon sat up and rubbed its eyes: then it watched the Queen till she was out of sight: then it chuckled. “What fun!” said the Gryphon, half to itself, half to Alice.\n\n“What _is_ the fun?” said Alice.\n\n“Why, _she_,” said the Gryphon. “It’s all her fancy, that: they never executes nobody, you know. Come on!”",
+        "metadata": {
+          "chapter": "IX",
+          "chapter_title": "The Mock Turtle’s Story",
+          "language": "en",
+          "chapter_start": 5129,
+          "chapter_end": 7806,
+          "start": 1291,
+          "end": 2131,
+          "method": "paragraph"
+        },
+        "score": 0.675860488730072,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "id": "229e52ebfd37e4decd08d1b9ab2e17e0719d9eacf49499e69cb23255cb4f2cf3",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 38,
+        "text": "The other guests had taken advantage of the Queen’s absence, and were resting in the shade: however, the moment they saw her, they hurried back to the game, the Queen merely remarking that a moment’s delay would cost them their lives.\n\nAll the time they were playing the Queen never left off quarrelling with the other players, and shouting “Off with his head!” or “Off with her head!” Those whom she sentenced were taken into custody by the soldiers, who of course had to leave off being arches to do this, so that by the end of half an hour or so there were no arches left, and all the players, except the King, the Queen, and Alice, were in custody and under sentence of execution.\n\nThen the Queen left off, quite out of breath, and said to Alice, “Have you seen the Mock Turtle yet?”\n\n“No,” said Alice. “I don’t even know what a Mock Turtle is.”",
+        "metadata": {
+          "chapter": "IX",
+          "chapter_title": "The Mock Turtle’s Story",
+          "language": "en",
+          "chapter_start": 5129,
+          "chapter_end": 7806,
+          "start": 0,
+          "end": 849,
+          "method": "paragraph"
+        },
+        "score": 0.660902477242605,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "id": "1fbbcfe8f41d8f20dae7729bd55310de210326166477c22aeef3e2ccdea498e3",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 39,
+        "text": "So they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing.\n\n“This here young lady,” said the Gryphon, “she wants for to know your history, she do.”\n\n“I’ll tell it her,” said the Mock Turtle in a deep, hollow tone: “sit down, both of you, and don’t speak a word till I’ve finished.”\n\nSo they sat down, and nobody spoke for some minutes. Alice thought to herself, “I don’t see how he can _ever_ finish, if he doesn’t begin.” But she waited patiently.\n\n“Once,” said the Mock Turtle at last, with a deep sigh, “I was a real Turtle.”",
+        "metadata": {
+          "chapter": "IX",
+          "chapter_title": "The Mock Turtle’s Story",
+          "language": "en",
+          "chapter_start": 7808,
+          "chapter_end": 10395,
+          "start": 0,
+          "end": 573,
+          "method": "paragraph"
+        },
+        "score": 0.641190413029501,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=38 chapter=IX\nThey very soon came upon a Gryphon, lying fast asleep in the sun. (If you don’t know what a Gryphon is, look at the picture.) “Up, lazy thing!” said the Queen, “and take this young lady to see the Mock Turtle, and to hear his history. I must go back and see after some executions I have ordered;” and she walked off, leaving Alice alone with the Gryphon. Alice did not quite like the look of the creature, but on the whole she thought it would be quite as safe to stay with it as to go after that savage Queen: so she waited.\n\nThe Gryphon sat up and rubbed its eyes: then it watched the Queen till she was out of sight: then it chuckled. “What fun!” said the Gryphon, half to itself, half to Alice.\n\n“What _is_ the fun?” said Alice.\n\n“Why, _she_,” said the Gryphon. “It’s all her fancy, that: they never executes nobody, you know. Come on!”\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=38 chapter=IX\nThe other guests had taken advantage of the Queen’s absence, and were resting in the shade: however, the moment they saw her, they hurried back to the game, the Queen merely remarking that a moment’s delay would cost them their lives.\n\nAll the time they were playing the Queen never left off quarrelling with the other players, and shouting “Off with his head!” or “Off with her head!” Those whom she sentenced were taken into custody by the soldiers, who of course had to leave off being arches to do this, so that by the end of half an hour or so there were no arches left, and all the players, except the King, the Queen, and Alice, were in custody and under sentence of execution.\n\nThen the Queen left off, quite out of breath, and said to Alice, “Have you seen the Mock Turtle yet?”\n\n“No,” said Alice. “I don’t even know what a Mock Turtle is.”\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=39 chapter=IX\nSo they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing.\n\n“This here young lady,” said the Gryphon, “she wants for to know your history, she do.”\n\n“I’ll tell it her,” said the Mock Turtle in a deep, hollow tone: “sit down, both of you, and don’t speak a word till I’ve finished.”\n\nSo they sat down, and nobody spoke for some minutes. Alice thought to herself, “I don’t see how he can _ever_ finish, if he doesn’t begin.” But she waited patiently.\n\n“Once,” said the Mock Turtle at last, with a deep sigh, “I was a real Turtle.”",
+    "context_ids": [
+      "dba8992e04ca1f6b9997dd659dd368588b5ea3fd15f11bfbd8888e6a2aff2a7d",
+      "229e52ebfd37e4decd08d1b9ab2e17e0719d9eacf49499e69cb23255cb4f2cf3",
+      "1fbbcfe8f41d8f20dae7729bd55310de210326166477c22aeef3e2ccdea498e3"
+    ],
+    "context_chars": 2467,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_seconds": 0.017987600003834814,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T10:04:21.204047+00:00"
+  },
+  {
+    "query_id": "t02",
+    "question": "In The Lobster Quadrille, how many lines do the dancers form at the start?",
+    "split": "test",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {
+      "chapter": "X"
+    },
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "4d62dbbcce4353fc58aded11fcfd06bbadbc86a17d424c2fe8aecff32f578c9a",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 41,
+        "text": "“Will you walk a little faster?” said a whiting to a snail. “There’s a porpoise close behind us, and he’s treading on my tail. See how eagerly the lobsters and the turtles all advance! They are waiting on the shingle—will you come and join the dance? Will you, won’t you, will you, won’t you, will you join the dance? Will you, won’t you, will you, won’t you, won’t you join the dance?",
+        "metadata": {
+          "chapter": "X",
+          "chapter_title": "The Lobster Quadrille",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2794,
+          "start": 2409,
+          "end": 2794,
+          "method": "paragraph"
+        },
+        "score": 0.47518863841960457,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "id": "7b69fb57735d77e71595a6cde52ae22886047f23eff7ca76616f285e36fff9c7",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 41,
+        "text": "“Two lines!” cried the Mock Turtle. “Seals, turtles, salmon, and so on; then, when you’ve cleared all the jelly-fish out of the way—”\n\n“_That_ generally takes some time,” interrupted the Gryphon.\n\n“—you advance twice—”\n\n“Each with a lobster as a partner!” cried the Gryphon.\n\n“Of course,” the Mock Turtle said: “advance twice, set to partners—”\n\n“—change lobsters, and retire in same order,” continued the Gryphon.\n\n“Then, you know,” the Mock Turtle went on, “you throw the—”\n\n“The lobsters!” shouted the Gryphon, with a bound into the air.\n\n“—as far out to sea as you can—”\n\n“Swim after them!” screamed the Gryphon.\n\n“Turn a somersault in the sea!” cried the Mock Turtle, capering wildly about.\n\n“Change lobsters again!” yelled the Gryphon at the top of its voice.",
+        "metadata": {
+          "chapter": "X",
+          "chapter_title": "The Lobster Quadrille",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2794,
+          "start": 822,
+          "end": 1587,
+          "method": "paragraph"
+        },
+        "score": 0.46678969703171685,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": true
+      },
+      {
+        "id": "a6e6bd0e8d3a9cad351ec279232f2d269b9feed3ae6aca1b02b5c0d96eed9828",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 41,
+        "text": "The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes. He looked at Alice, and tried to speak, but for a minute or two sobs choked his voice. “Same as if he had a bone in his throat,” said the Gryphon: and it set to work shaking him and punching him in the back. At last the Mock Turtle recovered his voice, and, with tears running down his cheeks, he went on again:—\n\n“You may not have lived much under the sea—” (“I haven’t,” said Alice)—“and perhaps you were never even introduced to a lobster—” (Alice began to say “I once tasted—” but checked herself hastily, and said “No, never”) “—so you can have no idea what a delightful thing a Lobster Quadrille is!”\n\n“No, indeed,” said Alice. “What sort of a dance is it?”\n\n“Why,” said the Gryphon, “you first form into a line along the sea-shore—”",
+        "metadata": {
+          "chapter": "X",
+          "chapter_title": "The Lobster Quadrille",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2794,
+          "start": 0,
+          "end": 820,
+          "method": "paragraph"
+        },
+        "score": 0.4556460097649996,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=41 chapter=X\n“Will you walk a little faster?” said a whiting to a snail. “There’s a porpoise close behind us, and he’s treading on my tail. See how eagerly the lobsters and the turtles all advance! They are waiting on the shingle—will you come and join the dance? Will you, won’t you, will you, won’t you, will you join the dance? Will you, won’t you, will you, won’t you, won’t you join the dance?\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=41 chapter=X\n“Two lines!” cried the Mock Turtle. “Seals, turtles, salmon, and so on; then, when you’ve cleared all the jelly-fish out of the way—”\n\n“_That_ generally takes some time,” interrupted the Gryphon.\n\n“—you advance twice—”\n\n“Each with a lobster as a partner!” cried the Gryphon.\n\n“Of course,” the Mock Turtle said: “advance twice, set to partners—”\n\n“—change lobsters, and retire in same order,” continued the Gryphon.\n\n“Then, you know,” the Mock Turtle went on, “you throw the—”\n\n“The lobsters!” shouted the Gryphon, with a bound into the air.\n\n“—as far out to sea as you can—”\n\n“Swim after them!” screamed the Gryphon.\n\n“Turn a somersault in the sea!” cried the Mock Turtle, capering wildly about.\n\n“Change lobsters again!” yelled the Gryphon at the top of its voice.\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=41 chapter=X\nThe Mock Turtle sighed deeply, and drew the back of one flapper across his eyes. He looked at Alice, and tried to speak, but for a minute or two sobs choked his voice. “Same as if he had a bone in his throat,” said the Gryphon: and it set to work shaking him and punching him in the back. At last the Mock Turtle recovered his voice, and, with tears running down his cheeks, he went on again:—\n\n“You may not have lived much under the sea—” (“I haven’t,” said Alice)—“and perhaps you were never even introduced to a lobster—” (Alice began to say “I once tasted—” but checked herself hastily, and said “No, never”) “—so you can have no idea what a delightful thing a Lobster Quadrille is!”\n\n“No, indeed,” said Alice. “What sort of a dance is it?”\n\n“Why,” said the Gryphon, “you first form into a line along the sea-shore—”",
+    "context_ids": [
+      "4d62dbbcce4353fc58aded11fcfd06bbadbc86a17d424c2fe8aecff32f578c9a",
+      "7b69fb57735d77e71595a6cde52ae22886047f23eff7ca76616f285e36fff9c7",
+      "a6e6bd0e8d3a9cad351ec279232f2d269b9feed3ae6aca1b02b5c0d96eed9828"
+    ],
+    "context_chars": 2172,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_seconds": 0.008379699953366071,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T10:04:21.216056+00:00"
+  },
+  {
+    "query_id": "t03",
+    "question": "Why do the jurors write down their names before the trial begins?",
+    "split": "test",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "3010f4c365a0e88c3a019c65289bf06f9a598da4efd9e48873bd82c725e56f20",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 45,
+        "text": "The twelve jurors were all writing very busily on slates. “What are they doing?” Alice whispered to the Gryphon. “They can’t have anything to put down yet, before the trial’s begun.”\n\n“They’re putting down their names,” the Gryphon whispered in reply, “for fear they should forget them before the end of the trial.”\n\n“Stupid things!” Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, “Silence in the court!” and the King put on his spectacles and looked anxiously round, to make out who was talking.\n\nAlice could see, as well as if she were looking over their shoulders, that all the jurors were writing down “stupid things!” on their slates, and she could even make out that one of them didn’t know how to spell “stupid,” and that he had to ask his neighbour to tell him. “A nice muddle their slates’ll be in before the trial’s over!” thought Alice.",
+        "metadata": {
+          "chapter": "XI",
+          "chapter_title": "Who Stole the Tarts?",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2531,
+          "start": 1634,
+          "end": 2531,
+          "method": "paragraph"
+        },
+        "score": 0.5424865520886177,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "id": "b325ac0c7c662cc570c8bf15e900dbe9ded1e73c3a5fd2ad2e0aa892a5e7d098",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 45,
+        "text": "Alice had never been in a court of justice before, but she had read about them in books, and she was quite pleased to find that she knew the name of nearly everything there. “That’s the judge,” she said to herself, “because of his great wig.”\n\nThe judge, by the way, was the King; and as he wore his crown over the wig, (look at the frontispiece if you want to see how he did it,) he did not look at all comfortable, and it was certainly not becoming.\n\n“And that’s the jury-box,” thought Alice, “and those twelve creatures,” (she was obliged to say “creatures,” you see, because some of them were animals, and some were birds,) “I suppose they are the jurors.” She said this last word two or three times over to herself, being rather proud of it: for she thought, and rightly too, that very few little girls of her age knew the meaning of it at all. However, “jury-men” would have done just as well.",
+        "metadata": {
+          "chapter": "XI",
+          "chapter_title": "Who Stole the Tarts?",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2531,
+          "start": 733,
+          "end": 1632,
+          "method": "paragraph"
+        },
+        "score": 0.47360077020730784,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "id": "970f12875f02b05e44fc4a951cdd123ac2095a3b952b8a6991dc11a83b41d879",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 50,
+        "text": "“Who is it directed to?” said one of the jurymen.\n\n“It isn’t directed at all,” said the White Rabbit; “in fact, there’s nothing written on the _outside_.” He unfolded the paper as he spoke, and added “It isn’t a letter, after all: it’s a set of verses.”\n\n“Are they in the prisoner’s handwriting?” asked another of the jurymen.\n\n“No, they’re not,” said the White Rabbit, “and that’s the queerest thing about it.” (The jury all looked puzzled.)\n\n“He must have imitated somebody else’s hand,” said the King. (The jury all brightened up again.)\n\n“Please your Majesty,” said the Knave, “I didn’t write it, and they can’t prove I did: there’s no name signed at the end.”\n\n“If you didn’t sign it,” said the King, “that only makes the matter worse. You _must_ have meant some mischief, or else you’d have signed your name like an honest man.”",
+        "metadata": {
+          "chapter": "XII",
+          "chapter_title": "Alice’s Evidence",
+          "language": "en",
+          "chapter_start": 2699,
+          "chapter_end": 5302,
+          "start": 884,
+          "end": 1718,
+          "method": "paragraph"
+        },
+        "score": 0.46549363437836333,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=45 chapter=XI\nThe twelve jurors were all writing very busily on slates. “What are they doing?” Alice whispered to the Gryphon. “They can’t have anything to put down yet, before the trial’s begun.”\n\n“They’re putting down their names,” the Gryphon whispered in reply, “for fear they should forget them before the end of the trial.”\n\n“Stupid things!” Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, “Silence in the court!” and the King put on his spectacles and looked anxiously round, to make out who was talking.\n\nAlice could see, as well as if she were looking over their shoulders, that all the jurors were writing down “stupid things!” on their slates, and she could even make out that one of them didn’t know how to spell “stupid,” and that he had to ask his neighbour to tell him. “A nice muddle their slates’ll be in before the trial’s over!” thought Alice.\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=45 chapter=XI\nAlice had never been in a court of justice before, but she had read about them in books, and she was quite pleased to find that she knew the name of nearly everything there. “That’s the judge,” she said to herself, “because of his great wig.”\n\nThe judge, by the way, was the King; and as he wore his crown over the wig, (look at the frontispiece if you want to see how he did it,) he did not look at all comfortable, and it was certainly not becoming.\n\n“And that’s the jury-box,” thought Alice, “and those twelve creatures,” (she was obliged to say “creatures,” you see, because some of them were animals, and some were birds,) “I suppose they are the jurors.” She said this last word two or three times over to herself, being rather proud of it: for she thought, and rightly too, that very few little girls of her age knew the meaning of it at all. However, “jury-men” would have done just as well.\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=50 chapter=XII\n“Who is it directed to?” said one of the jurymen.\n\n“It isn’t directed at all,” said the White Rabbit; “in fact, there’s nothing written on the _outside_.” He unfolded the paper as he spoke, and added “It isn’t a letter, after all: it’s a set of verses.”\n\n“Are they in the prisoner’s handwriting?” asked another of the jurymen.\n\n“No, they’re not,” said the White Rabbit, “and that’s the queerest thing about it.” (The jury all looked puzzled.)\n\n“He must have imitated somebody else’s hand,” said the King. (The jury all brightened up again.)\n\n“Please your Majesty,” said the Knave, “I didn’t write it, and they can’t prove I did: there’s no name signed at the end.”\n\n“If you didn’t sign it,” said the King, “that only makes the matter worse. You _must_ have meant some mischief, or else you’d have signed your name like an honest man.”",
+    "context_ids": [
+      "3010f4c365a0e88c3a019c65289bf06f9a598da4efd9e48873bd82c725e56f20",
+      "b325ac0c7c662cc570c8bf15e900dbe9ded1e73c3a5fd2ad2e0aa892a5e7d098",
+      "970f12875f02b05e44fc4a951cdd123ac2095a3b952b8a6991dc11a83b41d879"
+    ],
+    "context_chars": 2836,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_seconds": 0.002024600049480796,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T10:04:21.220266+00:00"
+  },
+  {
+    "query_id": "t04",
+    "question": "In Alice’s Evidence, what height does Rule Forty-two say requires a person to leave the court?",
+    "split": "test",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {
+      "chapter": "XII"
+    },
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "50a66ca235c234c60a888caf2da99c6570b8113c2c10aa60f58fc62de42c98d4",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 50,
+        "text": "Everybody looked at Alice.\n\n“_I’m_ not a mile high,” said Alice.\n\n“You are,” said the King.\n\n“Nearly two miles high,” added the Queen.\n\n“Well, I shan’t go, at any rate,” said Alice: “besides, that’s not a regular rule: you invented it just now.”\n\n“It’s the oldest rule in the book,” said the King.\n\n“Then it ought to be Number One,” said Alice.\n\nThe King turned pale, and shut his note-book hastily. “Consider your verdict,” he said to the jury, in a low, trembling voice.\n\n“There’s more evidence to come yet, please your Majesty,” said the White Rabbit, jumping up in a great hurry; “this paper has just been picked up.”\n\n“What’s in it?” said the Queen.\n\n“I haven’t opened it yet,” said the White Rabbit, “but it seems to be a letter, written by the prisoner to—to somebody.”\n\n“It must have been that,” said the King, “unless it was written to nobody, which isn’t usual, you know.”",
+        "metadata": {
+          "chapter": "XII",
+          "chapter_title": "Alice’s Evidence",
+          "language": "en",
+          "chapter_start": 2699,
+          "chapter_end": 5302,
+          "start": 0,
+          "end": 882,
+          "method": "paragraph"
+        },
+        "score": 0.5294246800121074,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "id": "62e643d5e498c56ff08714229ae986300c4507c7e697f96b7a09661fea807aa3",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 49,
+        "text": "“_Un_important, of course, I meant,” the King hastily said, and went on to himself in an undertone,\n\n“important—unimportant—unimportant—important—” as if he were trying which word sounded best.\n\nSome of the jury wrote it down “important,” and some “unimportant.” Alice could see this, as she was near enough to look over their slates; “but it doesn’t matter a bit,” she thought to herself.\n\nAt this moment the King, who had been for some time busily writing in his note-book, cackled out “Silence!” and read out from his book, “Rule Forty-two. _All persons more than a mile high to leave the court_.”",
+        "metadata": {
+          "chapter": "XII",
+          "chapter_title": "Alice’s Evidence",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2697,
+          "start": 2097,
+          "end": 2697,
+          "method": "paragraph"
+        },
+        "score": 0.5048655749386767,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": true
+      },
+      {
+        "id": "cc5547c9001c75c1561a1d932c56e9abb4e388bf147c50289dc51c642e0971eb",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 49,
+        "text": "“The trial cannot proceed,” said the King in a very grave voice, “until all the jurymen are back in their proper places—_all_,” he repeated with great emphasis, looking hard at Alice as he said so.\n\nAlice looked at the jury-box, and saw that, in her haste, she had put the Lizard in head downwards, and the poor little thing was waving its tail about in a melancholy way, being quite unable to move. She soon got it out again, and put it right; “not that it signifies much,” she said to herself; “I should think it would be _quite_ as much use in the trial one way up as the other.”",
+        "metadata": {
+          "chapter": "XII",
+          "chapter_title": "Alice’s Evidence",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2697,
+          "start": 706,
+          "end": 1288,
+          "method": "paragraph"
+        },
+        "score": 0.4328057284312392,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=50 chapter=XII\nEverybody looked at Alice.\n\n“_I’m_ not a mile high,” said Alice.\n\n“You are,” said the King.\n\n“Nearly two miles high,” added the Queen.\n\n“Well, I shan’t go, at any rate,” said Alice: “besides, that’s not a regular rule: you invented it just now.”\n\n“It’s the oldest rule in the book,” said the King.\n\n“Then it ought to be Number One,” said Alice.\n\nThe King turned pale, and shut his note-book hastily. “Consider your verdict,” he said to the jury, in a low, trembling voice.\n\n“There’s more evidence to come yet, please your Majesty,” said the White Rabbit, jumping up in a great hurry; “this paper has just been picked up.”\n\n“What’s in it?” said the Queen.\n\n“I haven’t opened it yet,” said the White Rabbit, “but it seems to be a letter, written by the prisoner to—to somebody.”\n\n“It must have been that,” said the King, “unless it was written to nobody, which isn’t usual, you know.”\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=49 chapter=XII\n“_Un_important, of course, I meant,” the King hastily said, and went on to himself in an undertone,\n\n“important—unimportant—unimportant—important—” as if he were trying which word sounded best.\n\nSome of the jury wrote it down “important,” and some “unimportant.” Alice could see this, as she was near enough to look over their slates; “but it doesn’t matter a bit,” she thought to herself.\n\nAt this moment the King, who had been for some time busily writing in his note-book, cackled out “Silence!” and read out from his book, “Rule Forty-two. _All persons more than a mile high to leave the court_.”\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=49 chapter=XII\n“The trial cannot proceed,” said the King in a very grave voice, “until all the jurymen are back in their proper places—_all_,” he repeated with great emphasis, looking hard at Alice as he said so.\n\nAlice looked at the jury-box, and saw that, in her haste, she had put the Lizard in head downwards, and the poor little thing was waving its tail about in a melancholy way, being quite unable to move. She soon got it out again, and put it right; “not that it signifies much,” she said to herself; “I should think it would be _quite_ as much use in the trial one way up as the other.”",
+    "context_ids": [
+      "50a66ca235c234c60a888caf2da99c6570b8113c2c10aa60f58fc62de42c98d4",
+      "62e643d5e498c56ff08714229ae986300c4507c7e697f96b7a09661fea807aa3",
+      "cc5547c9001c75c1561a1d932c56e9abb4e388bf147c50289dc51c642e0971eb"
+    ],
+    "context_chars": 2272,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_seconds": 0.010582700022496283,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T10:04:21.234661+00:00"
+  },
+  {
+    "query_id": "t05",
+    "question": "Where is Alice's head resting when she wakes from the dream?",
+    "split": "test",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "afa5f8d535b39312e8afaf9ddf7e049e2186093f24455fef201b00a4a8772b9b",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 52,
+        "text": "First, she dreamed of little Alice herself, and once again the tiny hands were clasped upon her knee, and the bright eager eyes were looking up into hers—she could hear the very tones of her voice, and see that queer little toss of her head to keep back the wandering hair that _would_ always get into her eyes—and still as she listened, or seemed to listen, the whole place around her became alive with the strange creatures of her little sister’s dream.",
+        "metadata": {
+          "chapter": "XII",
+          "chapter_title": "Alice’s Evidence",
+          "language": "en",
+          "chapter_start": 7824,
+          "chapter_end": 11572,
+          "start": 1462,
+          "end": 1917,
+          "method": "paragraph"
+        },
+        "score": 0.6473726269692635,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "id": "1eff9f55b536da8de999383be838bce06bcd301326a1601fe3a978e26708c0ef",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 52,
+        "text": "“Oh, I’ve had such a curious dream!” said Alice, and she told her sister, as well as she could remember them, all these strange Adventures of hers that you have just been reading about; and when she had finished, her sister kissed her, and said, “It _was_ a curious dream, dear, certainly: but now run in to your tea; it’s getting late.” So Alice got up and ran off, thinking while she ran, as well she might, what a wonderful dream it had been.\n\nBut her sister sat still just as she left her, leaning her head on her hand, watching the setting sun, and thinking of little Alice and all her wonderful Adventures, till she too began dreaming after a fashion, and this was her dream:—",
+        "metadata": {
+          "chapter": "XII",
+          "chapter_title": "Alice’s Evidence",
+          "language": "en",
+          "chapter_start": 7824,
+          "chapter_end": 11572,
+          "start": 778,
+          "end": 1460,
+          "method": "paragraph"
+        },
+        "score": 0.6343611275183183,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "id": "981aea30bb4dd21b33a9572d89d7b8c16c2e72305a42de7b9fe040ea28791928",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 46,
+        "text": "Just at this moment Alice felt a very curious sensation, which puzzled her a good deal until she made out what it was: she was beginning to grow larger again, and she thought at first she would get up and leave the court; but on second thoughts she decided to remain where she was as long as there was room for her.",
+        "metadata": {
+          "chapter": "XI",
+          "chapter_title": "Who Stole the Tarts?",
+          "language": "en",
+          "chapter_start": 2533,
+          "chapter_end": 5334,
+          "start": 2486,
+          "end": 2801,
+          "method": "paragraph"
+        },
+        "score": 0.5241339880155832,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=52 chapter=XII\nFirst, she dreamed of little Alice herself, and once again the tiny hands were clasped upon her knee, and the bright eager eyes were looking up into hers—she could hear the very tones of her voice, and see that queer little toss of her head to keep back the wandering hair that _would_ always get into her eyes—and still as she listened, or seemed to listen, the whole place around her became alive with the strange creatures of her little sister’s dream.\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=52 chapter=XII\n“Oh, I’ve had such a curious dream!” said Alice, and she told her sister, as well as she could remember them, all these strange Adventures of hers that you have just been reading about; and when she had finished, her sister kissed her, and said, “It _was_ a curious dream, dear, certainly: but now run in to your tea; it’s getting late.” So Alice got up and ran off, thinking while she ran, as well she might, what a wonderful dream it had been.\n\nBut her sister sat still just as she left her, leaning her head on her hand, watching the setting sun, and thinking of little Alice and all her wonderful Adventures, till she too began dreaming after a fashion, and this was her dream:—\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=46 chapter=XI\nJust at this moment Alice felt a very curious sensation, which puzzled her a good deal until she made out what it was: she was beginning to grow larger again, and she thought at first she would get up and leave the court; but on second thoughts she decided to remain where she was as long as there was room for her.",
+    "context_ids": [
+      "afa5f8d535b39312e8afaf9ddf7e049e2186093f24455fef201b00a4a8772b9b",
+      "1eff9f55b536da8de999383be838bce06bcd301326a1601fe3a978e26708c0ef",
+      "981aea30bb4dd21b33a9572d89d7b8c16c2e72305a42de7b9fe040ea28791928"
+    ],
+    "context_chars": 1659,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_seconds": 0.001954000035766512,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T10:04:21.239508+00:00"
+  },
+  {
+    "query_id": "t06",
+    "question": "What is the Queen of Hearts' personal telephone number?",
+    "split": "test",
+    "config": "dense",
+    "answerable": false,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "9f11d3eb99892a1655474b39f2c20b81743445c458c8c68bc8dd21ec43acdaab",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 31,
+        "text": "First came ten soldiers carrying clubs; these were all shaped like the three gardeners, oblong and flat, with their hands and feet at the corners: next the ten courtiers; these were ornamented all over with diamonds, and walked two and two, as the soldiers did. After these came the royal children; there were ten of them, and the little dears came jumping merrily along hand in hand, in couples: they were all ornamented with hearts. Next came the guests, mostly Kings and Queens, and among them Alice recognised the White Rabbit: it was talking in a hurried nervous manner, smiling at everything that was said, and went by without noticing her. Then followed the Knave of Hearts, carrying the King’s crown on a crimson velvet cushion; and, last of all this grand procession, came THE KING AND QUEEN OF HEARTS.",
+        "metadata": {
+          "chapter": "VIII",
+          "chapter_title": "The Queen’s Croquet-Ground",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2599,
+          "start": 1788,
+          "end": 2599,
+          "method": "paragraph"
+        },
+        "score": 0.4079694448895113,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": null
+      },
+      {
+        "id": "bc315b744b512fc0243956a740badba511d5cf7dc65cd53415372fe8ef01adfb",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 45,
+        "text": "The King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards: the Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other. In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—“I wish they’d get the trial done,” she thought, “and hand round the refreshments!” But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time.",
+        "metadata": {
+          "chapter": "XI",
+          "chapter_title": "Who Stole the Tarts?",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2531,
+          "start": 0,
+          "end": 731,
+          "method": "paragraph"
+        },
+        "score": 0.38640459112059533,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": null
+      },
+      {
+        "id": "74face5823f16ff8817f9dcaaff3c97d928fa61d1ec8bf1d3c205b8a06485964",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 32,
+        "text": "“And who are _these?_” said the Queen, pointing to the three gardeners who were lying round the rose-tree; for, you see, as they were lying on their faces, and the pattern on their backs was the same as the rest of the pack, she could not tell whether they were gardeners, or soldiers, or courtiers, or three of her own children.\n\n“How should _I_ know?” said Alice, surprised at her own courage. “It’s no business of _mine_.”\n\nThe Queen turned crimson with fury, and, after glaring at her for a moment like a wild beast, screamed “Off with her head! Off—”\n\n“Nonsense!” said Alice, very loudly and decidedly, and the Queen was silent.\n\nThe King laid his hand upon her arm, and timidly said “Consider, my dear: she is only a child!”\n\nThe Queen turned angrily away from him, and said to the Knave “Turn them over!”\n\nThe Knave did so, very carefully, with one foot.",
+        "metadata": {
+          "chapter": "VIII",
+          "chapter_title": "The Queen’s Croquet-Ground",
+          "language": "en",
+          "chapter_start": 2601,
+          "chapter_end": 5212,
+          "start": 858,
+          "end": 1719,
+          "method": "paragraph"
+        },
+        "score": 0.33722108779737403,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": null
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=31 chapter=VIII\nFirst came ten soldiers carrying clubs; these were all shaped like the three gardeners, oblong and flat, with their hands and feet at the corners: next the ten courtiers; these were ornamented all over with diamonds, and walked two and two, as the soldiers did. After these came the royal children; there were ten of them, and the little dears came jumping merrily along hand in hand, in couples: they were all ornamented with hearts. Next came the guests, mostly Kings and Queens, and among them Alice recognised the White Rabbit: it was talking in a hurried nervous manner, smiling at everything that was said, and went by without noticing her. Then followed the Knave of Hearts, carrying the King’s crown on a crimson velvet cushion; and, last of all this grand procession, came THE KING AND QUEEN OF HEARTS.\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=45 chapter=XI\nThe King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards: the Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other. In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—“I wish they’d get the trial done,” she thought, “and hand round the refreshments!” But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time.\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=32 chapter=VIII\n“And who are _these?_” said the Queen, pointing to the three gardeners who were lying round the rose-tree; for, you see, as they were lying on their faces, and the pattern on their backs was the same as the rest of the pack, she could not tell whether they were gardeners, or soldiers, or courtiers, or three of her own children.\n\n“How should _I_ know?” said Alice, surprised at her own courage. “It’s no business of _mine_.”\n\nThe Queen turned crimson with fury, and, after glaring at her for a moment like a wild beast, screamed “Off with her head! Off—”\n\n“Nonsense!” said Alice, very loudly and decidedly, and the Queen was silent.\n\nThe King laid his hand upon her arm, and timidly said “Consider, my dear: she is only a child!”\n\nThe Queen turned angrily away from him, and said to the Knave “Turn them over!”\n\nThe Knave did so, very carefully, with one foot.",
+    "context_ids": [
+      "9f11d3eb99892a1655474b39f2c20b81743445c458c8c68bc8dd21ec43acdaab",
+      "bc315b744b512fc0243956a740badba511d5cf7dc65cd53415372fe8ef01adfb",
+      "74face5823f16ff8817f9dcaaff3c97d928fa61d1ec8bf1d3c205b8a06485964"
+    ],
+    "context_chars": 2612,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null,
+    "elapsed_seconds": 0.002265700022689998,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T10:04:21.245967+00:00"
+  },
+  {
+    "query_id": "t07",
+    "question": "What is the Mock Turtle's exact home street address and house number?",
+    "split": "test",
+    "config": "dense",
+    "answerable": false,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "339008ca49c490ac00fbd490653d460396a481fb328955de22b9710d84327293",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 42,
+        "text": "“Thank you, it’s a very interesting dance to watch,” said Alice, feeling very glad that it was over at last: “and I do so like that curious song about the whiting!”\n\n“Oh, as to the whiting,” said the Mock Turtle, “they—you’ve seen them, of course?”\n\n“Yes,” said Alice, “I’ve often seen them at dinn—” she checked herself hastily.\n\n“I don’t know where Dinn may be,” said the Mock Turtle, “but if you’ve seen them so often, of course you know what they’re like.”\n\n“I believe so,” Alice replied thoughtfully. “They have their tails in their mouths—and they’re all over crumbs.”\n\n“You’re wrong about the crumbs,” said the Mock Turtle: “crumbs would all wash off in the sea. But they _have_ their tails in their mouths; and the reason is—” here the Mock Turtle yawned and shut his eyes.—“Tell her about the reason and all that,” he said to the Gryphon.",
+        "metadata": {
+          "chapter": "X",
+          "chapter_title": "The Lobster Quadrille",
+          "language": "en",
+          "chapter_start": 2796,
+          "chapter_end": 5403,
+          "start": 771,
+          "end": 1618,
+          "method": "paragraph"
+        },
+        "score": 0.47449509927101874,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": null
+      },
+      {
+        "id": "1fbbcfe8f41d8f20dae7729bd55310de210326166477c22aeef3e2ccdea498e3",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 39,
+        "text": "So they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing.\n\n“This here young lady,” said the Gryphon, “she wants for to know your history, she do.”\n\n“I’ll tell it her,” said the Mock Turtle in a deep, hollow tone: “sit down, both of you, and don’t speak a word till I’ve finished.”\n\nSo they sat down, and nobody spoke for some minutes. Alice thought to herself, “I don’t see how he can _ever_ finish, if he doesn’t begin.” But she waited patiently.\n\n“Once,” said the Mock Turtle at last, with a deep sigh, “I was a real Turtle.”",
+        "metadata": {
+          "chapter": "IX",
+          "chapter_title": "The Mock Turtle’s Story",
+          "language": "en",
+          "chapter_start": 7808,
+          "chapter_end": 10395,
+          "start": 0,
+          "end": 573,
+          "method": "paragraph"
+        },
+        "score": 0.4564789090422101,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": null
+      },
+      {
+        "id": "8575508101b8367de4823fad6262b0114ddeb2096c150135230322419e75a213",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 41,
+        "text": "“Back to land again, and that’s all the first figure,” said the Mock Turtle, suddenly dropping his voice; and the two creatures, who had been jumping about like mad things all this time, sat down again very sadly and quietly, and looked at Alice.\n\n“It must be a very pretty dance,” said Alice timidly.\n\n“Would you like to see a little of it?” said the Mock Turtle.\n\n“Very much indeed,” said Alice.\n\n“Come, let’s try the first figure!” said the Mock Turtle to the Gryphon. “We can do without lobsters, you know. Which shall sing?”\n\n“Oh, _you_ sing,” said the Gryphon. “I’ve forgotten the words.”\n\nSo they began solemnly dancing round and round Alice, every now and then treading on her toes when they passed too close, and waving their forepaws to mark the time, while the Mock Turtle sang this, very slowly and sadly:—",
+        "metadata": {
+          "chapter": "X",
+          "chapter_title": "The Lobster Quadrille",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2794,
+          "start": 1589,
+          "end": 2407,
+          "method": "paragraph"
+        },
+        "score": 0.4408997915562428,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": null
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=42 chapter=X\n“Thank you, it’s a very interesting dance to watch,” said Alice, feeling very glad that it was over at last: “and I do so like that curious song about the whiting!”\n\n“Oh, as to the whiting,” said the Mock Turtle, “they—you’ve seen them, of course?”\n\n“Yes,” said Alice, “I’ve often seen them at dinn—” she checked herself hastily.\n\n“I don’t know where Dinn may be,” said the Mock Turtle, “but if you’ve seen them so often, of course you know what they’re like.”\n\n“I believe so,” Alice replied thoughtfully. “They have their tails in their mouths—and they’re all over crumbs.”\n\n“You’re wrong about the crumbs,” said the Mock Turtle: “crumbs would all wash off in the sea. But they _have_ their tails in their mouths; and the reason is—” here the Mock Turtle yawned and shut his eyes.—“Tell her about the reason and all that,” he said to the Gryphon.\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=39 chapter=IX\nSo they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing.\n\n“This here young lady,” said the Gryphon, “she wants for to know your history, she do.”\n\n“I’ll tell it her,” said the Mock Turtle in a deep, hollow tone: “sit down, both of you, and don’t speak a word till I’ve finished.”\n\nSo they sat down, and nobody spoke for some minutes. Alice thought to herself, “I don’t see how he can _ever_ finish, if he doesn’t begin.” But she waited patiently.\n\n“Once,” said the Mock Turtle at last, with a deep sigh, “I was a real Turtle.”\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=41 chapter=X\n“Back to land again, and that’s all the first figure,” said the Mock Turtle, suddenly dropping his voice; and the two creatures, who had been jumping about like mad things all this time, sat down again very sadly and quietly, and looked at Alice.\n\n“It must be a very pretty dance,” said Alice timidly.\n\n“Would you like to see a little of it?” said the Mock Turtle.\n\n“Very much indeed,” said Alice.\n\n“Come, let’s try the first figure!” said the Mock Turtle to the Gryphon. “We can do without lobsters, you know. Which shall sing?”\n\n“Oh, _you_ sing,” said the Gryphon. “I’ve forgotten the words.”\n\nSo they began solemnly dancing round and round Alice, every now and then treading on her toes when they passed too close, and waving their forepaws to mark the time, while the Mock Turtle sang this, very slowly and sadly:—",
+    "context_ids": [
+      "339008ca49c490ac00fbd490653d460396a481fb328955de22b9710d84327293",
+      "1fbbcfe8f41d8f20dae7729bd55310de210326166477c22aeef3e2ccdea498e3",
+      "8575508101b8367de4823fad6262b0114ddeb2096c150135230322419e75a213"
+    ],
+    "context_chars": 2441,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null,
+    "elapsed_seconds": 0.0018792999908328056,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T10:04:21.253506+00:00"
+  }
+]

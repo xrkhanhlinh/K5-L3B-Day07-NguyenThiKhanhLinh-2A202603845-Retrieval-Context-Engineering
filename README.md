@@ -1,5 +1,16 @@
 # Day 7 — Agentic RAG
 
+## Bài nộp Nguyễn Thị Khánh Linh — 2A202603845
+
+- [Báo cáo cá nhân và hướng dẫn cài đặt/chạy](report/individual/2A202603845_NguyenThiKhanhLinh.md)
+- [Code agent và retrieval](src/README.md)
+- [Benchmark và cấu hình](benchmark/protocol.json), [kết quả kiểm tra](results/verification.json)
+
+Kiểm thử code: `python -B -m unittest discover -s tests -v`.
+Kiểm tra kết quả đã lưu: `python -B scripts/check_submission.py`.
+
+## Đề bài
+
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.

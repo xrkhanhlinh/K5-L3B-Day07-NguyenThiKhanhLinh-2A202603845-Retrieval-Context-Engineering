@@ -1,0 +1,1487 @@
+[
+  {
+    "query_id": "d01",
+    "question": "What was in the jar labelled ORANGE MARMALADE?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "1e6450ea12de170c41b9bd329ee5eeb41b0dc71bbc2c275f5433e41fb4b86c73",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 1,
+        "text": "Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next. First, she tried to look down and make out what she was coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs. She took down a jar from one of the shelves as she passed; it was labelled “ORANGE MARMALADE”, but to her great disappointment it was empty: she did not like to drop the jar for fear of killing somebody underneath, so managed to put it into one of the cupboards as she fell past it.",
+        "metadata": {
+          "chapter": "I",
+          "chapter_title": "Down the Rabbit-Hole",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2644,
+          "start": 1668,
+          "end": 2383,
+          "method": "paragraph"
+        },
+        "score": 0.5544661530832796,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "id": "fe8fdb9ccc8707ce4d720aa056af3ec6fb1cc27dc596a11b61de271ec3b90dff",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 4,
+        "text": "However, this bottle was _not_ marked “poison,” so Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off.\n\n* * * * * * *\n\n* * * * * *\n\n* * * * * * *\n\n“What a curious feeling!” said Alice; “I must be shutting up like a telescope.”",
+        "metadata": {
+          "chapter": "I",
+          "chapter_title": "Down the Rabbit-Hole",
+          "language": "en",
+          "chapter_start": 8241,
+          "chapter_end": 11338,
+          "start": 0,
+          "end": 385,
+          "method": "paragraph"
+        },
+        "score": 0.3769014849230804,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "id": "b97989f4eb53348175f1e0c2b3b01eeca128d2c3983e90415ca2c0ba10258b26",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 36,
+        "text": "“You can’t think how glad I am to see you again, you dear old thing!” said the Duchess, as she tucked her arm affectionately into Alice’s, and they walked off together.\n\nAlice was very glad to find her in such a pleasant temper, and thought to herself that perhaps it was only the pepper that had made her so savage when they met in the kitchen.\n\n“When _I’m_ a Duchess,” she said to herself, (not in a very hopeful tone though), “I won’t have any pepper in my kitchen _at all_. Soup does very well without—Maybe it’s always pepper that makes people hot-tempered,” she went on, very much pleased at having found out a new kind of rule, “and vinegar that makes them sour—and camomile that makes them bitter—and—and barley-sugar and such things that make children sweet-tempered. I only wish people knew _that_: then they wouldn’t be so stingy about it, you know—”",
+        "metadata": {
+          "chapter": "IX",
+          "chapter_title": "The Mock Turtle’s Story",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2572,
+          "start": 0,
+          "end": 861,
+          "method": "paragraph"
+        },
+        "score": 0.30477784302441113,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=1 chapter=I\nEither the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next. First, she tried to look down and make out what she was coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs. She took down a jar from one of the shelves as she passed; it was labelled “ORANGE MARMALADE”, but to her great disappointment it was empty: she did not like to drop the jar for fear of killing somebody underneath, so managed to put it into one of the cupboards as she fell past it.\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=4 chapter=I\nHowever, this bottle was _not_ marked “poison,” so Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off.\n\n* * * * * * *\n\n* * * * * *\n\n* * * * * * *\n\n“What a curious feeling!” said Alice; “I must be shutting up like a telescope.”\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=36 chapter=IX\n“You can’t think how glad I am to see you again, you dear old thing!” said the Duchess, as she tucked her arm affectionately into Alice’s, and they walked off together.\n\nAlice was very glad to find her in such a pleasant temper, and thought to herself that perhaps it was only the pepper that had made her so savage when they met in the kitchen.\n\n“When _I’m_ a Duchess,” she said to herself, (not in a very hopeful tone though), “I won’t have any pepper in my kitchen _at all_. Soup does very well without—Maybe it’s always pepper that makes people hot-tempered,” she went on, very much pleased at having found out a new kind of rule, “and vinegar that makes them sour—and camomile that makes them bitter—and—and barley-sugar and such things that make children sweet-tempered. I only wish people knew _that_: then they wouldn’t be so stingy about it, you know—”",
+    "context_ids": [
+      "1e6450ea12de170c41b9bd329ee5eeb41b0dc71bbc2c275f5433e41fb4b86c73",
+      "fe8fdb9ccc8707ce4d720aa056af3ec6fb1cc27dc596a11b61de271ec3b90dff",
+      "b97989f4eb53348175f1e0c2b3b01eeca128d2c3983e90415ca2c0ba10258b26"
+    ],
+    "context_chars": 2162,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_seconds": 0.023818599991500378,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.023538+00:00"
+  },
+  {
+    "query_id": "d02",
+    "question": "What safety label did Alice check before drinking from the little bottle?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "56ac138b8243e59adc0769e0c2a340cf33484615445da7fe145bf36a310be11c",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 3,
+        "text": "It was all very well to say “Drink me,” but the wise little Alice was not going to do _that_ in a hurry. “No, I’ll look first,” she said, “and see whether it’s marked ‘_poison_’ or not”; for she had read several nice little histories about children who had got burnt, and eaten up by wild beasts and other unpleasant things, all because they _would_ not remember the simple rules their friends had taught them: such as, that a red-hot poker will burn you if you hold it too long; and that if you cut your finger _very_ deeply with a knife, it usually bleeds; and she had never forgotten that, if you drink much from a bottle marked “poison,” it is almost certain to disagree with you, sooner or later.",
+        "metadata": {
+          "chapter": "I",
+          "chapter_title": "Down the Rabbit-Hole",
+          "language": "en",
+          "chapter_start": 5602,
+          "chapter_end": 8239,
+          "start": 1936,
+          "end": 2637,
+          "method": "paragraph"
+        },
+        "score": 0.6774708597964291,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "id": "fe8fdb9ccc8707ce4d720aa056af3ec6fb1cc27dc596a11b61de271ec3b90dff",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 4,
+        "text": "However, this bottle was _not_ marked “poison,” so Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off.\n\n* * * * * * *\n\n* * * * * *\n\n* * * * * * *\n\n“What a curious feeling!” said Alice; “I must be shutting up like a telescope.”",
+        "metadata": {
+          "chapter": "I",
+          "chapter_title": "Down the Rabbit-Hole",
+          "language": "en",
+          "chapter_start": 8241,
+          "chapter_end": 11338,
+          "start": 0,
+          "end": 385,
+          "method": "paragraph"
+        },
+        "score": 0.6695727731845292,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "id": "25e095b545892d8af911cfd0951da2751472cd76ba8c1e3da0b9d9917c690360",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 3,
+        "text": "There seemed to be no use in waiting by the little door, so she went back to the table, half hoping she might find another key on it, or at any rate a book of rules for shutting people up like telescopes: this time she found a little bottle on it, (“which certainly was not here before,” said Alice,) and round the neck of the bottle was a paper label, with the words “DRINK ME,” beautifully printed on it in large letters.",
+        "metadata": {
+          "chapter": "I",
+          "chapter_title": "Down the Rabbit-Hole",
+          "language": "en",
+          "chapter_start": 5602,
+          "chapter_end": 8239,
+          "start": 1511,
+          "end": 1934,
+          "method": "paragraph"
+        },
+        "score": 0.6416180771580245,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=3 chapter=I\nIt was all very well to say “Drink me,” but the wise little Alice was not going to do _that_ in a hurry. “No, I’ll look first,” she said, “and see whether it’s marked ‘_poison_’ or not”; for she had read several nice little histories about children who had got burnt, and eaten up by wild beasts and other unpleasant things, all because they _would_ not remember the simple rules their friends had taught them: such as, that a red-hot poker will burn you if you hold it too long; and that if you cut your finger _very_ deeply with a knife, it usually bleeds; and she had never forgotten that, if you drink much from a bottle marked “poison,” it is almost certain to disagree with you, sooner or later.\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=4 chapter=I\nHowever, this bottle was _not_ marked “poison,” so Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off.\n\n* * * * * * *\n\n* * * * * *\n\n* * * * * * *\n\n“What a curious feeling!” said Alice; “I must be shutting up like a telescope.”\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=3 chapter=I\nThere seemed to be no use in waiting by the little door, so she went back to the table, half hoping she might find another key on it, or at any rate a book of rules for shutting people up like telescopes: this time she found a little bottle on it, (“which certainly was not here before,” said Alice,) and round the neck of the bottle was a paper label, with the words “DRINK ME,” beautifully printed on it in large letters.",
+    "context_ids": [
+      "56ac138b8243e59adc0769e0c2a340cf33484615445da7fe145bf36a310be11c",
+      "fe8fdb9ccc8707ce4d720aa056af3ec6fb1cc27dc596a11b61de271ec3b90dff",
+      "25e095b545892d8af911cfd0951da2751472cd76ba8c1e3da0b9d9917c690360"
+    ],
+    "context_chars": 1708,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_seconds": 0.006152399990241975,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.032536+00:00"
+  },
+  {
+    "query_id": "d03",
+    "question": "In Down the Rabbit-Hole, who is Dinah?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {
+      "chapter": "I"
+    },
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "4c047afa13b9959ab5eb0d39fa63cd6b18b573d44903cc7183dc9d7261391e0d",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 1,
+        "text": "The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well.",
+        "metadata": {
+          "chapter": "I",
+          "chapter_title": "Down the Rabbit-Hole",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2644,
+          "start": 1447,
+          "end": 1666,
+          "method": "paragraph"
+        },
+        "score": 0.4989144559010376,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "id": "0046262c53fdaf0110013aa77ee8096af1ae82d48d48299fe62d3da9637ac0cd",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 2,
+        "text": "Down, down, down. There was nothing else to do, so Alice soon began talking again. “Dinah’ll miss me very much to-night, I should think!” (Dinah was the cat.) “I hope they’ll remember her saucer of milk at tea-time. Dinah my dear! I wish you were down here with me! There are no mice in the air, I’m afraid, but you might catch a bat, and that’s very like a mouse, you know. But do cats eat bats, I wonder?” And here Alice began to get rather sleepy, and went on saying to herself, in a dreamy sort of way, “Do cats eat bats? Do cats eat bats?” and sometimes, “Do bats eat cats?” for, you see, as she couldn’t answer either question, it didn’t much matter which way she put it. She felt that she was dozing off, and had just begun to dream that she was walking hand in hand with Dinah, and saying to her very earnestly, “Now, Dinah, tell me the truth: did you ever eat a bat?” when suddenly, thump!",
+        "metadata": {
+          "chapter": "I",
+          "chapter_title": "Down the Rabbit-Hole",
+          "language": "en",
+          "chapter_start": 2646,
+          "chapter_end": 5600,
+          "start": 1394,
+          "end": 2292,
+          "method": "paragraph"
+        },
+        "score": 0.4474280663061028,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": true
+      },
+      {
+        "id": "354068a073245b85e66bbd803ae696963f4de4a8ce16c503729bbbff39b9bdfc",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 2,
+        "text": "thump! down she came upon a heap of sticks and dry leaves, and the fall was over.\n\nAlice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead; before her was another long passage, and the White Rabbit was still in sight, hurrying down it. There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner, “Oh my ears and whiskers, how late it’s getting!” She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof.",
+        "metadata": {
+          "chapter": "I",
+          "chapter_title": "Down the Rabbit-Hole",
+          "language": "en",
+          "chapter_start": 2646,
+          "chapter_end": 5600,
+          "start": 2293,
+          "end": 2954,
+          "method": "paragraph"
+        },
+        "score": 0.4285133481925546,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=1 chapter=I\nThe rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well.\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=2 chapter=I\nDown, down, down. There was nothing else to do, so Alice soon began talking again. “Dinah’ll miss me very much to-night, I should think!” (Dinah was the cat.) “I hope they’ll remember her saucer of milk at tea-time. Dinah my dear! I wish you were down here with me! There are no mice in the air, I’m afraid, but you might catch a bat, and that’s very like a mouse, you know. But do cats eat bats, I wonder?” And here Alice began to get rather sleepy, and went on saying to herself, in a dreamy sort of way, “Do cats eat bats? Do cats eat bats?” and sometimes, “Do bats eat cats?” for, you see, as she couldn’t answer either question, it didn’t much matter which way she put it. She felt that she was dozing off, and had just begun to dream that she was walking hand in hand with Dinah, and saying to her very earnestly, “Now, Dinah, tell me the truth: did you ever eat a bat?” when suddenly, thump!\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=2 chapter=I\nthump! down she came upon a heap of sticks and dry leaves, and the fall was over.\n\nAlice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead; before her was another long passage, and the White Rabbit was still in sight, hurrying down it. There was not a moment to be lost: away went Alice like the wind, and was just in time to hear it say, as it turned a corner, “Oh my ears and whiskers, how late it’s getting!” She was close behind it when she turned the corner, but the Rabbit was no longer to be seen: she found herself in a long, low hall, which was lit up by a row of lamps hanging from the roof.",
+    "context_ids": [
+      "4c047afa13b9959ab5eb0d39fa63cd6b18b573d44903cc7183dc9d7261391e0d",
+      "0046262c53fdaf0110013aa77ee8096af1ae82d48d48299fe62d3da9637ac0cd",
+      "354068a073245b85e66bbd803ae696963f4de4a8ce16c503729bbbff39b9bdfc"
+    ],
+    "context_chars": 1977,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_seconds": 0.009886300016660243,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.043598+00:00"
+  },
+  {
+    "query_id": "d04",
+    "question": "What did Alice use that caused her to shrink again in the pool-of-tears episode?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "746ab67848095972d3e507bafb6b5846cf9836baa08a5b70640eaad4a6af47ec",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 5,
+        "text": "“You ought to be ashamed of yourself,” said Alice, “a great girl like you,” (she might well say this), “to go on crying in this way! Stop this moment, I tell you!” But she went on all the same, shedding gallons of tears, until there was a large pool all round her, about four inches deep and reaching half down the hall.",
+        "metadata": {
+          "chapter": "II",
+          "chapter_title": "The Pool of Tears",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 3059,
+          "start": 1419,
+          "end": 1739,
+          "method": "paragraph"
+        },
+        "score": 0.6870541568562467,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "id": "3fd061e983a5ab2059d907bb54e753bf4ecda958ae346ea56da7c54012879cfd",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 7,
+        "text": "As she said these words her foot slipped, and in another moment, splash! she was up to her chin in salt water. Her first idea was that she had somehow fallen into the sea, “and in that case I can go back by railway,” she said to herself. (Alice had been to the seaside once in her life, and had come to the general conclusion, that wherever you go to on the English coast you find a number of bathing machines in the sea, some children digging in the sand with wooden spades, then a row of lodging houses, and behind them a railway station.) However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high.",
+        "metadata": {
+          "chapter": "II",
+          "chapter_title": "The Pool of Tears",
+          "language": "en",
+          "chapter_start": 6020,
+          "chapter_end": 8550,
+          "start": 0,
+          "end": 650,
+          "method": "paragraph"
+        },
+        "score": 0.6429183022241811,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "id": "2ec63e36f47d89f9f6f999b929fab67c2081ff3e7684464fa9058a03071eb176",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 4,
+        "text": "“Come, there’s no use in crying like that!” said Alice to herself, rather sharply; “I advise you to leave off this minute!” She generally gave herself very good advice, (though she very seldom followed it), and sometimes she scolded herself so severely as to bring tears into her eyes; and once she remembered trying to box her own ears for having cheated herself in a game of croquet she was playing against herself, for this curious child was very fond of pretending to be two people. “But it’s no use now,” thought poor Alice, “to pretend to be two people! Why, there’s hardly enough of me left to make _one_ respectable person!”",
+        "metadata": {
+          "chapter": "I",
+          "chapter_title": "Down the Rabbit-Hole",
+          "language": "en",
+          "chapter_start": 8241,
+          "chapter_end": 11338,
+          "start": 1507,
+          "end": 2139,
+          "method": "paragraph"
+        },
+        "score": 0.6015241680105664,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=5 chapter=II\n“You ought to be ashamed of yourself,” said Alice, “a great girl like you,” (she might well say this), “to go on crying in this way! Stop this moment, I tell you!” But she went on all the same, shedding gallons of tears, until there was a large pool all round her, about four inches deep and reaching half down the hall.\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=7 chapter=II\nAs she said these words her foot slipped, and in another moment, splash! she was up to her chin in salt water. Her first idea was that she had somehow fallen into the sea, “and in that case I can go back by railway,” she said to herself. (Alice had been to the seaside once in her life, and had come to the general conclusion, that wherever you go to on the English coast you find a number of bathing machines in the sea, some children digging in the sand with wooden spades, then a row of lodging houses, and behind them a railway station.) However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high.\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=4 chapter=I\n“Come, there’s no use in crying like that!” said Alice to herself, rather sharply; “I advise you to leave off this minute!” She generally gave herself very good advice, (though she very seldom followed it), and sometimes she scolded herself so severely as to bring tears into her eyes; and once she remembered trying to box her own ears for having cheated herself in a game of croquet she was playing against herself, for this curious child was very fond of pretending to be two people. “But it’s no use now,” thought poor Alice, “to pretend to be two people! Why, there’s hardly enough of me left to make _one_ respectable person!”",
+    "context_ids": [
+      "746ab67848095972d3e507bafb6b5846cf9836baa08a5b70640eaad4a6af47ec",
+      "3fd061e983a5ab2059d907bb54e753bf4ecda958ae346ea56da7c54012879cfd",
+      "2ec63e36f47d89f9f6f999b929fab67c2081ff3e7684464fa9058a03071eb176"
+    ],
+    "context_chars": 1803,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_seconds": 0.006955999997444451,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.052627+00:00"
+  },
+  {
+    "query_id": "d05",
+    "question": "How were prizes distributed after the Caucus-Race?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "010667308e7d70138944a61f29a0de0f66097ba5b3153e6d7be725f7f05b5588",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 10,
+        "text": "First it marked out a race-course, in a sort of circle, (“the exact shape doesn’t matter,” it said,) and then all the party were placed along the course, here and there. There was no “One, two, three, and away,” but they began running when they liked, and left off when they liked, so that it was not easy to know when the race was over. However, when they had been running half an hour or so, and were quite dry again, the Dodo suddenly called out “The race is over!” and they all crowded round it, panting, and asking, “But who has won?”\n\nThis question the Dodo could not answer without a great deal of thought, and it sat for a long time with one finger pressed upon its forehead (the position in which you usually see Shakespeare, in the pictures of him), while the rest waited in silence. At last the Dodo said, “_Everybody_ has won, and all must have prizes.”",
+        "metadata": {
+          "chapter": "III",
+          "chapter_title": "A Caucus-Race and a Long Tale",
+          "language": "en",
+          "chapter_start": 2643,
+          "chapter_end": 5172,
+          "start": 729,
+          "end": 1594,
+          "method": "paragraph"
+        },
+        "score": 0.39215056398197695,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "id": "e3b162fc7cce63aefe04e72243b210a32101f77f479f38aa55a283aa56e9f453",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 10,
+        "text": "“But who is to give the prizes?” quite a chorus of voices asked.\n\n“Why, _she_, of course,” said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way, “Prizes! Prizes!”\n\nAlice had no idea what to do, and in despair she put her hand in her pocket, and pulled out a box of comfits, (luckily the salt water had not got into it), and handed them round as prizes. There was exactly one a-piece, all round.\n\n“But she must have a prize herself, you know,” said the Mouse.\n\n“Of course,” the Dodo replied very gravely. “What else have you got in your pocket?” he went on, turning to Alice.\n\n“Only a thimble,” said Alice sadly.\n\n“Hand it over here,” said the Dodo.",
+        "metadata": {
+          "chapter": "III",
+          "chapter_title": "A Caucus-Race and a Long Tale",
+          "language": "en",
+          "chapter_start": 2643,
+          "chapter_end": 5172,
+          "start": 1596,
+          "end": 2318,
+          "method": "paragraph"
+        },
+        "score": 0.36194341282782005,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": true
+      },
+      {
+        "id": "013f5471477f702f70c02d13fa910799152ac0e1afd250341e38f1478762a541",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 10,
+        "text": "“Speak English!” said the Eaglet. “I don’t know the meaning of half those long words, and, what’s more, I don’t believe you do either!” And the Eaglet bent down its head to hide a smile: some of the other birds tittered audibly.\n\n“What I was going to say,” said the Dodo in an offended tone, “was, that the best thing to get us dry would be a Caucus-race.”\n\n“What _is_ a Caucus-race?” said Alice; not that she wanted much to know, but the Dodo had paused as if it thought that _somebody_ ought to speak, and no one else seemed inclined to say anything.\n\n“Why,” said the Dodo, “the best way to explain it is to do it.” (And, as you might like to try the thing yourself, some winter day, I will tell you how the Dodo managed it.)",
+        "metadata": {
+          "chapter": "III",
+          "chapter_title": "A Caucus-Race and a Long Tale",
+          "language": "en",
+          "chapter_start": 2643,
+          "chapter_end": 5172,
+          "start": 0,
+          "end": 727,
+          "method": "paragraph"
+        },
+        "score": 0.2243498924650402,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=10 chapter=III\nFirst it marked out a race-course, in a sort of circle, (“the exact shape doesn’t matter,” it said,) and then all the party were placed along the course, here and there. There was no “One, two, three, and away,” but they began running when they liked, and left off when they liked, so that it was not easy to know when the race was over. However, when they had been running half an hour or so, and were quite dry again, the Dodo suddenly called out “The race is over!” and they all crowded round it, panting, and asking, “But who has won?”\n\nThis question the Dodo could not answer without a great deal of thought, and it sat for a long time with one finger pressed upon its forehead (the position in which you usually see Shakespeare, in the pictures of him), while the rest waited in silence. At last the Dodo said, “_Everybody_ has won, and all must have prizes.”\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=10 chapter=III\n“But who is to give the prizes?” quite a chorus of voices asked.\n\n“Why, _she_, of course,” said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way, “Prizes! Prizes!”\n\nAlice had no idea what to do, and in despair she put her hand in her pocket, and pulled out a box of comfits, (luckily the salt water had not got into it), and handed them round as prizes. There was exactly one a-piece, all round.\n\n“But she must have a prize herself, you know,” said the Mouse.\n\n“Of course,” the Dodo replied very gravely. “What else have you got in your pocket?” he went on, turning to Alice.\n\n“Only a thimble,” said Alice sadly.\n\n“Hand it over here,” said the Dodo.\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=10 chapter=III\n“Speak English!” said the Eaglet. “I don’t know the meaning of half those long words, and, what’s more, I don’t believe you do either!” And the Eaglet bent down its head to hide a smile: some of the other birds tittered audibly.\n\n“What I was going to say,” said the Dodo in an offended tone, “was, that the best thing to get us dry would be a Caucus-race.”\n\n“What _is_ a Caucus-race?” said Alice; not that she wanted much to know, but the Dodo had paused as if it thought that _somebody_ ought to speak, and no one else seemed inclined to say anything.\n\n“Why,” said the Dodo, “the best way to explain it is to do it.” (And, as you might like to try the thing yourself, some winter day, I will tell you how the Dodo managed it.)",
+    "context_ids": [
+      "010667308e7d70138944a61f29a0de0f66097ba5b3153e6d7be725f7f05b5588",
+      "e3b162fc7cce63aefe04e72243b210a32101f77f479f38aa55a283aa56e9f453",
+      "013f5471477f702f70c02d13fa910799152ac0e1afd250341e38f1478762a541"
+    ],
+    "context_chars": 2522,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_seconds": 0.0060742999776266515,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.061445+00:00"
+  },
+  {
+    "query_id": "d06",
+    "question": "What prize did the Dodo present to Alice?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "e3b162fc7cce63aefe04e72243b210a32101f77f479f38aa55a283aa56e9f453",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 10,
+        "text": "“But who is to give the prizes?” quite a chorus of voices asked.\n\n“Why, _she_, of course,” said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way, “Prizes! Prizes!”\n\nAlice had no idea what to do, and in despair she put her hand in her pocket, and pulled out a box of comfits, (luckily the salt water had not got into it), and handed them round as prizes. There was exactly one a-piece, all round.\n\n“But she must have a prize herself, you know,” said the Mouse.\n\n“Of course,” the Dodo replied very gravely. “What else have you got in your pocket?” he went on, turning to Alice.\n\n“Only a thimble,” said Alice sadly.\n\n“Hand it over here,” said the Dodo.",
+        "metadata": {
+          "chapter": "III",
+          "chapter_title": "A Caucus-Race and a Long Tale",
+          "language": "en",
+          "chapter_start": 2643,
+          "chapter_end": 5172,
+          "start": 1596,
+          "end": 2318,
+          "method": "paragraph"
+        },
+        "score": 0.7117456067043909,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "id": "13a5d2c4bf1b8a8cd5f10aee6855e4c6798615a2b02ea4703f8a990c1d2e593f",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 52,
+        "text": "“Stuff and nonsense!” said Alice loudly. “The idea of having the sentence first!”\n\n“Hold your tongue!” said the Queen, turning purple.\n\n“I won’t!” said Alice.\n\n“Off with her head!” the Queen shouted at the top of her voice. Nobody moved.\n\n“Who cares for you?” said Alice, (she had grown to her full size by this time.) “You’re nothing but a pack of cards!”\n\nAt this the whole pack rose up into the air, and came flying down upon her: she gave a little scream, half of fright and half of anger, and tried to beat them off, and found herself lying on the bank, with her head in the lap of her sister, who was gently brushing away some dead leaves that had fluttered down from the trees upon her face.\n\n“Wake up, Alice dear!” said her sister; “Why, what a long sleep you’ve had!”",
+        "metadata": {
+          "chapter": "XII",
+          "chapter_title": "Alice’s Evidence",
+          "language": "en",
+          "chapter_start": 7824,
+          "chapter_end": 11572,
+          "start": 0,
+          "end": 776,
+          "method": "paragraph"
+        },
+        "score": 0.4950565518573449,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "id": "010667308e7d70138944a61f29a0de0f66097ba5b3153e6d7be725f7f05b5588",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 10,
+        "text": "First it marked out a race-course, in a sort of circle, (“the exact shape doesn’t matter,” it said,) and then all the party were placed along the course, here and there. There was no “One, two, three, and away,” but they began running when they liked, and left off when they liked, so that it was not easy to know when the race was over. However, when they had been running half an hour or so, and were quite dry again, the Dodo suddenly called out “The race is over!” and they all crowded round it, panting, and asking, “But who has won?”\n\nThis question the Dodo could not answer without a great deal of thought, and it sat for a long time with one finger pressed upon its forehead (the position in which you usually see Shakespeare, in the pictures of him), while the rest waited in silence. At last the Dodo said, “_Everybody_ has won, and all must have prizes.”",
+        "metadata": {
+          "chapter": "III",
+          "chapter_title": "A Caucus-Race and a Long Tale",
+          "language": "en",
+          "chapter_start": 2643,
+          "chapter_end": 5172,
+          "start": 729,
+          "end": 1594,
+          "method": "paragraph"
+        },
+        "score": 0.479955721478154,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=10 chapter=III\n“But who is to give the prizes?” quite a chorus of voices asked.\n\n“Why, _she_, of course,” said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way, “Prizes! Prizes!”\n\nAlice had no idea what to do, and in despair she put her hand in her pocket, and pulled out a box of comfits, (luckily the salt water had not got into it), and handed them round as prizes. There was exactly one a-piece, all round.\n\n“But she must have a prize herself, you know,” said the Mouse.\n\n“Of course,” the Dodo replied very gravely. “What else have you got in your pocket?” he went on, turning to Alice.\n\n“Only a thimble,” said Alice sadly.\n\n“Hand it over here,” said the Dodo.\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=52 chapter=XII\n“Stuff and nonsense!” said Alice loudly. “The idea of having the sentence first!”\n\n“Hold your tongue!” said the Queen, turning purple.\n\n“I won’t!” said Alice.\n\n“Off with her head!” the Queen shouted at the top of her voice. Nobody moved.\n\n“Who cares for you?” said Alice, (she had grown to her full size by this time.) “You’re nothing but a pack of cards!”\n\nAt this the whole pack rose up into the air, and came flying down upon her: she gave a little scream, half of fright and half of anger, and tried to beat them off, and found herself lying on the bank, with her head in the lap of her sister, who was gently brushing away some dead leaves that had fluttered down from the trees upon her face.\n\n“Wake up, Alice dear!” said her sister; “Why, what a long sleep you’ve had!”\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=10 chapter=III\nFirst it marked out a race-course, in a sort of circle, (“the exact shape doesn’t matter,” it said,) and then all the party were placed along the course, here and there. There was no “One, two, three, and away,” but they began running when they liked, and left off when they liked, so that it was not easy to know when the race was over. However, when they had been running half an hour or so, and were quite dry again, the Dodo suddenly called out “The race is over!” and they all crowded round it, panting, and asking, “But who has won?”\n\nThis question the Dodo could not answer without a great deal of thought, and it sat for a long time with one finger pressed upon its forehead (the position in which you usually see Shakespeare, in the pictures of him), while the rest waited in silence. At last the Dodo said, “_Everybody_ has won, and all must have prizes.”",
+    "context_ids": [
+      "e3b162fc7cce63aefe04e72243b210a32101f77f479f38aa55a283aa56e9f453",
+      "13a5d2c4bf1b8a8cd5f10aee6855e4c6798615a2b02ea4703f8a990c1d2e593f",
+      "010667308e7d70138944a61f29a0de0f66097ba5b3153e6d7be725f7f05b5588"
+    ],
+    "context_chars": 2571,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_seconds": 0.005120099987834692,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.068223+00:00"
+  },
+  {
+    "query_id": "d07",
+    "question": "In The Rabbit Sends in a Little Bill, what did the Rabbit order Mary Ann to fetch?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {
+      "chapter": "IV"
+    },
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "e362fca31a8c7c3061ea5de68b9db35f735b5c5db06c90062aadd835a8de3482",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 12,
+        "text": "Very soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone, “Why, Mary Ann, what _are_ you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!” And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made.\n\n“He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves.",
+        "metadata": {
+          "chapter": "IV",
+          "chapter_title": "The Rabbit Sends in a Little Bill",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2696,
+          "start": 660,
+          "end": 1538,
+          "method": "paragraph"
+        },
+        "score": 0.6868589592099161,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "id": "46d38cb2146153afe933f0460338fd280965389ef43266b299f056f1ec450b30",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 13,
+        "text": "“But then,” thought Alice, “shall I _never_ get any older than I am now? That’ll be a comfort, one way—never to be an old woman—but then—always to have lessons to learn! Oh, I shouldn’t like _that!_”\n\n“Oh, you foolish Alice!” she answered herself. “How can you learn lessons in here? Why, there’s hardly room for _you_, and no room at all for any lesson-books!”\n\nAnd so she went on, taking first one side and then the other, and making quite a conversation of it altogether; but after a few minutes she heard a voice outside, and stopped to listen.\n\n“Mary Ann! Mary Ann!” said the voice. “Fetch me my gloves this moment!” Then came a little pattering of feet on the stairs. Alice knew it was the Rabbit coming to look for her, and she trembled till she shook the house, quite forgetting that she was now about a thousand times as large as the Rabbit, and had no reason to be afraid of it.",
+        "metadata": {
+          "chapter": "IV",
+          "chapter_title": "The Rabbit Sends in a Little Bill",
+          "language": "en",
+          "chapter_start": 2698,
+          "chapter_end": 5332,
+          "start": 1746,
+          "end": 2634,
+          "method": "paragraph"
+        },
+        "score": 0.6368212060639957,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "id": "ca4b36603ffeb8827f0659a683ea194d4ec1405eb7fc494a7f49d5f18de08d2d",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 15,
+        "text": "“Oh! So Bill’s got to come down the chimney, has he?” said Alice to herself. “Shy, they seem to put everything upon Bill! I wouldn’t be in Bill’s place for a good deal: this fireplace is narrow, to be sure; but I _think_ I can kick a little!”\n\nShe drew her foot as far down the chimney as she could, and waited till she heard a little animal (she couldn’t guess of what sort it was) scratching and scrambling about in the chimney close above her: then, saying to herself “This is Bill,” she gave one sharp kick, and waited to see what would happen next.\n\nThe first thing she heard was a general chorus of “There goes Bill!” then the Rabbit’s voice along—“Catch him, you by the hedge!” then silence, and then another confusion of voices—“Hold up his head—Brandy now—Don’t choke him—How was it, old fellow? What happened to you? Tell us all about it!”",
+        "metadata": {
+          "chapter": "IV",
+          "chapter_title": "The Rabbit Sends in a Little Bill",
+          "language": "en",
+          "chapter_start": 7915,
+          "chapter_end": 10647,
+          "start": 0,
+          "end": 849,
+          "method": "paragraph"
+        },
+        "score": 0.5910536449652956,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=12 chapter=IV\nVery soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone, “Why, Mary Ann, what _are_ you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!” And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made.\n\n“He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves.\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=13 chapter=IV\n“But then,” thought Alice, “shall I _never_ get any older than I am now? That’ll be a comfort, one way—never to be an old woman—but then—always to have lessons to learn! Oh, I shouldn’t like _that!_”\n\n“Oh, you foolish Alice!” she answered herself. “How can you learn lessons in here? Why, there’s hardly room for _you_, and no room at all for any lesson-books!”\n\nAnd so she went on, taking first one side and then the other, and making quite a conversation of it altogether; but after a few minutes she heard a voice outside, and stopped to listen.\n\n“Mary Ann! Mary Ann!” said the voice. “Fetch me my gloves this moment!” Then came a little pattering of feet on the stairs. Alice knew it was the Rabbit coming to look for her, and she trembled till she shook the house, quite forgetting that she was now about a thousand times as large as the Rabbit, and had no reason to be afraid of it.\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=15 chapter=IV\n“Oh! So Bill’s got to come down the chimney, has he?” said Alice to herself. “Shy, they seem to put everything upon Bill! I wouldn’t be in Bill’s place for a good deal: this fireplace is narrow, to be sure; but I _think_ I can kick a little!”\n\nShe drew her foot as far down the chimney as she could, and waited till she heard a little animal (she couldn’t guess of what sort it was) scratching and scrambling about in the chimney close above her: then, saying to herself “This is Bill,” she gave one sharp kick, and waited to see what would happen next.\n\nThe first thing she heard was a general chorus of “There goes Bill!” then the Rabbit’s voice along—“Catch him, you by the hedge!” then silence, and then another confusion of voices—“Hold up his head—Brandy now—Don’t choke him—How was it, old fellow? What happened to you? Tell us all about it!”",
+    "context_ids": [
+      "e362fca31a8c7c3061ea5de68b9db35f735b5c5db06c90062aadd835a8de3482",
+      "46d38cb2146153afe933f0460338fd280965389ef43266b299f056f1ec450b30",
+      "ca4b36603ffeb8827f0659a683ea194d4ec1405eb7fc494a7f49d5f18de08d2d"
+    ],
+    "context_chars": 2820,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_seconds": 0.014364599948748946,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.085384+00:00"
+  },
+  {
+    "query_id": "d08",
+    "question": "What happened to the pebbles thrown into the Rabbit's house?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "91fc38481267c88e28a6a1dfe837ff5ce0e992d0304a69a101258cda8296de36",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 52,
+        "text": "The long grass rustled at her feet as the White Rabbit hurried by—the frightened Mouse splashed his way through the neighbouring pool—she could hear the rattle of the teacups as the March Hare and his friends shared their never-ending meal, and the shrill voice of the Queen ordering off her unfortunate guests to execution—once more the pig-baby was sneezing on the Duchess’s knee, while plates and dishes crashed around it—once more the shriek of the Gryphon, the squeaking of the Lizard’s slate-pencil, and the choking of the suppressed guinea-pigs, filled the air, mixed up with the distant sobs of the miserable Mock Turtle.",
+        "metadata": {
+          "chapter": "XII",
+          "chapter_title": "Alice’s Evidence",
+          "language": "en",
+          "chapter_start": 7824,
+          "chapter_end": 11572,
+          "start": 1919,
+          "end": 2548,
+          "method": "paragraph"
+        },
+        "score": 0.6401076074112109,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "id": "4eac5cc87b2e36b08c804ebfe5e4431852ce09c2d0b703de61f32297142ff24a",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 14,
+        "text": "Presently the Rabbit came up to the door, and tried to open it; but, as the door opened inwards, and Alice’s elbow was pressed hard against it, that attempt proved a failure. Alice heard it say to itself “Then I’ll go round and get in at the window.”\n\n“_That_ you won’t!” thought Alice, and, after waiting till she fancied she heard the Rabbit just under the window, she suddenly spread out her hand, and made a snatch in the air. She did not get hold of anything, but she heard a little shriek and a fall, and a crash of broken glass, from which she concluded that it was just possible it had fallen into a cucumber-frame, or something of the sort.\n\nNext came an angry voice—the Rabbit’s—“Pat! Pat! Where are you?” And then a voice she had never heard before, “Sure then I’m here! Digging for apples, yer honour!”",
+        "metadata": {
+          "chapter": "IV",
+          "chapter_title": "The Rabbit Sends in a Little Bill",
+          "language": "en",
+          "chapter_start": 5334,
+          "chapter_end": 7913,
+          "start": 0,
+          "end": 814,
+          "method": "paragraph"
+        },
+        "score": 0.6296192292635168,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "id": "e362fca31a8c7c3061ea5de68b9db35f735b5c5db06c90062aadd835a8de3482",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 12,
+        "text": "Very soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone, “Why, Mary Ann, what _are_ you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!” And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made.\n\n“He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves.",
+        "metadata": {
+          "chapter": "IV",
+          "chapter_title": "The Rabbit Sends in a Little Bill",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2696,
+          "start": 660,
+          "end": 1538,
+          "method": "paragraph"
+        },
+        "score": 0.5893668751078882,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=52 chapter=XII\nThe long grass rustled at her feet as the White Rabbit hurried by—the frightened Mouse splashed his way through the neighbouring pool—she could hear the rattle of the teacups as the March Hare and his friends shared their never-ending meal, and the shrill voice of the Queen ordering off her unfortunate guests to execution—once more the pig-baby was sneezing on the Duchess’s knee, while plates and dishes crashed around it—once more the shriek of the Gryphon, the squeaking of the Lizard’s slate-pencil, and the choking of the suppressed guinea-pigs, filled the air, mixed up with the distant sobs of the miserable Mock Turtle.\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=14 chapter=IV\nPresently the Rabbit came up to the door, and tried to open it; but, as the door opened inwards, and Alice’s elbow was pressed hard against it, that attempt proved a failure. Alice heard it say to itself “Then I’ll go round and get in at the window.”\n\n“_That_ you won’t!” thought Alice, and, after waiting till she fancied she heard the Rabbit just under the window, she suddenly spread out her hand, and made a snatch in the air. She did not get hold of anything, but she heard a little shriek and a fall, and a crash of broken glass, from which she concluded that it was just possible it had fallen into a cucumber-frame, or something of the sort.\n\nNext came an angry voice—the Rabbit’s—“Pat! Pat! Where are you?” And then a voice she had never heard before, “Sure then I’m here! Digging for apples, yer honour!”\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=12 chapter=IV\nVery soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone, “Why, Mary Ann, what _are_ you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!” And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made.\n\n“He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves.",
+    "context_ids": [
+      "91fc38481267c88e28a6a1dfe837ff5ce0e992d0304a69a101258cda8296de36",
+      "4eac5cc87b2e36b08c804ebfe5e4431852ce09c2d0b703de61f32297142ff24a",
+      "e362fca31a8c7c3061ea5de68b9db35f735b5c5db06c90062aadd835a8de3482"
+    ],
+    "context_chars": 2527,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_seconds": 0.007168400043155998,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.094827+00:00"
+  },
+  {
+    "query_id": "d09",
+    "question": "What happens when Alice nibbles the right-hand piece of mushroom?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "b4ae3fe4c43860c393af91d019edf3f49ba7de3942a68f1f382c52ea99be841d",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 19,
+        "text": "Alice remained looking thoughtfully at the mushroom for a minute, trying to make out which were the two sides of it; and as it was perfectly round, she found this a very difficult question. However, at last she stretched her arms round it as far as they would go, and broke off a bit of the edge with each hand.\n\n“And now which is which?” she said to herself, and nibbled a little of the right-hand bit to try the effect: the next moment she felt a violent blow underneath her chin: it had struck her foot!\n\nShe was a good deal frightened by this very sudden change, but she felt that there was no time to be lost, as she was shrinking rapidly; so she set to work at once to eat some of the other bit. Her chin was pressed so closely against her foot, that there was hardly room to open her mouth; but she did it at last, and managed to swallow a morsel of the lefthand bit.\n\n* * * * * * *",
+        "metadata": {
+          "chapter": "V",
+          "chapter_title": "Advice from a Caterpillar",
+          "language": "en",
+          "chapter_start": 5164,
+          "chapter_end": 8041,
+          "start": 818,
+          "end": 1707,
+          "method": "paragraph"
+        },
+        "score": 0.683987060036103,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "id": "32d3dc21beb9b2228f0ee859d7a8f50f72ea01b2ef2fad75890eb293402a3d46",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 16,
+        "text": "The great question certainly was, what? Alice looked all round her at the flowers and the blades of grass, but she did not see anything that looked like the right thing to eat or drink under the circumstances. There was a large mushroom growing near her, about the same height as herself; and when she had looked under it, and on both sides of it, and behind it, it occurred to her that she might as well look and see what was on the top of it.\n\nShe stretched herself up on tiptoe, and peeped over the edge of the mushroom, and her eyes immediately met those of a large blue caterpillar, that was sitting on the top with its arms folded, quietly smoking a long hookah, and taking not the smallest notice of her or of anything else.",
+        "metadata": {
+          "chapter": "IV",
+          "chapter_title": "The Rabbit Sends in a Little Bill",
+          "language": "en",
+          "chapter_start": 10649,
+          "chapter_end": 13836,
+          "start": 2456,
+          "end": 3187,
+          "method": "paragraph"
+        },
+        "score": 0.6157636243217961,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "id": "14776d1f2640658b91372d000cade49ad7919249b346a670269b9d78efc3694b",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 20,
+        "text": "“Well, be off, then!” said the Pigeon in a sulky tone, as it settled down again into its nest. Alice crouched down among the trees as well as she could, for her neck kept getting entangled among the branches, and every now and then she had to stop and untwist it. After a while she remembered that she still held the pieces of mushroom in her hands, and she set to work very carefully, nibbling first at one and then at the other, and growing sometimes taller and sometimes shorter, until she had succeeded in bringing herself down to her usual height.",
+        "metadata": {
+          "chapter": "V",
+          "chapter_title": "Advice from a Caterpillar",
+          "language": "en",
+          "chapter_start": 8043,
+          "chapter_end": 11817,
+          "start": 2386,
+          "end": 2938,
+          "method": "paragraph"
+        },
+        "score": 0.6046228270715126,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=19 chapter=V\nAlice remained looking thoughtfully at the mushroom for a minute, trying to make out which were the two sides of it; and as it was perfectly round, she found this a very difficult question. However, at last she stretched her arms round it as far as they would go, and broke off a bit of the edge with each hand.\n\n“And now which is which?” she said to herself, and nibbled a little of the right-hand bit to try the effect: the next moment she felt a violent blow underneath her chin: it had struck her foot!\n\nShe was a good deal frightened by this very sudden change, but she felt that there was no time to be lost, as she was shrinking rapidly; so she set to work at once to eat some of the other bit. Her chin was pressed so closely against her foot, that there was hardly room to open her mouth; but she did it at last, and managed to swallow a morsel of the lefthand bit.\n\n* * * * * * *\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=16 chapter=IV\nThe great question certainly was, what? Alice looked all round her at the flowers and the blades of grass, but she did not see anything that looked like the right thing to eat or drink under the circumstances. There was a large mushroom growing near her, about the same height as herself; and when she had looked under it, and on both sides of it, and behind it, it occurred to her that she might as well look and see what was on the top of it.\n\nShe stretched herself up on tiptoe, and peeped over the edge of the mushroom, and her eyes immediately met those of a large blue caterpillar, that was sitting on the top with its arms folded, quietly smoking a long hookah, and taking not the smallest notice of her or of anything else.\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=20 chapter=V\n“Well, be off, then!” said the Pigeon in a sulky tone, as it settled down again into its nest. Alice crouched down among the trees as well as she could, for her neck kept getting entangled among the branches, and every now and then she had to stop and untwist it. After a while she remembered that she still held the pieces of mushroom in her hands, and she set to work very carefully, nibbling first at one and then at the other, and growing sometimes taller and sometimes shorter, until she had succeeded in bringing herself down to her usual height.",
+    "context_ids": [
+      "b4ae3fe4c43860c393af91d019edf3f49ba7de3942a68f1f382c52ea99be841d",
+      "32d3dc21beb9b2228f0ee859d7a8f50f72ea01b2ef2fad75890eb293402a3d46",
+      "14776d1f2640658b91372d000cade49ad7919249b346a670269b9d78efc3694b"
+    ],
+    "context_chars": 2375,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_seconds": 0.0061802000273019075,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.104745+00:00"
+  },
+  {
+    "query_id": "d10",
+    "question": "What creature accuses Alice of being a serpent?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "771866c49d9f4da84435daba1ffdcbf91450dddbb92c78a935bd409adff6c3b4",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 20,
+        "text": "“And just as I’d taken the highest tree in the wood,” continued the Pigeon, raising its voice to a shriek, “and just as I was thinking I should be free of them at last, they must needs come wriggling down from the sky! Ugh, Serpent!”\n\n“But I’m _not_ a serpent, I tell you!” said Alice. “I’m a—I’m a—”\n\n“Well! _What_ are you?” said the Pigeon. “I can see you’re trying to invent something!”\n\n“I—I’m a little girl,” said Alice, rather doubtfully, as she remembered the number of changes she had gone through that day.\n\n“A likely story indeed!” said the Pigeon in a tone of the deepest contempt. “I’ve seen a good many little girls in my time, but never _one_ with such a neck as that! No, no! You’re a serpent; and there’s no use denying it. I suppose you’ll be telling me next that you never tasted an egg!”",
+        "metadata": {
+          "chapter": "V",
+          "chapter_title": "Advice from a Caterpillar",
+          "language": "en",
+          "chapter_start": 8043,
+          "chapter_end": 11817,
+          "start": 891,
+          "end": 1697,
+          "method": "paragraph"
+        },
+        "score": 0.6030043780918586,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "id": "0c3a0012b3cfc066661d48a5c6804dfae82305c6c101a88871691fca7748ad6c",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 20,
+        "text": "“I _have_ tasted eggs, certainly,” said Alice, who was a very truthful child; “but little girls eat eggs quite as much as serpents do, you know.”\n\n“I don’t believe it,” said the Pigeon; “but if they do, why then they’re a kind of serpent, that’s all I can say.”\n\nThis was such a new idea to Alice, that she was quite silent for a minute or two, which gave the Pigeon the opportunity of adding, “You’re looking for eggs, I know _that_ well enough; and what does it matter to me whether you’re a little girl or a serpent?”\n\n“It matters a good deal to _me_,” said Alice hastily; “but I’m not looking for eggs, as it happens; and if I was, I shouldn’t want _yours_: I don’t like them raw.”",
+        "metadata": {
+          "chapter": "V",
+          "chapter_title": "Advice from a Caterpillar",
+          "language": "en",
+          "chapter_start": 8043,
+          "chapter_end": 11817,
+          "start": 1699,
+          "end": 2384,
+          "method": "paragraph"
+        },
+        "score": 0.5941542250670687,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "id": "dba8992e04ca1f6b9997dd659dd368588b5ea3fd15f11bfbd8888e6a2aff2a7d",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 38,
+        "text": "They very soon came upon a Gryphon, lying fast asleep in the sun. (If you don’t know what a Gryphon is, look at the picture.) “Up, lazy thing!” said the Queen, “and take this young lady to see the Mock Turtle, and to hear his history. I must go back and see after some executions I have ordered;” and she walked off, leaving Alice alone with the Gryphon. Alice did not quite like the look of the creature, but on the whole she thought it would be quite as safe to stay with it as to go after that savage Queen: so she waited.\n\nThe Gryphon sat up and rubbed its eyes: then it watched the Queen till she was out of sight: then it chuckled. “What fun!” said the Gryphon, half to itself, half to Alice.\n\n“What _is_ the fun?” said Alice.\n\n“Why, _she_,” said the Gryphon. “It’s all her fancy, that: they never executes nobody, you know. Come on!”",
+        "metadata": {
+          "chapter": "IX",
+          "chapter_title": "The Mock Turtle’s Story",
+          "language": "en",
+          "chapter_start": 5129,
+          "chapter_end": 7806,
+          "start": 1291,
+          "end": 2131,
+          "method": "paragraph"
+        },
+        "score": 0.5770330077434376,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=20 chapter=V\n“And just as I’d taken the highest tree in the wood,” continued the Pigeon, raising its voice to a shriek, “and just as I was thinking I should be free of them at last, they must needs come wriggling down from the sky! Ugh, Serpent!”\n\n“But I’m _not_ a serpent, I tell you!” said Alice. “I’m a—I’m a—”\n\n“Well! _What_ are you?” said the Pigeon. “I can see you’re trying to invent something!”\n\n“I—I’m a little girl,” said Alice, rather doubtfully, as she remembered the number of changes she had gone through that day.\n\n“A likely story indeed!” said the Pigeon in a tone of the deepest contempt. “I’ve seen a good many little girls in my time, but never _one_ with such a neck as that! No, no! You’re a serpent; and there’s no use denying it. I suppose you’ll be telling me next that you never tasted an egg!”\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=20 chapter=V\n“I _have_ tasted eggs, certainly,” said Alice, who was a very truthful child; “but little girls eat eggs quite as much as serpents do, you know.”\n\n“I don’t believe it,” said the Pigeon; “but if they do, why then they’re a kind of serpent, that’s all I can say.”\n\nThis was such a new idea to Alice, that she was quite silent for a minute or two, which gave the Pigeon the opportunity of adding, “You’re looking for eggs, I know _that_ well enough; and what does it matter to me whether you’re a little girl or a serpent?”\n\n“It matters a good deal to _me_,” said Alice hastily; “but I’m not looking for eggs, as it happens; and if I was, I shouldn’t want _yours_: I don’t like them raw.”\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=38 chapter=IX\nThey very soon came upon a Gryphon, lying fast asleep in the sun. (If you don’t know what a Gryphon is, look at the picture.) “Up, lazy thing!” said the Queen, “and take this young lady to see the Mock Turtle, and to hear his history. I must go back and see after some executions I have ordered;” and she walked off, leaving Alice alone with the Gryphon. Alice did not quite like the look of the creature, but on the whole she thought it would be quite as safe to stay with it as to go after that savage Queen: so she waited.\n\nThe Gryphon sat up and rubbed its eyes: then it watched the Queen till she was out of sight: then it chuckled. “What fun!” said the Gryphon, half to itself, half to Alice.\n\n“What _is_ the fun?” said Alice.\n\n“Why, _she_,” said the Gryphon. “It’s all her fancy, that: they never executes nobody, you know. Come on!”",
+    "context_ids": [
+      "771866c49d9f4da84435daba1ffdcbf91450dddbb92c78a935bd409adff6c3b4",
+      "0c3a0012b3cfc066661d48a5c6804dfae82305c6c101a88871691fca7748ad6c",
+      "dba8992e04ca1f6b9997dd659dd368588b5ea3fd15f11bfbd8888e6a2aff2a7d"
+    ],
+    "context_chars": 2534,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_seconds": 0.006689000001642853,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.115389+00:00"
+  },
+  {
+    "query_id": "d11",
+    "question": "What animal does the baby become while Alice carries it?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "38edc686722508597d674e53b415bf0c9be8075a01dee885d7bfdfe76cda6984",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 23,
+        "text": "“I speak severely to my boy, I beat him when he sneezes; For he can thoroughly enjoy The pepper when he pleases!”\n\nCHORUS.\n\n“Wow! wow! wow!”\n\n“Here! you may nurse it a bit, if you like!” the Duchess said to Alice, flinging the baby at her as she spoke. “I must go and get ready to play croquet with the Queen,” and she hurried out of the room. The cook threw a frying-pan after her as she went out, but it just missed her.\n\nAlice caught the baby with some difficulty, as it was a queer-shaped little creature, and held out its arms and legs in all directions, “just like a star-fish,” thought Alice. The poor little thing was snorting like a steam-engine when she caught it, and kept doubling itself up and straightening itself out again, so that altogether, for the first minute or two, it was as much as she could do to hold it.",
+        "metadata": {
+          "chapter": "VI",
+          "chapter_title": "Pig and Pepper",
+          "language": "en",
+          "chapter_start": 5431,
+          "chapter_end": 8343,
+          "start": 1503,
+          "end": 2333,
+          "method": "paragraph"
+        },
+        "score": 0.6089375714548885,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "id": "34707f20e8084a9c43f78fb0279ce5e583ae406e5ef9978be882a37bf36335ac",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 25,
+        "text": "“You’ll see me there,” said the Cat, and vanished.\n\nAlice was not much surprised at this, she was getting so used to queer things happening. While she was looking at the place where it had been, it suddenly appeared again.\n\n“By-the-bye, what became of the baby?” said the Cat. “I’d nearly forgotten to ask.”\n\n“It turned into a pig,” Alice quietly said, just as if it had come back in a natural way.\n\n“I thought it would,” said the Cat, and vanished again.",
+        "metadata": {
+          "chapter": "VI",
+          "chapter_title": "Pig and Pepper",
+          "language": "en",
+          "chapter_start": 10992,
+          "chapter_end": 13793,
+          "start": 853,
+          "end": 1308,
+          "method": "paragraph"
+        },
+        "score": 0.5896175120013367,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "id": "440c1c1580b25703e9cfdd8c7974740ab7402f461e77dbdfabdd9dca9af75a9c",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 24,
+        "text": "Alice was just beginning to think to herself, “Now, what am I to do with this creature when I get it home?” when it grunted again, so violently, that she looked down into its face in some alarm. This time there could be _no_ mistake about it: it was neither more nor less than a pig, and she felt that it would be quite absurd for her to carry it further.\n\nSo she set the little creature down, and felt quite relieved to see it trot away quietly into the wood. “If it had grown up,” she said to herself, “it would have made a dreadfully ugly child: but it makes rather a handsome pig, I think.” And she began thinking over other children she knew, who might do very well as pigs, and was just saying to herself, “if one only knew the right way to change them—” when she was a little startled by seeing the Cheshire Cat sitting on a bough of a tree a few yards off.",
+        "metadata": {
+          "chapter": "VI",
+          "chapter_title": "Pig and Pepper",
+          "language": "en",
+          "chapter_start": 8345,
+          "chapter_end": 10990,
+          "start": 706,
+          "end": 1570,
+          "method": "paragraph"
+        },
+        "score": 0.588219820883239,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": true
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=23 chapter=VI\n“I speak severely to my boy, I beat him when he sneezes; For he can thoroughly enjoy The pepper when he pleases!”\n\nCHORUS.\n\n“Wow! wow! wow!”\n\n“Here! you may nurse it a bit, if you like!” the Duchess said to Alice, flinging the baby at her as she spoke. “I must go and get ready to play croquet with the Queen,” and she hurried out of the room. The cook threw a frying-pan after her as she went out, but it just missed her.\n\nAlice caught the baby with some difficulty, as it was a queer-shaped little creature, and held out its arms and legs in all directions, “just like a star-fish,” thought Alice. The poor little thing was snorting like a steam-engine when she caught it, and kept doubling itself up and straightening itself out again, so that altogether, for the first minute or two, it was as much as she could do to hold it.\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=25 chapter=VI\n“You’ll see me there,” said the Cat, and vanished.\n\nAlice was not much surprised at this, she was getting so used to queer things happening. While she was looking at the place where it had been, it suddenly appeared again.\n\n“By-the-bye, what became of the baby?” said the Cat. “I’d nearly forgotten to ask.”\n\n“It turned into a pig,” Alice quietly said, just as if it had come back in a natural way.\n\n“I thought it would,” said the Cat, and vanished again.\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=24 chapter=VI\nAlice was just beginning to think to herself, “Now, what am I to do with this creature when I get it home?” when it grunted again, so violently, that she looked down into its face in some alarm. This time there could be _no_ mistake about it: it was neither more nor less than a pig, and she felt that it would be quite absurd for her to carry it further.\n\nSo she set the little creature down, and felt quite relieved to see it trot away quietly into the wood. “If it had grown up,” she said to herself, “it would have made a dreadfully ugly child: but it makes rather a handsome pig, I think.” And she began thinking over other children she knew, who might do very well as pigs, and was just saying to herself, “if one only knew the right way to change them—” when she was a little startled by seeing the Cheshire Cat sitting on a bough of a tree a few yards off.",
+    "context_ids": [
+      "38edc686722508597d674e53b415bf0c9be8075a01dee885d7bfdfe76cda6984",
+      "34707f20e8084a9c43f78fb0279ce5e583ae406e5ef9978be882a37bf36335ac",
+      "440c1c1580b25703e9cfdd8c7974740ab7402f461e77dbdfabdd9dca9af75a9c"
+    ],
+    "context_chars": 2354,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_seconds": 0.007417600019834936,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.127433+00:00"
+  },
+  {
+    "query_id": "d12",
+    "question": "In Pig and Pepper, how does the Duchess explain her cat's grin?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {
+      "chapter": "VI"
+    },
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "8abd1f0f785c1a8f0d6d95e51788ee1dfd41ffb3c06815eba7d5875d0f2595bb",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 22,
+        "text": "“It’s a Cheshire cat,” said the Duchess, “and that’s why. Pig!”\n\nShe said the last word with such sudden violence that Alice quite jumped; but she saw in another moment that it was addressed to the baby, and not to her, so she took courage, and went on again:—\n\n“I didn’t know that Cheshire cats always grinned; in fact, I didn’t know that cats _could_ grin.”\n\n“They all can,” said the Duchess; “and most of ’em do.”\n\n“I don’t know of any that do,” Alice said very politely, feeling quite pleased to have got into a conversation.\n\n“You don’t know much,” said the Duchess; “and that’s a fact.”",
+        "metadata": {
+          "chapter": "VI",
+          "chapter_title": "Pig and Pepper",
+          "language": "en",
+          "chapter_start": 2603,
+          "chapter_end": 5429,
+          "start": 1672,
+          "end": 2264,
+          "method": "paragraph"
+        },
+        "score": 0.668022790473346,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "id": "bcb1441ba1b5f648700da0c32ad59dcf353e309514be9b5ca1073670154b44fb",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 25,
+        "text": "“Well! I’ve often seen a cat without a grin,” thought Alice; “but a grin without a cat! It’s the most curious thing I ever saw in my life!”\n\nShe had not gone much farther before she came in sight of the house of the March Hare: she thought it must be the right house, because the chimneys were shaped like ears and the roof was thatched with fur. It was so large a house, that she did not like to go nearer till she had nibbled some more of the lefthand bit of mushroom, and raised herself to about two feet high: even then she walked up towards it rather timidly, saying to herself “Suppose it should be raving mad after all! I almost wish I’d gone to see the Hatter instead!”",
+        "metadata": {
+          "chapter": "VI",
+          "chapter_title": "Pig and Pepper",
+          "language": "en",
+          "chapter_start": 10992,
+          "chapter_end": 13793,
+          "start": 2124,
+          "end": 2801,
+          "method": "paragraph"
+        },
+        "score": 0.5953427126939168,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "id": "31025b60788617b0b53c609c17e7a9192630083eb6a0e8ccd8007cf6fdd46f1d",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 22,
+        "text": "The door led right into a large kitchen, which was full of smoke from one end to the other: the Duchess was sitting on a three-legged stool in the middle, nursing a baby; the cook was leaning over the fire, stirring a large cauldron which seemed to be full of soup.\n\n“There’s certainly too much pepper in that soup!” Alice said to herself, as well as she could for sneezing.\n\nThere was certainly too much of it in the air. Even the Duchess sneezed occasionally; and as for the baby, it was sneezing and howling alternately without a moment’s pause. The only things in the kitchen that did not sneeze, were the cook, and a large cat which was sitting on the hearth and grinning from ear to ear.\n\n“Please would you tell me,” said Alice, a little timidly, for she was not quite sure whether it was good manners for her to speak first, “why your cat grins like that?”",
+        "metadata": {
+          "chapter": "VI",
+          "chapter_title": "Pig and Pepper",
+          "language": "en",
+          "chapter_start": 2603,
+          "chapter_end": 5429,
+          "start": 807,
+          "end": 1670,
+          "method": "paragraph"
+        },
+        "score": 0.562464325860901,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=22 chapter=VI\n“It’s a Cheshire cat,” said the Duchess, “and that’s why. Pig!”\n\nShe said the last word with such sudden violence that Alice quite jumped; but she saw in another moment that it was addressed to the baby, and not to her, so she took courage, and went on again:—\n\n“I didn’t know that Cheshire cats always grinned; in fact, I didn’t know that cats _could_ grin.”\n\n“They all can,” said the Duchess; “and most of ’em do.”\n\n“I don’t know of any that do,” Alice said very politely, feeling quite pleased to have got into a conversation.\n\n“You don’t know much,” said the Duchess; “and that’s a fact.”\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=25 chapter=VI\n“Well! I’ve often seen a cat without a grin,” thought Alice; “but a grin without a cat! It’s the most curious thing I ever saw in my life!”\n\nShe had not gone much farther before she came in sight of the house of the March Hare: she thought it must be the right house, because the chimneys were shaped like ears and the roof was thatched with fur. It was so large a house, that she did not like to go nearer till she had nibbled some more of the lefthand bit of mushroom, and raised herself to about two feet high: even then she walked up towards it rather timidly, saying to herself “Suppose it should be raving mad after all! I almost wish I’d gone to see the Hatter instead!”\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=22 chapter=VI\nThe door led right into a large kitchen, which was full of smoke from one end to the other: the Duchess was sitting on a three-legged stool in the middle, nursing a baby; the cook was leaning over the fire, stirring a large cauldron which seemed to be full of soup.\n\n“There’s certainly too much pepper in that soup!” Alice said to herself, as well as she could for sneezing.\n\nThere was certainly too much of it in the air. Even the Duchess sneezed occasionally; and as for the baby, it was sneezing and howling alternately without a moment’s pause. The only things in the kitchen that did not sneeze, were the cook, and a large cat which was sitting on the hearth and grinning from ear to ear.\n\n“Please would you tell me,” said Alice, a little timidly, for she was not quite sure whether it was good manners for her to speak first, “why your cat grins like that?”",
+    "context_ids": [
+      "8abd1f0f785c1a8f0d6d95e51788ee1dfd41ffb3c06815eba7d5875d0f2595bb",
+      "bcb1441ba1b5f648700da0c32ad59dcf353e309514be9b5ca1073670154b44fb",
+      "31025b60788617b0b53c609c17e7a9192630083eb6a0e8ccd8007cf6fdd46f1d"
+    ],
+    "context_chars": 2337,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_seconds": 0.014034799998626113,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.144870+00:00"
+  },
+  {
+    "query_id": "d13",
+    "question": "According to the Hatter, what time is it always now?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "dda21c91745b59a8bdfd1c45de47df3d6d80a53ceb2f43f12af3195ebe25e11b",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 27,
+        "text": "“Ah! that accounts for it,” said the Hatter. “He won’t stand beating. Now, if you only kept on good terms with him, he’d do almost anything you liked with the clock. For instance, suppose it were nine o’clock in the morning, just time to begin lessons: you’d only have to whisper a hint to Time, and round goes the clock in a twinkling! Half-past one, time for dinner!”",
+        "metadata": {
+          "chapter": "VII",
+          "chapter_title": "A Mad Tea-Party",
+          "language": "en",
+          "chapter_start": 2538,
+          "chapter_end": 5322,
+          "start": 2415,
+          "end": 2784,
+          "method": "paragraph"
+        },
+        "score": 0.5223481456023438,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "id": "3fa7a7519b456ffeb44c4bf3a8c96fb4cc0958a2c244498b28b077ab52c1e60a",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 27,
+        "text": "Alice had been looking over his shoulder with some curiosity. “What a funny watch!” she remarked. “It tells the day of the month, and doesn’t tell what o’clock it is!”\n\n“Why should it?” muttered the Hatter. “Does _your_ watch tell you what year it is?”\n\n“Of course not,” Alice replied very readily: “but that’s because it stays the same year for such a long time together.”\n\n“Which is just the case with _mine_,” said the Hatter.\n\nAlice felt dreadfully puzzled, The Hatter’s remark seemed to have no sort of meaning in it, and yet it was certainly English. “I don’t quite understand you,” she said, as politely as she could.\n\n“The Dormouse is asleep again,” said the Hatter, and he poured a little hot tea upon its nose.\n\nThe Dormouse shook its head impatiently, and said, without opening its eyes, “Of course, of course; just what I was going to remark myself.”",
+        "metadata": {
+          "chapter": "VII",
+          "chapter_title": "A Mad Tea-Party",
+          "language": "en",
+          "chapter_start": 2538,
+          "chapter_end": 5322,
+          "start": 831,
+          "end": 1693,
+          "method": "paragraph"
+        },
+        "score": 0.44300804781383807,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "id": "fcc9a8473ed5fd82ca6669f2295ad4567c9feb0b59faef38b40647b6446c64ff",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 47,
+        "text": "“I’m a poor man, your Majesty,” the Hatter began, in a trembling voice, “—and I hadn’t begun my tea—not above a week or so—and what with the bread-and-butter getting so thin—and the twinkling of the tea—”\n\n“The twinkling of the _what?_” said the King.\n\n“It _began_ with the tea,” the Hatter replied.\n\n“Of course twinkling begins with a T!” said the King sharply. “Do you take me for a dunce? Go on!”\n\n“I’m a poor man,” the Hatter went on, “and most things twinkled after that—only the March Hare said—”\n\n“I didn’t!” the March Hare interrupted in a great hurry.\n\n“You did!” said the Hatter.\n\n“I deny it!” said the March Hare.\n\n“He denies it,” said the King: “leave out that part.”\n\n“Well, at any rate, the Dormouse said—” the Hatter went on, looking anxiously round to see if he would deny it too: but the Dormouse denied nothing, being fast asleep.",
+        "metadata": {
+          "chapter": "XI",
+          "chapter_title": "Who Stole the Tarts?",
+          "language": "en",
+          "chapter_start": 5336,
+          "chapter_end": 8060,
+          "start": 871,
+          "end": 1719,
+          "method": "paragraph"
+        },
+        "score": 0.4012549443553678,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=27 chapter=VII\n“Ah! that accounts for it,” said the Hatter. “He won’t stand beating. Now, if you only kept on good terms with him, he’d do almost anything you liked with the clock. For instance, suppose it were nine o’clock in the morning, just time to begin lessons: you’d only have to whisper a hint to Time, and round goes the clock in a twinkling! Half-past one, time for dinner!”\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=27 chapter=VII\nAlice had been looking over his shoulder with some curiosity. “What a funny watch!” she remarked. “It tells the day of the month, and doesn’t tell what o’clock it is!”\n\n“Why should it?” muttered the Hatter. “Does _your_ watch tell you what year it is?”\n\n“Of course not,” Alice replied very readily: “but that’s because it stays the same year for such a long time together.”\n\n“Which is just the case with _mine_,” said the Hatter.\n\nAlice felt dreadfully puzzled, The Hatter’s remark seemed to have no sort of meaning in it, and yet it was certainly English. “I don’t quite understand you,” she said, as politely as she could.\n\n“The Dormouse is asleep again,” said the Hatter, and he poured a little hot tea upon its nose.\n\nThe Dormouse shook its head impatiently, and said, without opening its eyes, “Of course, of course; just what I was going to remark myself.”\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=47 chapter=XI\n“I’m a poor man, your Majesty,” the Hatter began, in a trembling voice, “—and I hadn’t begun my tea—not above a week or so—and what with the bread-and-butter getting so thin—and the twinkling of the tea—”\n\n“The twinkling of the _what?_” said the King.\n\n“It _began_ with the tea,” the Hatter replied.\n\n“Of course twinkling begins with a T!” said the King sharply. “Do you take me for a dunce? Go on!”\n\n“I’m a poor man,” the Hatter went on, “and most things twinkled after that—only the March Hare said—”\n\n“I didn’t!” the March Hare interrupted in a great hurry.\n\n“You did!” said the Hatter.\n\n“I deny it!” said the March Hare.\n\n“He denies it,” said the King: “leave out that part.”\n\n“Well, at any rate, the Dormouse said—” the Hatter went on, looking anxiously round to see if he would deny it too: but the Dormouse denied nothing, being fast asleep.",
+    "context_ids": [
+      "dda21c91745b59a8bdfd1c45de47df3d6d80a53ceb2f43f12af3195ebe25e11b",
+      "3fa7a7519b456ffeb44c4bf3a8c96fb4cc0958a2c244498b28b077ab52c1e60a",
+      "fcc9a8473ed5fd82ca6669f2295ad4567c9feb0b59faef38b40647b6446c64ff"
+    ],
+    "context_chars": 2286,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_seconds": 0.007531900017056614,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.158420+00:00"
+  },
+  {
+    "query_id": "d14",
+    "question": "What kind of well housed the three sisters in the Dormouse's story?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "edb4ddd2cdbbfd2094b9b0c31ab497b280a860d94c37b7c000a7675236c7a5a3",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 28,
+        "text": "“But what happens when you come to the beginning again?” Alice ventured to ask.\n\n“Suppose we change the subject,” the March Hare interrupted, yawning. “I’m getting tired of this. I vote the young lady tells us a story.”\n\n“I’m afraid I don’t know one,” said Alice, rather alarmed at the proposal.\n\n“Then the Dormouse shall!” they both cried. “Wake up, Dormouse!” And they pinched it on both sides at once.\n\nThe Dormouse slowly opened his eyes. “I wasn’t asleep,” he said in a hoarse, feeble voice: “I heard every word you fellows were saying.”\n\n“Tell us a story!” said the March Hare.\n\n“Yes, please do!” pleaded Alice.\n\n“And be quick about it,” added the Hatter, “or you’ll be asleep again before it’s done.”\n\n“Once upon a time there were three little sisters,” the Dormouse began in a great hurry; “and their names were Elsie, Lacie, and Tillie; and they lived at the bottom of a well—”",
+        "metadata": {
+          "chapter": "VII",
+          "chapter_title": "A Mad Tea-Party",
+          "language": "en",
+          "chapter_start": 5324,
+          "chapter_end": 7901,
+          "start": 1691,
+          "end": 2577,
+          "method": "paragraph"
+        },
+        "score": 0.5266648040619717,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "id": "0705a9c6615ed7e7182d6b95ff2fab8ab59a0a5f98b95a559dccc88f69293695",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 29,
+        "text": "Alice did not quite know what to say to this: so she helped herself to some tea and bread-and-butter, and then turned to the Dormouse, and repeated her question. “Why did they live at the bottom of a well?”\n\nThe Dormouse again took a minute or two to think about it, and then said, “It was a treacle-well.”\n\n“There’s no such thing!” Alice was beginning very angrily, but the Hatter and the March Hare went “Sh! sh!” and the Dormouse sulkily remarked, “If you can’t be civil, you’d better finish the story for yourself.”\n\n“No, please go on!” Alice said very humbly; “I won’t interrupt again. I dare say there may be _one_.”\n\n“One, indeed!” said the Dormouse indignantly. However, he consented to go on. “And so these three little sisters—they were learning to draw, you know—”\n\n“What did they draw?” said Alice, quite forgetting her promise.",
+        "metadata": {
+          "chapter": "VII",
+          "chapter_title": "A Mad Tea-Party",
+          "language": "en",
+          "chapter_start": 7903,
+          "chapter_end": 10490,
+          "start": 872,
+          "end": 1712,
+          "method": "paragraph"
+        },
+        "score": 0.4845102853897484,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": true
+      },
+      {
+        "id": "efd74bedab7ba0868ded6efcc22062a207ecef827fafad20e30117880df9707c",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 52,
+        "text": "Lastly, she pictured to herself how this same little sister of hers would, in the after-time, be herself a grown woman; and how she would keep, through all her riper years, the simple and loving heart of her childhood: and how she would gather about her other little children, and make _their_ eyes bright and eager with many a strange tale, perhaps even with the dream of Wonderland of long ago: and how she would feel with all their simple sorrows, and find a pleasure in all their simple joys, remembering her own child-life, and the happy summer days.\n\nTHE END",
+        "metadata": {
+          "chapter": "XII",
+          "chapter_title": "Alice’s Evidence",
+          "language": "en",
+          "chapter_start": 7824,
+          "chapter_end": 11572,
+          "start": 3184,
+          "end": 3748,
+          "method": "paragraph"
+        },
+        "score": 0.4679585582511308,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=28 chapter=VII\n“But what happens when you come to the beginning again?” Alice ventured to ask.\n\n“Suppose we change the subject,” the March Hare interrupted, yawning. “I’m getting tired of this. I vote the young lady tells us a story.”\n\n“I’m afraid I don’t know one,” said Alice, rather alarmed at the proposal.\n\n“Then the Dormouse shall!” they both cried. “Wake up, Dormouse!” And they pinched it on both sides at once.\n\nThe Dormouse slowly opened his eyes. “I wasn’t asleep,” he said in a hoarse, feeble voice: “I heard every word you fellows were saying.”\n\n“Tell us a story!” said the March Hare.\n\n“Yes, please do!” pleaded Alice.\n\n“And be quick about it,” added the Hatter, “or you’ll be asleep again before it’s done.”\n\n“Once upon a time there were three little sisters,” the Dormouse began in a great hurry; “and their names were Elsie, Lacie, and Tillie; and they lived at the bottom of a well—”\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=29 chapter=VII\nAlice did not quite know what to say to this: so she helped herself to some tea and bread-and-butter, and then turned to the Dormouse, and repeated her question. “Why did they live at the bottom of a well?”\n\nThe Dormouse again took a minute or two to think about it, and then said, “It was a treacle-well.”\n\n“There’s no such thing!” Alice was beginning very angrily, but the Hatter and the March Hare went “Sh! sh!” and the Dormouse sulkily remarked, “If you can’t be civil, you’d better finish the story for yourself.”\n\n“No, please go on!” Alice said very humbly; “I won’t interrupt again. I dare say there may be _one_.”\n\n“One, indeed!” said the Dormouse indignantly. However, he consented to go on. “And so these three little sisters—they were learning to draw, you know—”\n\n“What did they draw?” said Alice, quite forgetting her promise.\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=52 chapter=XII\nLastly, she pictured to herself how this same little sister of hers would, in the after-time, be herself a grown woman; and how she would keep, through all her riper years, the simple and loving heart of her childhood: and how she would gather about her other little children, and make _their_ eyes bright and eager with many a strange tale, perhaps even with the dream of Wonderland of long ago: and how she would feel with all their simple sorrows, and find a pleasure in all their simple joys, remembering her own child-life, and the happy summer days.\n\nTHE END",
+    "context_ids": [
+      "edb4ddd2cdbbfd2094b9b0c31ab497b280a860d94c37b7c000a7675236c7a5a3",
+      "0705a9c6615ed7e7182d6b95ff2fab8ab59a0a5f98b95a559dccc88f69293695",
+      "efd74bedab7ba0868ded6efcc22062a207ecef827fafad20e30117880df9707c"
+    ],
+    "context_chars": 2498,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_seconds": 0.007291199988685548,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.171193+00:00"
+  },
+  {
+    "query_id": "d15",
+    "question": "What served as croquet balls and mallets in the Queen's game?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": true,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "51a909c47401c0ee859658a1782f3b4a0b6cfd847c1c9fab1b72e513915e9936",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 33,
+        "text": "“No, I didn’t,” said Alice: “I don’t think it’s at all a pity. I said ‘What for?’”\n\n“She boxed the Queen’s ears—” the Rabbit began. Alice gave a little scream of laughter. “Oh, hush!” the Rabbit whispered in a frightened tone. “The Queen will hear you! You see, she came rather late, and the Queen said—”\n\n“Get to your places!” shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began. Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches.",
+        "metadata": {
+          "chapter": "VIII",
+          "chapter_title": "The Queen’s Croquet-Ground",
+          "language": "en",
+          "chapter_start": 5214,
+          "chapter_end": 7808,
+          "start": 900,
+          "end": 1691,
+          "method": "paragraph"
+        },
+        "score": 0.5017895119904711,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "id": "9d4be5f6ad47dca1b5154189f06a121af9242369f81d95def3a3d04e8727b77f",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 37,
+        "text": "“Let’s go on with the game,” the Queen said to Alice; and Alice was too much frightened to say a word, but slowly followed her back to the croquet-ground.",
+        "metadata": {
+          "chapter": "IX",
+          "chapter_title": "The Mock Turtle’s Story",
+          "language": "en",
+          "chapter_start": 2574,
+          "chapter_end": 5127,
+          "start": 2399,
+          "end": 2553,
+          "method": "paragraph"
+        },
+        "score": 0.4847425403138693,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "id": "60ca6f8f9563e15e76eb829a40708ff2d407628eee43f11535f624f26e11e478",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 34,
+        "text": "“I don’t think they play at all fairly,” Alice began, in rather a complaining tone, “and they all quarrel so dreadfully one can’t hear oneself speak—and they don’t seem to have any rules in particular; at least, if there are, nobody attends to them—and you’ve no idea how confusing it is all the things being alive; for instance, there’s the arch I’ve got to go through next walking about at the other end of the ground—and I should have croqueted the Queen’s hedgehog just now, only it ran away when it saw mine coming!”\n\n“How do you like the Queen?” said the Cat in a low voice.\n\n“Not at all,” said Alice: “she’s so extremely—” Just then she noticed that the Queen was close behind her, listening: so she went on, “—likely to win, that it’s hardly worth while finishing the game.”\n\nThe Queen smiled and passed on.",
+        "metadata": {
+          "chapter": "VIII",
+          "chapter_title": "The Queen’s Croquet-Ground",
+          "language": "en",
+          "chapter_start": 7810,
+          "chapter_end": 10362,
+          "start": 1443,
+          "end": 2258,
+          "method": "paragraph"
+        },
+        "score": 0.4401260933293216,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=33 chapter=VIII\n“No, I didn’t,” said Alice: “I don’t think it’s at all a pity. I said ‘What for?’”\n\n“She boxed the Queen’s ears—” the Rabbit began. Alice gave a little scream of laughter. “Oh, hush!” the Rabbit whispered in a frightened tone. “The Queen will hear you! You see, she came rather late, and the Queen said—”\n\n“Get to your places!” shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began. Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches.\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=37 chapter=IX\n“Let’s go on with the game,” the Queen said to Alice; and Alice was too much frightened to say a word, but slowly followed her back to the croquet-ground.\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=34 chapter=VIII\n“I don’t think they play at all fairly,” Alice began, in rather a complaining tone, “and they all quarrel so dreadfully one can’t hear oneself speak—and they don’t seem to have any rules in particular; at least, if there are, nobody attends to them—and you’ve no idea how confusing it is all the things being alive; for instance, there’s the arch I’ve got to go through next walking about at the other end of the ground—and I should have croqueted the Queen’s hedgehog just now, only it ran away when it saw mine coming!”\n\n“How do you like the Queen?” said the Cat in a low voice.\n\n“Not at all,” said Alice: “she’s so extremely—” Just then she noticed that the Queen was close behind her, listening: so she went on, “—likely to win, that it’s hardly worth while finishing the game.”\n\nThe Queen smiled and passed on.",
+    "context_ids": [
+      "51a909c47401c0ee859658a1782f3b4a0b6cfd847c1c9fab1b72e513915e9936",
+      "9d4be5f6ad47dca1b5154189f06a121af9242369f81d95def3a3d04e8727b77f",
+      "60ca6f8f9563e15e76eb829a40708ff2d407628eee43f11535f624f26e11e478"
+    ],
+    "context_chars": 1969,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_seconds": 0.01091790001373738,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.195394+00:00"
+  },
+  {
+    "query_id": "d16",
+    "question": "What is the White Rabbit's exact annual salary in pounds?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": false,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "85b72e8cdc66222b9a809a42bf93f94b51f167e1e0173ef2f0c2587e2c23e606",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 48,
+        "text": "For some minutes the whole court was in confusion, getting the Dormouse turned out, and, by the time they had settled down again, the cook had disappeared.\n\n“Never mind!” said the King, with an air of great relief. “Call the next witness.” And he added in an undertone to the Queen, “Really, my dear, _you_ must cross-examine the next witness. It quite makes my forehead ache!”\n\nAlice watched the White Rabbit as he fumbled over the list, feeling very curious to see what the next witness would be like, “—for they haven’t got much evidence _yet_,” she said to herself. Imagine her surprise, when the White Rabbit read out, at the top of his shrill little voice, the name “Alice!”",
+        "metadata": {
+          "chapter": "XI",
+          "chapter_title": "Who Stole the Tarts?",
+          "language": "en",
+          "chapter_start": 8062,
+          "chapter_end": 10343,
+          "start": 1601,
+          "end": 2281,
+          "method": "paragraph"
+        },
+        "score": 0.37006616165258155,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": null
+      },
+      {
+        "id": "ad632a705f756bcc9d9196664f93227352d060a0e7bb131e91922f8662ca1b55",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 50,
+        "text": "There was a general clapping of hands at this: it was the first really clever thing the King had said that day.\n\n“That _proves_ his guilt,” said the Queen.\n\n“It proves nothing of the sort!” said Alice. “Why, you don’t even know what they’re about!”\n\n“Read them,” said the King.\n\nThe White Rabbit put on his spectacles. “Where shall I begin, please your Majesty?” he asked.\n\n“Begin at the beginning,” the King said gravely, “and go on till you come to the end: then stop.”\n\nThese were the verses the White Rabbit read:—\n\n“They told me you had been to her, And mentioned me to him: She gave me a good character, But said I could not swim.\n\nHe sent them word I had not gone (We know it to be true): If she should push the matter on, What would become of you?\n\nI gave her one, they gave him two, You gave us three or more; They all returned from him to you, Though they were mine before.",
+        "metadata": {
+          "chapter": "XII",
+          "chapter_title": "Alice’s Evidence",
+          "language": "en",
+          "chapter_start": 2699,
+          "chapter_end": 5302,
+          "start": 1720,
+          "end": 2603,
+          "method": "paragraph"
+        },
+        "score": 0.3425348209000912,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": null
+      },
+      {
+        "id": "af0d0b1d119e108eb37fd22c90dad7f5da5b05f6ad321d2a8e189b20560a4614",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 12,
+        "text": "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself “The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where _can_ I have dropped them, I wonder?” Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.",
+        "metadata": {
+          "chapter": "IV",
+          "chapter_title": "The Rabbit Sends in a Little Bill",
+          "language": "en",
+          "chapter_start": 0,
+          "chapter_end": 2696,
+          "start": 0,
+          "end": 658,
+          "method": "paragraph"
+        },
+        "score": 0.31964072437916585,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": null
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=48 chapter=XI\nFor some minutes the whole court was in confusion, getting the Dormouse turned out, and, by the time they had settled down again, the cook had disappeared.\n\n“Never mind!” said the King, with an air of great relief. “Call the next witness.” And he added in an undertone to the Queen, “Really, my dear, _you_ must cross-examine the next witness. It quite makes my forehead ache!”\n\nAlice watched the White Rabbit as he fumbled over the list, feeling very curious to see what the next witness would be like, “—for they haven’t got much evidence _yet_,” she said to herself. Imagine her surprise, when the White Rabbit read out, at the top of his shrill little voice, the name “Alice!”\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=50 chapter=XII\nThere was a general clapping of hands at this: it was the first really clever thing the King had said that day.\n\n“That _proves_ his guilt,” said the Queen.\n\n“It proves nothing of the sort!” said Alice. “Why, you don’t even know what they’re about!”\n\n“Read them,” said the King.\n\nThe White Rabbit put on his spectacles. “Where shall I begin, please your Majesty?” he asked.\n\n“Begin at the beginning,” the King said gravely, “and go on till you come to the end: then stop.”\n\nThese were the verses the White Rabbit read:—\n\n“They told me you had been to her, And mentioned me to him: She gave me a good character, But said I could not swim.\n\nHe sent them word I had not gone (We know it to be true): If she should push the matter on, What would become of you?\n\nI gave her one, they gave him two, You gave us three or more; They all returned from him to you, Though they were mine before.\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=12 chapter=IV\nIt was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself “The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where _can_ I have dropped them, I wonder?” Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen—everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.",
+    "context_ids": [
+      "85b72e8cdc66222b9a809a42bf93f94b51f167e1e0173ef2f0c2587e2c23e606",
+      "ad632a705f756bcc9d9196664f93227352d060a0e7bb131e91922f8662ca1b55",
+      "af0d0b1d119e108eb37fd22c90dad7f5da5b05f6ad321d2a8e189b20560a4614"
+    ],
+    "context_chars": 2427,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null,
+    "elapsed_seconds": 0.010845000040717423,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.213062+00:00"
+  },
+  {
+    "query_id": "d17",
+    "question": "What is the Cheshire Cat's exact date of birth, including day, month and year?",
+    "split": "dev",
+    "config": "dense",
+    "answerable": false,
+    "applied_filter": {},
+    "query_policy": "original",
+    "results": [
+      {
+        "id": "8abd1f0f785c1a8f0d6d95e51788ee1dfd41ffb3c06815eba7d5875d0f2595bb",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 22,
+        "text": "“It’s a Cheshire cat,” said the Duchess, “and that’s why. Pig!”\n\nShe said the last word with such sudden violence that Alice quite jumped; but she saw in another moment that it was addressed to the baby, and not to her, so she took courage, and went on again:—\n\n“I didn’t know that Cheshire cats always grinned; in fact, I didn’t know that cats _could_ grin.”\n\n“They all can,” said the Duchess; “and most of ’em do.”\n\n“I don’t know of any that do,” Alice said very politely, feeling quite pleased to have got into a conversation.\n\n“You don’t know much,” said the Duchess; “and that’s a fact.”",
+        "metadata": {
+          "chapter": "VI",
+          "chapter_title": "Pig and Pepper",
+          "language": "en",
+          "chapter_start": 2603,
+          "chapter_end": 5429,
+          "start": 1672,
+          "end": 2264,
+          "method": "paragraph"
+        },
+        "score": 0.4736252820298113,
+        "method": "dense",
+        "rank": 1,
+        "evidence_hit": null
+      },
+      {
+        "id": "7d5ecec60d420d53fb3ebd59d2658bd41fc3254465cfbef65f2712ce9d2f2bee",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 24,
+        "text": "The Cat only grinned when it saw Alice. It looked good-natured, she thought: still it had _very_ long claws and a great many teeth, so she felt that it ought to be treated with respect.\n\n“Cheshire Puss,” she began, rather timidly, as she did not at all know whether it would like the name: however, it only grinned a little wider. “Come, it’s pleased so far,” thought Alice, and she went on. “Would you tell me, please, which way I ought to go from here?”\n\n“That depends a good deal on where you want to get to,” said the Cat.\n\n“I don’t much care where—” said Alice.\n\n“Then it doesn’t matter which way you go,” said the Cat.\n\n“—so long as I get _somewhere_,” Alice added as an explanation.\n\n“Oh, you’re sure to do that,” said the Cat, “if you only walk long enough.”\n\nAlice felt that this could not be denied, so she tried another question. “What sort of people live about here?”",
+        "metadata": {
+          "chapter": "VI",
+          "chapter_title": "Pig and Pepper",
+          "language": "en",
+          "chapter_start": 8345,
+          "chapter_end": 10990,
+          "start": 1572,
+          "end": 2451,
+          "method": "paragraph"
+        },
+        "score": 0.40847094346914187,
+        "method": "dense",
+        "rank": 2,
+        "evidence_hit": null
+      },
+      {
+        "id": "674310511cc148cb33b83ab127ca5a0ae02a6b4b13097bd5c10a2644db30c6aa",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/ebooks/11",
+        "page": 34,
+        "text": "She was looking about for some way of escape, and wondering whether she could get away without being seen, when she noticed a curious appearance in the air: it puzzled her very much at first, but, after watching it a minute or two, she made it out to be a grin, and she said to herself “It’s the Cheshire Cat: now I shall have somebody to talk to.”\n\n“How are you getting on?” said the Cat, as soon as there was mouth enough for it to speak with.\n\nAlice waited till the eyes appeared, and then nodded. “It’s no use speaking to it,” she thought, “till its ears have come, or at least one of them.” In another minute the whole head appeared, and then Alice put down her flamingo, and began an account of the game, feeling very glad she had someone to listen to her. The Cat seemed to think that there was enough of it now in sight, and no more of it appeared.",
+        "metadata": {
+          "chapter": "VIII",
+          "chapter_title": "The Queen’s Croquet-Ground",
+          "language": "en",
+          "chapter_start": 7810,
+          "chapter_end": 10362,
+          "start": 585,
+          "end": 1441,
+          "method": "paragraph"
+        },
+        "score": 0.3777958083856361,
+        "method": "dense",
+        "rank": 3,
+        "evidence_hit": null
+      }
+    ],
+    "context": "[C1] source=https://www.gutenberg.org/ebooks/11 unit=22 chapter=VI\n“It’s a Cheshire cat,” said the Duchess, “and that’s why. Pig!”\n\nShe said the last word with such sudden violence that Alice quite jumped; but she saw in another moment that it was addressed to the baby, and not to her, so she took courage, and went on again:—\n\n“I didn’t know that Cheshire cats always grinned; in fact, I didn’t know that cats _could_ grin.”\n\n“They all can,” said the Duchess; “and most of ’em do.”\n\n“I don’t know of any that do,” Alice said very politely, feeling quite pleased to have got into a conversation.\n\n“You don’t know much,” said the Duchess; “and that’s a fact.”\n\n[C2] source=https://www.gutenberg.org/ebooks/11 unit=24 chapter=VI\nThe Cat only grinned when it saw Alice. It looked good-natured, she thought: still it had _very_ long claws and a great many teeth, so she felt that it ought to be treated with respect.\n\n“Cheshire Puss,” she began, rather timidly, as she did not at all know whether it would like the name: however, it only grinned a little wider. “Come, it’s pleased so far,” thought Alice, and she went on. “Would you tell me, please, which way I ought to go from here?”\n\n“That depends a good deal on where you want to get to,” said the Cat.\n\n“I don’t much care where—” said Alice.\n\n“Then it doesn’t matter which way you go,” said the Cat.\n\n“—so long as I get _somewhere_,” Alice added as an explanation.\n\n“Oh, you’re sure to do that,” said the Cat, “if you only walk long enough.”\n\nAlice felt that this could not be denied, so she tried another question. “What sort of people live about here?”\n\n[C3] source=https://www.gutenberg.org/ebooks/11 unit=34 chapter=VIII\nShe was looking about for some way of escape, and wondering whether she could get away without being seen, when she noticed a curious appearance in the air: it puzzled her very much at first, but, after watching it a minute or two, she made it out to be a grin, and she said to herself “It’s the Cheshire Cat: now I shall have somebody to talk to.”\n\n“How are you getting on?” said the Cat, as soon as there was mouth enough for it to speak with.\n\nAlice waited till the eyes appeared, and then nodded. “It’s no use speaking to it,” she thought, “till its ears have come, or at least one of them.” In another minute the whole head appeared, and then Alice put down her flamingo, and began an account of the game, feeling very glad she had someone to listen to her. The Cat seemed to think that there was enough of it now in sight, and no more of it appeared.",
+    "context_ids": [
+      "8abd1f0f785c1a8f0d6d95e51788ee1dfd41ffb3c06815eba7d5875d0f2595bb",
+      "7d5ecec60d420d53fb3ebd59d2658bd41fc3254465cfbef65f2712ce9d2f2bee",
+      "674310511cc148cb33b83ab127ca5a0ae02a6b4b13097bd5c10a2644db30c6aa"
+    ],
+    "context_chars": 2534,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null,
+    "elapsed_seconds": 0.00930309999966994,
+    "service_cost_usd": 0,
+    "completed_at_utc": "2026-11-16T08:47:57.230382+00:00"
+  }
+]

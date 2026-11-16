@@ -1,0 +1,487 @@
+{
+  "source_id": "alice-1865",
+  "title": "Alice's Adventures in Wonderland",
+  "author": "Lewis Carroll (1832-1898)",
+  "source_path_or_url": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+  "catalog_url": "https://www.gutenberg.org/ebooks/11",
+  "license_or_permission": "Original English text: public domain in USA (catalog); author died 1898. Gutenberg license and credits retained in raw snapshot; no illustrations or modern translation.",
+  "license_url": "https://www.gutenberg.org/policy/license.html",
+  "accessed_at": "2026-11-15T05:03:08.652570+00:00",
+  "snapshot": "Gutenberg text reports updated June 26, 2025; Millennium Fulcrum Edition 3.0",
+  "raw_path": "data/raw/pg11.txt",
+  "raw_sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+  "normalized_sha256": "af4ad40583b89b2e40f8b11d5589eef688c1f215ef097a62ac8668c8ef1201a2",
+  "counting_rule": "Not physical PDF pages: sequential paragraph groups >=2500 normalized characters; merge final chapter tail <1500 into prior unit. No duplication. Exclude TOC, header, license, illustrations. Unit offsets refer to normalized chapter body; omitted separators are paragraph whitespace only.",
+  "content_units": 52,
+  "characters": 142880,
+  "units": [
+    {
+      "page": 1,
+      "characters": 2644,
+      "chapter": "I",
+      "chapter_title": "Down the Rabbit-Hole",
+      "language": "en",
+      "chapter_start": 0,
+      "chapter_end": 2644
+    },
+    {
+      "page": 2,
+      "characters": 2954,
+      "chapter": "I",
+      "chapter_title": "Down the Rabbit-Hole",
+      "language": "en",
+      "chapter_start": 2646,
+      "chapter_end": 5600
+    },
+    {
+      "page": 3,
+      "characters": 2637,
+      "chapter": "I",
+      "chapter_title": "Down the Rabbit-Hole",
+      "language": "en",
+      "chapter_start": 5602,
+      "chapter_end": 8239
+    },
+    {
+      "page": 4,
+      "characters": 3097,
+      "chapter": "I",
+      "chapter_title": "Down the Rabbit-Hole",
+      "language": "en",
+      "chapter_start": 8241,
+      "chapter_end": 11338
+    },
+    {
+      "page": 5,
+      "characters": 3059,
+      "chapter": "II",
+      "chapter_title": "The Pool of Tears",
+      "language": "en",
+      "chapter_start": 0,
+      "chapter_end": 3059
+    },
+    {
+      "page": 6,
+      "characters": 2957,
+      "chapter": "II",
+      "chapter_title": "The Pool of Tears",
+      "language": "en",
+      "chapter_start": 3061,
+      "chapter_end": 6018
+    },
+    {
+      "page": 7,
+      "characters": 2530,
+      "chapter": "II",
+      "chapter_title": "The Pool of Tears",
+      "language": "en",
+      "chapter_start": 6020,
+      "chapter_end": 8550
+    },
+    {
+      "page": 8,
+      "characters": 2342,
+      "chapter": "II",
+      "chapter_title": "The Pool of Tears",
+      "language": "en",
+      "chapter_start": 8552,
+      "chapter_end": 10894
+    },
+    {
+      "page": 9,
+      "characters": 2641,
+      "chapter": "III",
+      "chapter_title": "A Caucus-Race and a Long Tale",
+      "language": "en",
+      "chapter_start": 0,
+      "chapter_end": 2641
+    },
+    {
+      "page": 10,
+      "characters": 2529,
+      "chapter": "III",
+      "chapter_title": "A Caucus-Race and a Long Tale",
+      "language": "en",
+      "chapter_start": 2643,
+      "chapter_end": 5172
+    },
+    {
+      "page": 11,
+      "characters": 3979,
+      "chapter": "III",
+      "chapter_title": "A Caucus-Race and a Long Tale",
+      "language": "en",
+      "chapter_start": 5174,
+      "chapter_end": 9153
+    },
+    {
+      "page": 12,
+      "characters": 2696,
+      "chapter": "IV",
+      "chapter_title": "The Rabbit Sends in a Little Bill",
+      "language": "en",
+      "chapter_start": 0,
+      "chapter_end": 2696
+    },
+    {
+      "page": 13,
+      "characters": 2634,
+      "chapter": "IV",
+      "chapter_title": "The Rabbit Sends in a Little Bill",
+      "language": "en",
+      "chapter_start": 2698,
+      "chapter_end": 5332
+    },
+    {
+      "page": 14,
+      "characters": 2579,
+      "chapter": "IV",
+      "chapter_title": "The Rabbit Sends in a Little Bill",
+      "language": "en",
+      "chapter_start": 5334,
+      "chapter_end": 7913
+    },
+    {
+      "page": 15,
+      "characters": 2732,
+      "chapter": "IV",
+      "chapter_title": "The Rabbit Sends in a Little Bill",
+      "language": "en",
+      "chapter_start": 7915,
+      "chapter_end": 10647
+    },
+    {
+      "page": 16,
+      "characters": 3187,
+      "chapter": "IV",
+      "chapter_title": "The Rabbit Sends in a Little Bill",
+      "language": "en",
+      "chapter_start": 10649,
+      "chapter_end": 13836
+    },
+    {
+      "page": 17,
+      "characters": 2528,
+      "chapter": "V",
+      "chapter_title": "Advice from a Caterpillar",
+      "language": "en",
+      "chapter_start": 0,
+      "chapter_end": 2528
+    },
+    {
+      "page": 18,
+      "characters": 2632,
+      "chapter": "V",
+      "chapter_title": "Advice from a Caterpillar",
+      "language": "en",
+      "chapter_start": 2530,
+      "chapter_end": 5162
+    },
+    {
+      "page": 19,
+      "characters": 2877,
+      "chapter": "V",
+      "chapter_title": "Advice from a Caterpillar",
+      "language": "en",
+      "chapter_start": 5164,
+      "chapter_end": 8041
+    },
+    {
+      "page": 20,
+      "characters": 3774,
+      "chapter": "V",
+      "chapter_title": "Advice from a Caterpillar",
+      "language": "en",
+      "chapter_start": 8043,
+      "chapter_end": 11817
+    },
+    {
+      "page": 21,
+      "characters": 2601,
+      "chapter": "VI",
+      "chapter_title": "Pig and Pepper",
+      "language": "en",
+      "chapter_start": 0,
+      "chapter_end": 2601
+    },
+    {
+      "page": 22,
+      "characters": 2826,
+      "chapter": "VI",
+      "chapter_title": "Pig and Pepper",
+      "language": "en",
+      "chapter_start": 2603,
+      "chapter_end": 5429
+    },
+    {
+      "page": 23,
+      "characters": 2912,
+      "chapter": "VI",
+      "chapter_title": "Pig and Pepper",
+      "language": "en",
+      "chapter_start": 5431,
+      "chapter_end": 8343
+    },
+    {
+      "page": 24,
+      "characters": 2645,
+      "chapter": "VI",
+      "chapter_title": "Pig and Pepper",
+      "language": "en",
+      "chapter_start": 8345,
+      "chapter_end": 10990
+    },
+    {
+      "page": 25,
+      "characters": 2801,
+      "chapter": "VI",
+      "chapter_title": "Pig and Pepper",
+      "language": "en",
+      "chapter_start": 10992,
+      "chapter_end": 13793
+    },
+    {
+      "page": 26,
+      "characters": 2536,
+      "chapter": "VII",
+      "chapter_title": "A Mad Tea-Party",
+      "language": "en",
+      "chapter_start": 0,
+      "chapter_end": 2536
+    },
+    {
+      "page": 27,
+      "characters": 2784,
+      "chapter": "VII",
+      "chapter_title": "A Mad Tea-Party",
+      "language": "en",
+      "chapter_start": 2538,
+      "chapter_end": 5322
+    },
+    {
+      "page": 28,
+      "characters": 2577,
+      "chapter": "VII",
+      "chapter_title": "A Mad Tea-Party",
+      "language": "en",
+      "chapter_start": 5324,
+      "chapter_end": 7901
+    },
+    {
+      "page": 29,
+      "characters": 2587,
+      "chapter": "VII",
+      "chapter_title": "A Mad Tea-Party",
+      "language": "en",
+      "chapter_start": 7903,
+      "chapter_end": 10490
+    },
+    {
+      "page": 30,
+      "characters": 2158,
+      "chapter": "VII",
+      "chapter_title": "A Mad Tea-Party",
+      "language": "en",
+      "chapter_start": 10492,
+      "chapter_end": 12650
+    },
+    {
+      "page": 31,
+      "characters": 2599,
+      "chapter": "VIII",
+      "chapter_title": "The Queen’s Croquet-Ground",
+      "language": "en",
+      "chapter_start": 0,
+      "chapter_end": 2599
+    },
+    {
+      "page": 32,
+      "characters": 2611,
+      "chapter": "VIII",
+      "chapter_title": "The Queen’s Croquet-Ground",
+      "language": "en",
+      "chapter_start": 2601,
+      "chapter_end": 5212
+    },
+    {
+      "page": 33,
+      "characters": 2594,
+      "chapter": "VIII",
+      "chapter_title": "The Queen’s Croquet-Ground",
+      "language": "en",
+      "chapter_start": 5214,
+      "chapter_end": 7808
+    },
+    {
+      "page": 34,
+      "characters": 2552,
+      "chapter": "VIII",
+      "chapter_title": "The Queen’s Croquet-Ground",
+      "language": "en",
+      "chapter_start": 7810,
+      "chapter_end": 10362
+    },
+    {
+      "page": 35,
+      "characters": 3263,
+      "chapter": "VIII",
+      "chapter_title": "The Queen’s Croquet-Ground",
+      "language": "en",
+      "chapter_start": 10364,
+      "chapter_end": 13627
+    },
+    {
+      "page": 36,
+      "characters": 2572,
+      "chapter": "IX",
+      "chapter_title": "The Mock Turtle’s Story",
+      "language": "en",
+      "chapter_start": 0,
+      "chapter_end": 2572
+    },
+    {
+      "page": 37,
+      "characters": 2553,
+      "chapter": "IX",
+      "chapter_title": "The Mock Turtle’s Story",
+      "language": "en",
+      "chapter_start": 2574,
+      "chapter_end": 5127
+    },
+    {
+      "page": 38,
+      "characters": 2677,
+      "chapter": "IX",
+      "chapter_title": "The Mock Turtle’s Story",
+      "language": "en",
+      "chapter_start": 5129,
+      "chapter_end": 7806
+    },
+    {
+      "page": 39,
+      "characters": 2587,
+      "chapter": "IX",
+      "chapter_title": "The Mock Turtle’s Story",
+      "language": "en",
+      "chapter_start": 7808,
+      "chapter_end": 10395
+    },
+    {
+      "page": 40,
+      "characters": 2196,
+      "chapter": "IX",
+      "chapter_title": "The Mock Turtle’s Story",
+      "language": "en",
+      "chapter_start": 10397,
+      "chapter_end": 12593
+    },
+    {
+      "page": 41,
+      "characters": 2794,
+      "chapter": "X",
+      "chapter_title": "The Lobster Quadrille",
+      "language": "en",
+      "chapter_start": 0,
+      "chapter_end": 2794
+    },
+    {
+      "page": 42,
+      "characters": 2607,
+      "chapter": "X",
+      "chapter_title": "The Lobster Quadrille",
+      "language": "en",
+      "chapter_start": 2796,
+      "chapter_end": 5403
+    },
+    {
+      "page": 43,
+      "characters": 2590,
+      "chapter": "X",
+      "chapter_title": "The Lobster Quadrille",
+      "language": "en",
+      "chapter_start": 5405,
+      "chapter_end": 7995
+    },
+    {
+      "page": 44,
+      "characters": 3347,
+      "chapter": "X",
+      "chapter_title": "The Lobster Quadrille",
+      "language": "en",
+      "chapter_start": 7997,
+      "chapter_end": 11344
+    },
+    {
+      "page": 45,
+      "characters": 2531,
+      "chapter": "XI",
+      "chapter_title": "Who Stole the Tarts?",
+      "language": "en",
+      "chapter_start": 0,
+      "chapter_end": 2531
+    },
+    {
+      "page": 46,
+      "characters": 2801,
+      "chapter": "XI",
+      "chapter_title": "Who Stole the Tarts?",
+      "language": "en",
+      "chapter_start": 2533,
+      "chapter_end": 5334
+    },
+    {
+      "page": 47,
+      "characters": 2724,
+      "chapter": "XI",
+      "chapter_title": "Who Stole the Tarts?",
+      "language": "en",
+      "chapter_start": 5336,
+      "chapter_end": 8060
+    },
+    {
+      "page": 48,
+      "characters": 2281,
+      "chapter": "XI",
+      "chapter_title": "Who Stole the Tarts?",
+      "language": "en",
+      "chapter_start": 8062,
+      "chapter_end": 10343
+    },
+    {
+      "page": 49,
+      "characters": 2697,
+      "chapter": "XII",
+      "chapter_title": "Alice’s Evidence",
+      "language": "en",
+      "chapter_start": 0,
+      "chapter_end": 2697
+    },
+    {
+      "page": 50,
+      "characters": 2603,
+      "chapter": "XII",
+      "chapter_title": "Alice’s Evidence",
+      "language": "en",
+      "chapter_start": 2699,
+      "chapter_end": 5302
+    },
+    {
+      "page": 51,
+      "characters": 2518,
+      "chapter": "XII",
+      "chapter_title": "Alice’s Evidence",
+      "language": "en",
+      "chapter_start": 5304,
+      "chapter_end": 7822
+    },
+    {
+      "page": 52,
+      "characters": 3748,
+      "chapter": "XII",
+      "chapter_title": "Alice’s Evidence",
+      "language": "en",
+      "chapter_start": 7824,
+      "chapter_end": 11572
+    }
+  ]
+}

@@ -9,3 +9,11 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Recreated local model/runtime/database; permitted benchmark artifacts are tracked.
+.qdrant/
+.qdrant-reproduction-check/
+.model_cache/
+.local-model/
+.runtime/
+.deps/

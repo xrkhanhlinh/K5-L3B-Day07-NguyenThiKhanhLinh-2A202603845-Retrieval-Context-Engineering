@@ -1,0 +1,6 @@
+# Preserve the original bytes used by frozen benchmark and implementation hashes.
+*.json -text
+*.jsonl -text
+src/*.py -text
+scripts/run_benchmark.py -text
+data/day6/pg11.txt -text
